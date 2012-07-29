@@ -23,3 +23,20 @@ Type|Macro|Description
 Identification|`__amd64__``__amd64``__x86_64__``__x86_64`|Defined by GNU C and Sun Studio
 Identification|_M_X64`_M_AMD64`|Defined by Visual Studio
 
+## [ARM](http://en.wikipedia.org/wiki/ARM_architecture) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__arm__`|Defined by GNU C and RealView
+Identification|`__thumb__`|Defined by GNU C and RealView in Thumb mode
+Identification|`__TARGET_ARCH_ARM``__TARGET_ARCH_THUMB`|Defined by RealView
+Version|`__TARGET_ARCH_ARM` = V`__TARGET_ARCH_THUMB` = V|V = Version
+Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
+Identification|`_ARM`|Defined by ImageCraft C
+
+##### Example #####
+
+CPU|Macro
+---|---
+ARM 4T|`__TARGET_ARM_4T`
+
