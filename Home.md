@@ -1,6 +1,10 @@
 
  # Pre-defined C/C++ Compiler Macros #
 
+The macros are found here:
+* [Standards]
+
+
 ## Introduction ##
 
 C and C++ compilers automatically define certain macros that can be used to check for compiler or operating system features. This is useful when writing portable software.
