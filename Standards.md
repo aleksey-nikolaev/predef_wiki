@@ -5,16 +5,16 @@ Language standards requires the existence of pre-defined macros.
 
 Name | Macro | Standard
 ---|---|---
-C89|\_\_STDC\_\_|ANSI X3.159-1989
-C90|\_\_STDC_VERSION\_\_|ISO/IEC 9899:1990
-C94|\_\_STDC_VERSION\_\_ = 199409L|ISO/IEC 9899-1:1994
-[C99](http://www.open-std.org/jtc1/sc22/wg14/)|\_\_STDC_VERSION\_\_ = 199901L|ISO/IEC 9899:1999
-[C11](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|\_\_STDC_VERSION\_\_ = 201112L|ISO/IEC 9899:2011
-[C++98](http://www.open-std.org/jtc1/sc22/wg21/)|\_\_cplusplus = 199707L|ISO/IEC 14882:1998
-[C++11](http://en.wikipedia.org/wiki/C%2B%2B11)|\_\_cplusplus = 201103L|Draft
-[C++/CLI](http://www.ecma-international.org/publications/standards/Ecma-372.htm)|\_\_cplusplus_cli = 200406L|ECMA-372
+C89|`__STDC__`|ANSI X3.159-1989
+C90|`__STDC_VERSION__`|ISO/IEC 9899:1990
+C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
+[C99](http://www.open-std.org/jtc1/sc22/wg14/)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
+[C11](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
+[C++98](http://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199707L|ISO/IEC 14882:1998
+[C++11](http://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|Draft
+[C++/CLI](http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
 [DSP-C](http://www.dsp-c.org)| |ISO/IEC JTC1/SC22 WG14/N854
-[EC++](http://www.caravan.net/ec2plus/)|\_\_embedded_cplusplus|Embedded C++
+[EC++](http://www.caravan.net/ec2plus/)|`__embedded_cplusplus`|Embedded C++
 
 ##### Example: C Standards #####
 
@@ -32,7 +32,7 @@ C94|\_\_STDC_VERSION\_\_ = 199409L|ISO/IEC 9899-1:1994
     # endif
     #endif
 
-Please notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define \_\_STDC\_\_, or Sun Workshop 4.2 supports C94 without setting \_\_STDC_VERSION\_\_ to the proper value. Extra checks for such compilers must be added.
+Please notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
 
 ##### Example: Pre-C89 #####
 
@@ -43,4 +43,58 @@ In continuation of the above example, pre-C89 compilers do not recognize certain
     # define const
     # define volatile
     #endif
+
+## Unix Standards ##
+
+Unix standards require the existence macros in the `` header file.
+
+Name | Macro | Standard
+---|---|---
+POSIX.1-1988|`_POSIX_VERSION` = 198808L|
+POSIX.1-1990|`_POSIX_VERSION` = 199009L|ISO/IEC 9945-1:1990
+POSIX.2|`_POSIX2_C_VERSION` = 199209L|ISO/IEC 9945-2:1993
+POSIX.1b-1993|`_POSIX_VERSION` = 199309L|IEEE 1003.1b-1993
+POSIX.1-1996|`_POSIX_VERSION` = 199506L|IEEE 1003.1-1996
+POSIX.1-2001|`_POSIX_VERSION` = 200112L|IEEE 1003.1-2001
+[POSIX.1-2008](http://pubs.opengroup.org/onlinepubs/9699919799/)|`_POSIX_VERSION` = 200809L|IEEE 1003.1-2008
+XPG3|`_XOPEN_VERSION` = 3|X/Open Portability Guide 3 (1989)
+XPG4|`_XOPEN_VERSION` = 4|X/Open Portability Guide 4 (1992)
+SUS|`_XOPEN_VERSION` = 4 `&&` `_XOPEN_UNIX`|X/Open Single UNIX Specification (UNIX95)
+[SUSv2](http://www.opengroup.org/onlinepubs/7908799/toc.htm)|`_XOPEN_VERSION` = 500|X/Open Single UNIX Specification, Version 2 (UNIX98)
+[SUSv3](http://www.opengroup.org/onlinepubs/007904975/nfindex.html)|`_XOPEN_VERSION` = 600|Open Group Single UNIX Specification, Version 3 (UNIX03)
+[SUSv4](http://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4
+
+##### Example: Unix Standards #####
+
+The following examples assumes the definition of these macros.
+
+    :::c
+    #if defined(unix) || defined(__unix__) || defined(__unix)
+    # define PREDEF_PLATFORM_UNIX
+    #endif
+    #if defined(PREDEF_PLATFORM_UNIX)
+    # include
+    # if defined(_XOPEN_VERSION)
+    #  if (_XOPEN_VERSION >= 3)
+    #   define PREDEF_STANDARD_XOPEN_1989
+    #  endif
+    #  if (_XOPEN_VERSION >= 4)
+    #   define PREDEF_STANDARD_XOPEN_1992
+    #  endif
+    #  if (_XOPEN_VERSION >= 4) && defined(_XOPEN_UNIX)
+    #   define PREDEF_STANDARD_XOPEN_1995
+    #  endif
+    #  if (_XOPEN_VERSION >= 500)
+    #   define PREDEF_STANDARD_XOPEN_1998
+    #  endif
+    #  if (_XOPEN_VERSION >= 600)
+    #   define PREDEF_STANDARD_XOPEN_2003
+    #  endif
+    #  if (_XOPEN_VERSION >= 700)
+    #   define PREDEF_STANDARD_XOPEN_2008
+    #  endif
+    # endif
+    #endif
+
+Please note that not all compliant compilers provides the correct pre-defined macros. For example, IBM xlC supports Unix without setting any of the `__unix__` macros. Extra checks for such compilers must be added.
 
