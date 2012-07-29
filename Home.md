@@ -4,7 +4,16 @@
 The macros are found here:
 
 * [Standards](Standards)
+* [Compilers](Compilers)
+* [Libraries](Libraries)
+* [Operating systems](OperatingSystems)
+* [Architectures](Architectures)
 
+General guidelines are found here:
+
+* [Version normalization](Version)
+* [Feature macros](Feature)
+* [Endianness](Endianness)
 
 ## Introduction ##
 
