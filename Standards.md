@@ -16,3 +16,19 @@ C94|\_\_STDC_VERSION\_\_ = 199409L|ISO/IEC 9899-1:1994
 [DSP-C](http://www.dsp-c.org)| |ISO/IEC JTC1/SC22 WG14/N854
 [EC++](http://www.caravan.net/ec2plus/)|\_\_embedded_cplusplus|Embedded C++
 
+##### Example: C Standards #####
+
+    :::c
+    #if defined(__STDC__)
+    # define PREDEF_STANDARD_C_1989
+    # if defined(__STDC_VERSION__)
+    #  define PREDEF_STANDARD_C_1990
+    #  if (__STDC_VERSION__ >= 199409L)
+    #   define PREDEF_STANDARD_C_1994
+    #  endif
+    #  if (__STDC_VERSION__ >= 199901L)
+    #   define PREDEF_STANDARD_C_1999
+    #  endif
+    # endif
+    #endif
+
