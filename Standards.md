@@ -32,3 +32,15 @@ C94|\_\_STDC_VERSION\_\_ = 199409L|ISO/IEC 9899-1:1994
     # endif
     #endif
 
+Please notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define \_\_STDC\_\_, or Sun Workshop 4.2 supports C94 without setting \_\_STDC_VERSION\_\_ to the proper value. Extra checks for such compilers must be added.
+
+##### Example: Pre-C89 #####
+
+In continuation of the above example, pre-C89 compilers do not recognize certain keywords. Let the preprocessor remove those keywords for those compilers.
+
+    :::c
+    #if !defined(PREDEF_STANDARD_C_1989) && !defined(__cplusplus)
+    # define const
+    # define volatile
+    #endif
+
