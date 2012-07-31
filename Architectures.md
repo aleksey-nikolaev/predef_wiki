@@ -105,3 +105,20 @@ CPU|`_M_IX86`|`__I86__`
 Pentium|500|5
 Pentium Pro/II|600|6
 
+## [Intel Itanium (IA-64)](http://en.wikipedia.org/wiki/Itanium) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__ia64__``_IA64``__IA64__`| |Defined by GNU C
+Identification|`__ia64`| |Defined by HP aCC
+Identification|`_M_IA64`| |Defined by Visual Studio
+Identification|`_M_IA64`| |Defined by Intel C/C++
+Version|`_M_IA64`|?|
+Identification|`__itanium__`| |Defined by Intel C/C++
+
+##### Example #####
+
+CPU|`_M_IA64` (Intel C/C++)
+---|---
+ |64100
+
