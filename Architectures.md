@@ -76,3 +76,32 @@ PA RISC 1.0|`_PA_RISC1_0`
 PA RISC 1.1|`_PA_RISC1_1``__HPPA11__``__PA7100__`
 PA RISC 2.0|`_PA_RISC2_0``__RISC2_0__``__HPPA20__``__PA8000__`
 
+## [Intel x86](http://en.wikipedia.org/wiki/X86) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`i386``__i386__`| |Defined by GNU C
+Version|`__i386__``__i486__``__i586__``__i686__`| |Defined by GNU C
+Identification|`__i386`| |Defined by Sun Studio
+Identification|`__i386``__IA32__`| |Defined by Stratus VOS C
+Identification|`_M_IX86`| |Defined by Visual Studio, Intel C/C++, Digital Mars and Watcom C/C++
+Version|`_M_IX86`|V00|V = Version
+Identification|`__X86__`| |Defined by Watcom C/C++
+Identification|`_X86_`| |Defined by MinGW32
+Identification|`__THW_INTEL__`| |Defined by XL C/C++
+Identification|`__I86__`| |Defined by Digital Mars
+Version|`__I86__`|V|V = Version
+Identification|`__INTEL__`| |Defined by CodeWarrior
+Identification|`__x86_64``__x86_64__`| |Defined by Intel C/C++
+
+Please notice that the Stratus VOS is big-endian on IA32, so these macros cannot be used to detect endianess if `__VOS__` is set.
+
+##### Example #####
+
+CPU|`_M_IX86`|`__I86__`
+---|---|---
+80386|300|3
+80486|400|4
+Pentium|500|5
+Pentium Pro/II|600|6
+
