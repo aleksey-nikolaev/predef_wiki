@@ -40,3 +40,20 @@ CPU|Macro
 ---|---
 ARM 4T|`__TARGET_ARM_4T`
 
+## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__convex__`|Defined by GNU C
+Version|`__convex_'V'__`|V = Version
+
+##### Example #####
+
+CPU|Macro
+---|---
+Convex C1|`__convex_c1__`
+Convex C2|`__convex_c2__`
+Convex C32xx series|`__convex_c32__`
+Convex C34xx series|`__convex_c34__`
+Convex C38xx series|`__convex_c38__`
+
