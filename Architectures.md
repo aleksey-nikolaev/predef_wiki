@@ -57,3 +57,22 @@ Convex C32xx series|`__convex_c32__`
 Convex C34xx series|`__convex_c34__`
 Convex C38xx series|`__convex_c38__`
 
+## [HP/PA RISC](http://en.wikipedia.org/wiki/PA-RISC_family) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__hppa__`|Defined by GNU C
+Identification|`__HPPA__`|Defined by Stratus VOS C
+Identification|`__hppa`|
+Version|`_PA_RISC'V'_'R'`|V = VersionR = Revision
+
+See also [http://www.openpa.net/ OpenPA.net].
+
+##### Example #####
+
+CPU|Macro
+---|---
+PA RISC 1.0|`_PA_RISC1_0`
+PA RISC 1.1|`_PA_RISC1_1``__HPPA11__``__PA7100__`
+PA RISC 2.0|`_PA_RISC2_0``__RISC2_0__``__HPPA20__``__PA8000__`
+
