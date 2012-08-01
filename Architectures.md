@@ -205,3 +205,18 @@ Identification|`_IBMR2`|
 Identification|`_POWER`|
 Identification|`_ARCH_PWR``_ARCH_PWR2`|
 
+# [SPARC](http://en.wikipedia.org/wiki/SPARC) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__sparc__`|Defined by GNU C
+Identification|`__sparc`|Defined by Sun Studio
+Version|`__sparcv8``__sparcv9`|Defined by Sun Studio
+
+##### Example #####
+
+CPU|Macro
+---|---
+SPARC v8 (SuperSPARC)|`__sparcv8`
+SPARC v9 (UltraSPARC)|`__sparcv9`
+
