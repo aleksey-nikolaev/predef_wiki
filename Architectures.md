@@ -233,3 +233,9 @@ Type|Macro|Description
 ---|---|---
 Identification|`__370__``__THW_370__`|Defined by XL C/C++
 
+## [System/390](http://en.wikipedia.org/wiki/System/390) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__s390__``__s390x__`|Defined by GNU C
+
