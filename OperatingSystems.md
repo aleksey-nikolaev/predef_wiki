@@ -17,3 +17,9 @@ AIX Version|Macro
 4.1|`_AIX41`
 4.3|`_AIX43`
 
+## [Amdahl UTS](http://en.wikipedia.org/wiki/UTS_%28Mainframe_UNIX%29) ##
+
+Type|Macro
+---|---
+Identification|`UTS`
+
