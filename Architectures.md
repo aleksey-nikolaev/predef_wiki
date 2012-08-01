@@ -122,3 +122,24 @@ CPU|`_M_IA64` (Intel C/C++)
 ---|---
  |64100
 
+## [ Motorola 68k](http://en.wikipedia.org/wiki/M68k) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__m68k__`|Defined by GNU C
+Version|`__mc'V'__``__mc'V'``mc'V'`|V = Version
+Identification|`M68000`|Defined by SAS/C
+Identification|`__MC68K__`|Defined by Stratus VOS C
+Version|`__MC'V'__`|V = Version
+
+##### Example #####
+
+CPU|Macro
+---|---
+68000|`__mc68000__``__MC68000__`
+68010|`__mc68010__`
+68020|`__mc68020__``__MC68020__`
+68030|`__mc68030__``__MC68030__`
+68040|`__mc68040__`
+68060|`__mc68060__`
+
