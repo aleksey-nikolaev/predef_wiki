@@ -43,3 +43,18 @@ Type|Macro
 ---|---
 Identification|`__ACK__`
 
+## [ARM Compiler](http://www.arm.com/products/tools/software-tools/rvds/arm-compiler.php) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CC_ARM`| |
+Version|`__ARMCC_VERSION`|VRPBBB|V = VersionR = RevisionP = PatchBBB = Build
+
+Please note that the `__ARMCC_VERSION` macro is also used as version indicator for Norcroft C, but that the format is different.
+
+##### Example #####
+
+Realview C|`__ARMCC_VERSION`
+---|---
+3.0|300503
+
