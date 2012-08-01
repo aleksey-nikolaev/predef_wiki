@@ -262,3 +262,9 @@ C6700|`_TMS320C6700`
 C6700+|`_TMS320C6700_PLUS`
 C6740|`_TMS320C6740`
 
+## TMS470 ##
+
+Type|Macro
+---|---
+Identification|`__TMS470__`
+
