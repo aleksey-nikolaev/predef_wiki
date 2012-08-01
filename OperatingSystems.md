@@ -30,3 +30,15 @@ Type|Macro|Description
 Identification|`AMIGA`|
 Identification|`__amigaos__`|Defined by GNU C
 
+## [Apollo AEGIS](http://en.wikipedia.org/wiki/Domain/OS) ##
+
+Type|Macro
+--|---
+Identification|`aegis`
+
+## [Apollo Domain/OS](http://en.wikipedia.org/wiki/Domain/OS) ##
+
+Type|Macro
+---|---
+Identification|`apollo`
+
