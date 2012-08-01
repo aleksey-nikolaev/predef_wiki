@@ -196,3 +196,12 @@ Type|Macro
 ---|---
 Identification|`pyr`
 
+## [RS/6000](http://en.wikipedia.org/wiki/RS/6000) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__THW_RS6000`|Defined by XL C/C++
+Identification|`_IBMR2`|
+Identification|`_POWER`|
+Identification|`_ARCH_PWR``_ARCH_PWR2`|
+
