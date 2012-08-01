@@ -143,3 +143,27 @@ CPU|Macro
 68040|`__mc68040__`
 68060|`__mc68060__`
 
+## [MIPS](http://en.wikipedia.org/wiki/MIPS_architecture) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__mips__``mips`|Defined by GNU C
+Version|`_MIPS_ISA` = `_MIPS_ISA_MIPS'V'`|V = MIPS ISA level
+Version|`_R3000``_R4000``_R5900`|
+Identification|`__mips`|Defined by MIPSpro
+Version|`__mips`|The value indicates the MIPS ISA (Instruction Set Architecture) level
+Version|`__MIPS_ISA'V'__`|V = MIPS ISA level
+Identification|`__MIPS__`|Defined by Metrowerks
+
+##### Example #####
+
+CPU|`_MIPS_ISA`|GNU C Macro|`__mips`|MIPSpro Macro
+---|---|---|---|---
+R2000|`_MIPS_ISA_MIPS1`| |1|
+R3000|`_MIPS_ISA_MIPS1`|`_R3000`|1|
+R6000|`_MIPS_ISA_MIPS2`| |2|`__MIPS_ISA2__`
+R4000| |`_R4000`| |
+R4400|`_MIPS_ISA_MIPS3`| |3|`__MIPS_ISA3__`
+R8000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
+R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
+
