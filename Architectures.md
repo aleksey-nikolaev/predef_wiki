@@ -167,3 +167,26 @@ R4400|`_MIPS_ISA_MIPS3`| |3|`__MIPS_ISA3__`
 R8000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 
+## [PowerPC](http://en.wikipedia.org/wiki/PowerPC) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__powerpc``__powerpc__``__POWERPC__``__ppc__`|Defined by GNU C
+Version|`__ppc'V'__`|V = Version
+Identification|`_M_PPC`|Defined by Visual Studio
+Version|`_M_PPC`|?
+Identification|`_ARCH_PPC`|Defined by XL C/C++
+Version|`_ARCH_'V'`|V = Version
+Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29)Defined by CodeWarrior
+Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29)Defined by CodeWarrior
+Version|`_XENON`|[Xenon](http://en.wikipedia.org/wiki/Xenon_%28processor%29)
+
+##### Example #####
+
+CPU|`_M_PPC`|Macro|XL Macro
+---|---|---|---
+PowerPC 601|601|`__ppc601__`|`_ARCH_601`
+PowerPC 603|603|`__ppc603__`|`_ARCH_603`
+PowerPC 604|604|`__ppc604__`|`_ARCH_604`
+PowerPC 620|620| |
+
