@@ -190,3 +190,9 @@ PowerPC 603|603|`__ppc603__`|`_ARCH_603`
 PowerPC 604|604|`__ppc604__`|`_ARCH_604`
 PowerPC 620|620| |
 
+## Pyramid 9810 ##
+
+Type|Macro
+---|---
+Identification|`pyr`
+
