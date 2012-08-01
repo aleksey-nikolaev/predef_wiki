@@ -71,3 +71,30 @@ Aztec C|`__VERSION`
 ---|---
 5.20|520
 
+## [Borland C++](http://en.wikipedia.org/wiki/C_plus_plus_builder) ##
+
+Type|Macro|Format
+---|---|---
+Identification|`__BORLANDC__`|
+Version|`__BORLANDC__`|?
+Identification|`__CODEGEARC__`|
+Version|`__CODEGEARC__`|?
+
+##### Example #####
+
+Borland C++|C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
+---|---|---|---
+2.0| |0x200|
+3.0| |0x400|
+3.1| |0x410|
+4.0| |0x452|
+5.0| |0x500|
+5.02|1.0|0x520|
+ |3.0|0x530|
+ |4.0|0x540|
+5.5|5.0|0x550|
+5.51| |0x551|
+5.6.4| |0x562|
+ |2009|0x613|0x613
+ |2010|0x621|0x621
+
