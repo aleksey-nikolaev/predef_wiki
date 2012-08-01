@@ -11,8 +11,8 @@ The macros are found here:
 
 General guidelines are found here:
 
-* [Version normalization](Version)
-* [Feature macros](Feature)
+* [Version normalization](VersionNormalization)
+* [Feature macros](FeatureMacros)
 * [Endianness](Endianness)
 
 ## Introduction ##
