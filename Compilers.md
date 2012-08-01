@@ -58,3 +58,16 @@ Realview C|`__ARMCC_VERSION`
 ---|---
 3.0|300503
 
+## [Aztec C](http://en.wikipedia.org/wiki/Aztec_C) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`AZTEC_C``__AZTEC_C__`| |
+Version|`__VERSION`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Aztec C|`__VERSION`
+---|---
+5.20|520
+
