@@ -24,9 +24,7 @@ Some compilers or system headers provide macros to determine endianness, but the
 
 ## Endian-neutral code ##
 
-When endianness is needed for (de)marshalling binary data, you can write endian-neutral conversion as follows.
-Please notice that the code assume that the exchange format is big-endian (network byte-order).
-These functions can easily be adapted to other integer types, simply by changing the type at the `/* Type */` comments.
+When endianness is needed for (de)marshalling binary data, you can write endian-neutral conversion as follows. Please notice that the code assume that the exchange format is big-endian (network byte-order). These functions can easily be adapted to other integer types, simply by changing the type at the `/* Type */` comments.
 
     :::c
     #include
@@ -92,10 +90,7 @@ Please notice that the follow list of macros is not exhaustive.
 
 ##### System headers #####
 
-Some compilers or system headers provide macros to specify endianness.
-Unfortunately, there is no standard for the names of the macros or even of the header files.
-Many operating systems contains the following macros in ``.
-Operating systems that use the GNU C library generally provide a header named `` containing these macros.
+Some compilers or system headers provide macros to specify endianness. Unfortunately, there is no standard for the names of the macros or even of the header files. Many operating systems contains the following macros in ``. Operating systems that use the GNU C library generally provide a header named `` containing these macros.
 
 Type|Macro|Value
 ---|---|---
@@ -105,11 +100,8 @@ Little endian (word-swapped)|`__BYTE_ORDER`|`__PDP_ENDIAN`
 
 ##### Pre-defined endian macros #####
 
-{| border="1"
-!Type!!Macro
-|-
-|Big endian||__BIG_ENDIAN____ARMEB____THUMBEB___MIPSEB__MIPSEB__MIPSEB__
-|-
-|Little endian||__LITTLE_ENDIAN____ARMEL____THUMBEL___MIPSEL__MIPSEL__MIPSEL__
-|}
+Type|Macro
+---|---
+Big endian|`__BIG_ENDIAN__``__ARMEB__``__THUMBEB__``_MIPSEB``__MIPSEB``__MIPSEB__`
+Little endian|`__LITTLE_ENDIAN__``__ARMEL__``__THUMBEL__``_MIPSEL``__MIPSEL``__MIPSEL__`
 
