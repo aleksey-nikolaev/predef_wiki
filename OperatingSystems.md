@@ -65,3 +65,9 @@ Version|`BSD`|Macro
 4.4|199306|`BSD4_4`
 4.4BSD-Lite2|199506|
 
+## [BSD/OS](http://en.wikipedia.org/wiki/BSD/OS) ##
+
+Type|Macro
+---|---
+Identification|`__bsdi__`
+
