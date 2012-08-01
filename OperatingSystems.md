@@ -77,3 +77,9 @@ Type|Macro
 ---|---
 Identification|`__convex__`
 
+## [Cygwin Environment](http://en.wikipedia.org/wiki/Cygwin) ##
+
+Type|Macro
+---|---
+Identification|`__CYGWIN__`
+
