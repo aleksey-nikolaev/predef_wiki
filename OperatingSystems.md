@@ -48,3 +48,20 @@ Type|Macro
 ---|---
 Identification|`__BEOS__`
 
+## [BSD Environment](http://en.wikipedia.org/wiki/Bsd) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__FreeBSD__``__NetBSD__``__OpenBSD__``__bsdi__``__DragonFly__`| |
+Version|`BSD`|YYYYMM|YYYY = YearMM = MonthMust be included from ``
+Version|`BSD4_2``BSD4_3``BSD4_4`| |Must be included from ``
+Identification|`_SYSTYPE_BSD`| |Defined by DEC C
+
+##### Example #####
+
+Version|`BSD`|Macro
+---|---|--
+4.3 Net2|199103|
+4.4|199306|`BSD4_4`
+4.4BSD-Lite2|199506|
+
