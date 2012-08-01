@@ -239,3 +239,26 @@ Type|Macro|Description
 ---|---|---
 Identification|`__s390__``__s390x__`|Defined by GNU C
 
+## [TMS320](http://en.wikipedia.org/wiki/Texas_Instruments_TMS320) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_TMS320C2XX``__TMS320C2000__`|C2000 series
+Identification|`_TMS320C5X``__TMS320C55X__`|C5000 series
+Identification|`_TMS320C6X``__TMS320C6X__`|C6000 series
+
+##### Example #####
+
+DSP|Macro
+---|---
+C28xx|`_TMS320C28X`
+C54x|`_TMS320C5XX`
+C55x|`__TMS320C55X__`
+C6200|`_TMS320C6200`
+C6400|`_TMS320C6400`
+C6400+|`_TMS320C6400_PLUS`
+C6600|`_TMS320C6600`
+C6700|`_TMS320C6700`
+C6700+|`_TMS320C6700_PLUS`
+C6740|`_TMS320C6740`
+
