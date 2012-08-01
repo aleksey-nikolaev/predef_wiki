@@ -220,3 +220,10 @@ CPU|Macro
 SPARC v8 (SuperSPARC)|`__sparcv8`
 SPARC v9 (UltraSPARC)|`__sparcv9`
 
+## [SuperH](http://en.wikipedia.org/wiki/SuperH) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__sh__`|Defined by GNU C
+Version|`__sh1__``__sh2__``__sh3__``__SH3__``__SH4__``__SH5__`|
+
