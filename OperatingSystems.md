@@ -71,3 +71,9 @@ Type|Macro
 ---|---
 Identification|`__bsdi__`
 
+## [ConvexOS](http://en.wikipedia.org/wiki/Convex_Computer) ##
+
+Type|Macro
+---|---
+Identification|`__convex__`
+
