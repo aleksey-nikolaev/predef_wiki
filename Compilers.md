@@ -37,3 +37,9 @@ Altium C-to-Hardware|`__VERSION__`|`__REVISION__`|`__BUILD__`
 2.1r1|2001|1|
 1.22.2| | |1022001
 
+## [Amsterdam Compiler Kit](http://en.wikipedia.org/wiki/Amsterdam_Compiler_Kit) ##
+
+Type|Macro
+---|---
+Identification|`__ACK__`
+
