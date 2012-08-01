@@ -42,3 +42,9 @@ Type|Macro
 ---|---
 Identification|`apollo`
 
+## [BeOS](http://en.wikipedia.org/wiki/BeOS) ##
+
+Type|Macro
+---|---
+Identification|`__BEOS__`
+
