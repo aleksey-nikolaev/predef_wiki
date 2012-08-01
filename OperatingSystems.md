@@ -23,3 +23,10 @@ Type|Macro
 ---|---
 Identification|`UTS`
 
+## [AmigaOS](http://en.wikipedia.org/wiki/AmigaOS) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`AMIGA`|
+Identification|`__amigaos__`|Defined by GNU C
+
