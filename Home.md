@@ -15,6 +15,8 @@ General guidelines are found here:
 * [Feature macros](FeatureMacros)
 * [Endianness](Endianness)
 
+Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
 ## Introduction ##
 
 C and C++ compilers automatically define certain macros that can be used to check for compiler or operating system features. This is useful when writing portable software.
