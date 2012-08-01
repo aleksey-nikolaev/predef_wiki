@@ -227,3 +227,9 @@ Type|Macro|Description
 Identification|`__sh__`|Defined by GNU C
 Version|`__sh1__``__sh2__``__sh3__``__SH3__``__SH4__``__SH5__`|
 
+## [System/370](http://en.wikipedia.org/wiki/System/370) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__370__``__THW_370__`|Defined by XL C/C++
+
