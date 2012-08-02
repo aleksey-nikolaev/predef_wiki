@@ -137,6 +137,12 @@ Type|Macro
 ---|---
 Identification|`__ECOS`
 
+## [EMX Environment](http://en.wikipedia.org/wiki/EMX_%28programming_environment%29) ##
+
+Type|Macro
+---|---
+Identification|`__EMX__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
