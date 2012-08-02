@@ -97,6 +97,13 @@ Type|Macro
 ---|---
 Identification|`__DragonFly__`
 
+## [DYNIX/ptx](http://en.wikipedia.org/wiki/Dynix) ##
+
+Type|Macro
+---|---
+Identification|`_SEQUENT_`
+Identification|`sequent`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
