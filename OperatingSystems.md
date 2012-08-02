@@ -131,6 +131,12 @@ Type|Macro
 Identification|`_SEQUENT_`
 Identification|`sequent`
 
+## [eCos](http://en.wikipedia.org/wiki/ECos) ##
+
+Type|Macro
+---|---
+Identification|`__ECOS`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
