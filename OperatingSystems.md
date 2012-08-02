@@ -83,3 +83,9 @@ Type|Macro
 ---|---
 Identification|`__CYGWIN__`
 
+## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
+
+Type|Macro
+---|---
+Identification|`__MORPHOS__`
+
