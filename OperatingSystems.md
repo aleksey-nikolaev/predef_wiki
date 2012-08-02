@@ -83,6 +83,14 @@ Type|Macro
 ---|---
 Identification|`__CYGWIN__`
 
+## [DG/UX](http://en.wikipedia.org/wiki/Data_General) ##
+
+Type|Macro
+---|---
+Identification|`DGUX`
+Identification|`__DGUX__`
+Identification|`__dgux__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
