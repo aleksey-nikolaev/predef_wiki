@@ -65,6 +65,10 @@ Type|Macro
 ---|---
 Identification|`apollo`
 
+## [Bada](http://en.wikipedia.org/wiki/Bada_%28operating_system%29) ##
+
+Based on Nucleus OS.
+
 ## [BeOS](http://en.wikipedia.org/wiki/BeOS) ##
 
 Type|Macro
