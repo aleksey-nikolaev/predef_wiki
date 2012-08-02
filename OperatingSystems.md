@@ -17,6 +17,29 @@ AIX Version|Macro
 4.1|`_AIX41`
 4.3|`_AIX43`
 
+## [Android](http://en.wikipedia.org/wiki/Android_%28operating_system%29) ##
+
+Type|Macro|Format|Description
+---|---|---|--
+Identification|`__ANDROID__`| |
+Version|`__ANDROID_API__`|V|V = API VersionMust be included from ``
+
+##### Example #####
+
+Android Version|`__ANDROID_API__`
+---|---
+1.0|1
+1.1|2
+1.5|3
+1.6|4
+2.0|5
+2.0.1|6
+2.1|7
+2.2|8
+2.3|9
+2.3.3|10
+3.0|11
+
 ## [Amdahl UTS](http://en.wikipedia.org/wiki/UTS_%28Mainframe_UNIX%29) ##
 
 Type|Macro
