@@ -91,6 +91,12 @@ Identification|`DGUX`
 Identification|`__DGUX__`
 Identification|`__dgux__`
 
+## [DragonFly](http://en.wikipedia.org/wiki/DragonFly_BSD) ##
+
+Type|Macro
+---|---
+Identification|`__DragonFly__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
