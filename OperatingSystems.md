@@ -332,3 +332,9 @@ Type|Macro|Description
 ---|---|---
 Identification|`__palmos__`|Defined by GNU C in [PRC-Tools](http://prc-tools.sourceforge.net/)
 
+## [Pyramid DC/OSx](http://en.wikipedia.org/wiki/DC/OSx) ##
+
+Type|Macro
+---|---
+Identification|`pyr`
+
