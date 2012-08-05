@@ -260,3 +260,12 @@ Type|Macro
 Identification|`mpeix`
 Identification|`__mpexl`
 
+## [MSDOS](http://en.wikipedia.org/wiki/MS-DOS) ##
+
+Type|Macro
+---|---
+Identification|`MSDOS`
+Identification|`__MSDOS__`
+Identification|`_MSDOS`
+Identification|`__DOS__`
+
