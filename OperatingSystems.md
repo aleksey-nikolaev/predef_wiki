@@ -24,6 +24,8 @@ Type|Macro|Format|Description
 Identification|`__ANDROID__`| |
 Version|`__ANDROID_API__`|V|V = API VersionMust be included from ``
 
+Please notice that Android is based on Linux, and that the Linux macros also are defined for Android.
+
 ##### Example #####
 
 Android Version|`__ANDROID_API__`
