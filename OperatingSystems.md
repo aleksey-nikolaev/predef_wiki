@@ -199,6 +199,12 @@ Type|Macro
 ---|---
 Identification|`__INTEGRITY`
 
+## [Interix Environment](http://en.wikipedia.org/wiki/Interix) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__INTERIX`|Defined by GNU C and Visual Studio
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
