@@ -338,3 +338,17 @@ Type|Macro
 ---|---
 Identification|`pyr`
 
+## [QNX](http://en.wikipedia.org/wiki/QNX) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__QNX__`| |QNX 4.x
+Identification|`__QNXNTO__`| |QNX 6.x
+Version|`_NTO_VERSION`|VRR|V = VersionRR = RevisionOnly available when `__QNXNTO__` is defined.Must be included from ``
+
+##### Example #####
+
+QNX|`_NTO_VERSION`
+---|---
+6.2|620
+
