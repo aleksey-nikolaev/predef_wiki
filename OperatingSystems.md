@@ -253,3 +253,10 @@ Type|Macro
 ---|---
 Identification|`__MORPHOS__`
 
+## [MPE/iX](http://en.wikipedia.org/wiki/MPE) ##
+
+Type|Macro
+---|---
+Identification|`mpeix`
+Identification|`__mpexl`
+
