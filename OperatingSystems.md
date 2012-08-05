@@ -165,6 +165,12 @@ FreeBSD|`__FreeBSD__`|`__FreeBSD_version`
 
 For more information see the [FreeBSD porters handbook](http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/freebsd-versions.html).
 
+## [GNU Hurd](http://en.wikipedia.org/wiki/GNU/Hurd) ##
+
+Type|Macro
+---|---
+Identification|`__GNU__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
