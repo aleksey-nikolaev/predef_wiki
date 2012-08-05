@@ -143,6 +143,28 @@ Type|Macro
 ---|---
 Identification|`__EMX__`
 
+## [FreeBSD](http://en.wikipedia.org/wiki/Freebsd) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__FreeBSD__`| |
+Version|`BSD`| |
+Version|`__FreeBSD__`|V|V = Version
+Version|`__FreeBSD_version`|?|Must be included from ``
+
+##### Example #####
+
+FreeBSD|`__FreeBSD__`|`__FreeBSD_version`
+---|---|---
+1.x|1|
+2.0-RELEASE|2|119411
+2.2-RELEASE|2|220000
+3.0-RELEASE|3|300005
+4.0-RELEASE|4|400017
+4.5-RELEASE|4|450000
+
+For more information see the [FreeBSD porters handbook](http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/freebsd-versions.html).
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
