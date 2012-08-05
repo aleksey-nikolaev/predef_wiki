@@ -171,6 +171,12 @@ Type|Macro
 ---|---
 Identification|`__GNU__`
 
+## [HI-UX MPP](http://en.wikipedia.org/wiki/HI-UX) ##
+
+Type|Macro
+---|---
+Identification|`__hiuxmpp`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
