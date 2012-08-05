@@ -205,6 +205,13 @@ Type|Macro|Description
 ---|---|---
 Identification|`__INTERIX`|Defined by GNU C and Visual Studio
 
+## [IRIX](http://en.wikipedia.org/wiki/Irix) ##
+
+Type|Macro
+---|---
+Identification|`sgi`
+Identification|`__sgi`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
