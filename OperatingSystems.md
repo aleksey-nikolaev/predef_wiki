@@ -177,6 +177,14 @@ Type|Macro
 ---|---
 Identification|`__hiuxmpp`
 
+## [HP-UX](http://en.wikipedia.org/wiki/HP-UX) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_hpux`|Defined by HP UPC
+Identification|`hpux`|
+Identification|`__hpux`|
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
