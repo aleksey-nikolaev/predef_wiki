@@ -269,3 +269,24 @@ Identification|`__MSDOS__`
 Identification|`_MSDOS`
 Identification|`__DOS__`
 
+## [NetBSD](http://en.wikipedia.org/wiki/Netbsd) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__NetBSD__`| |
+Version|`BSD`| |
+Version|`NetBSD'V'_'R'`| |V = VersionR = RevisionMust be included from ``
+Version|`__NetBSD_Version__`|VVRRAAPP00|VV = VersionRR = RevisionAA = ReleasePP = PatchFrom NetBSD 1.2D (?) until NetBSD 2.0HMust be included from ``
+Version|`__NetBSD_Version__`|VVRR00PP00|VV = VersionRR = RevisionPP = PatchFrom NetBSD 2.99.9Must be included from ``
+
+##### Example #####
+
+NetBSD|`__NetBSD_Version__`|Macro
+---|---|--
+0.8| |`NetBSD0_8`
+0.9| |`NetBSD0_9`
+1.0| |`NetBSD1_0` = 1
+1.0A| |`NetBSD1_0` = 2
+1.2D|102040000|
+1.2.1|102000100|
+
