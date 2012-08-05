@@ -193,6 +193,12 @@ Type|Macro
 ---|---
 Identification|`__OS400__`
 
+## [INTEGRITY](http://en.wikipedia.org/wiki/Integrity_%28operating_system%29) ##
+
+Type|Macro
+---|---
+Identification|`__INTEGRITY`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
