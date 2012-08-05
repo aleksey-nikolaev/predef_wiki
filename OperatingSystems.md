@@ -212,6 +212,14 @@ Type|Macro
 Identification|`sgi`
 Identification|`__sgi`
 
+## [Linux](http://en.wikipedia.org/wiki/Linux) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__linux__`|
+Identification|`linux`|Obsolete
+Identification|`__linux`|Obsolete
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
