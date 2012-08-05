@@ -317,3 +317,12 @@ OpenBSD|Macro
 3.1|`OpenBSD3_1`
 3.9|`OpenBSD3_9`
 
+## [OS/2](http://en.wikipedia.org/wiki/OS/2) ##
+
+Type|Macro
+---|---
+Identification|`OS2`
+Identification|`_OS2`
+Identification|`__OS2__`
+Identification|`__TOS_OS2__`
+
