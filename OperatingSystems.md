@@ -296,3 +296,9 @@ Type|Macro
 ---|---
 Identification|`__TANDEM`
 
+## [Nucleus RTOS](http://en.wikipedia.org/wiki/Nucleus_RTOS) ##
+
+Type|Macro
+---|---
+Identification|`__nucleus__`
+
