@@ -241,6 +241,12 @@ Type|Macro|Description
 Identification|`__OS9000`|Defined by Ultimate C/C++
 Identification|`_OSK`|Defined by Ultimate C/C++
 
+## [MINIX](http://en.wikipedia.org/wiki/Minix) ##
+
+Type|Macro
+---|---
+Identification|`__minix`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
