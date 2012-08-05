@@ -220,6 +220,12 @@ Identification|`__linux__`|
 Identification|`linux`|Obsolete
 Identification|`__linux`|Obsolete
 
+## [LynxOS](http://en.wikipedia.org/wiki/LynxOS) ##
+
+Type|Macro
+---|---
+Identification|`__Lynx__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
