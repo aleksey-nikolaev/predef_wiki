@@ -302,3 +302,18 @@ Type|Macro
 ---|---
 Identification|`__nucleus__`
 
+## [OpenBSD](http://en.wikipedia.org/wiki/Openbsd) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__OpenBSD__`| |
+Version|`BSD`| |
+Version|`OpenBSD'V'_'R'`| |V = VersionR = RevisionMust be included from ``
+
+##### Example #####
+
+OpenBSD|Macro
+---|---
+3.1|`OpenBSD3_1`
+3.9|`OpenBSD3_9`
+
