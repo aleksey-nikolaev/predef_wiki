@@ -234,6 +234,13 @@ Identification|`macintosh`|Mac OS 9
 Identification|`Macintosh`|Mac OS 9
 Identification|`__APPLE__` & `__MACH__`|Mac OS XDefined by GNU C and Intel C++
 
+## [Microware OS-9](http://en.wikipedia.org/wiki/OS-9) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__OS9000`|Defined by Ultimate C/C++
+Identification|`_OSK`|Defined by Ultimate C/C++
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
