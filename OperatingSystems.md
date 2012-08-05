@@ -326,3 +326,9 @@ Identification|`_OS2`
 Identification|`__OS2__`
 Identification|`__TOS_OS2__`
 
+## [Palm OS](http://en.wikipedia.org/wiki/Palmos) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__palmos__`|Defined by GNU C in [PRC-Tools](http://prc-tools.sourceforge.net/)
+
