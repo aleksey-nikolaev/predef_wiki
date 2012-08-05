@@ -352,3 +352,9 @@ QNX|`_NTO_VERSION`
 ---|---
 6.2|620
 
+## [Reliant UNIX](http://en.wikipedia.org/wiki/Reliant_UNIX) ##
+
+Type|Macro
+---|---
+Identification|`sinux`
+
