@@ -226,6 +226,14 @@ Type|Macro
 ---|---
 Identification|`__Lynx__`
 
+## [MacOS](http://en.wikipedia.org/wiki/Mac_OS) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`macintosh`|Mac OS 9
+Identification|`Macintosh`|Mac OS 9
+Identification|`__APPLE__` & `__MACH__`|Mac OS XDefined by GNU C and Intel C++
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
