@@ -185,6 +185,12 @@ Identification|`_hpux`|Defined by HP UPC
 Identification|`hpux`|
 Identification|`__hpux`|
 
+## [IBM OS/400](http://en.wikipedia.org/wiki/IBM_i) ##
+
+Type|Macro
+---|---
+Identification|`__OS400__`
+
 ## [MorphOS](http://en.wikipedia.org/wiki/Morphos) ##
 
 Type|Macro
