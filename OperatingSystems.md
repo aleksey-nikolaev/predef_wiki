@@ -290,3 +290,9 @@ NetBSD|`__NetBSD_Version__`|Macro
 1.2D|102040000|
 1.2.1|102000100|
 
+## [NonStop](http://en.wikipedia.org/wiki/NonStop) ##
+
+Type|Macro
+---|---
+Identification|`__TANDEM`
+
