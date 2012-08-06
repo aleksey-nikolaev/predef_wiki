@@ -392,3 +392,10 @@ Solaris|Macro
 2.7|`__SunOS_5_7`
 8 |`__SunOS_5_8`
 
+## [Stratus VOS](http://en.wikipedia.org/wiki/Stratus_VOS) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__VOS__`| |
+Version|`__VOS__`|V|V = Version
+
