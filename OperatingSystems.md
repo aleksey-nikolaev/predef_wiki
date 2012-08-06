@@ -401,3 +401,12 @@ Version|`__VOS__`|V|V = Version
 
 Please notice that the `__VOS__` macro is defined by the compiler, but as several compilers can co-exist in the same OS release, the version number is not reliable.
 
+## [SVR4 Environment](http://en.wikipedia.org/wiki/UNIX_System_V) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__sysv__`|
+Identification|`__SVR4`|
+Identification|`__svr4__`|
+Identification|`_SYSTYPE_SVR4`|Defined on IRIX
+
