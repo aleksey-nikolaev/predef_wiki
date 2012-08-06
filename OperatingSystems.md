@@ -410,3 +410,9 @@ Identification|`__SVR4`|
 Identification|`__svr4__`|
 Identification|`_SYSTYPE_SVR4`|Defined on IRIX
 
+## [Symbian OS](http://en.wikipedia.org/wiki/Symbian_OS) ##
+
+Type|Macro
+---|---
+Identification|`__SYMBIAN32__`
+
