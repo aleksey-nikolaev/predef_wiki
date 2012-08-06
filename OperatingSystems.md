@@ -366,3 +366,29 @@ Identification|`M_I386`|Defined by GNU C
 Identification|`M_XENIX`|Defined by GNU C
 Identification|`_SCO_DS`|
 
+## [Solaris](http://en.wikipedia.org/wiki/Solaris_Operating_Environment) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`sun`|
+Identification|`__sun`|
+Version|`__'System'_'Version'`|System = `uname -s`Version = `uname -r`Any illegal character is replaced by an underscore.Defined by Sun Studio
+
+Use the SVR4 macros to distinguish between Solaris and SunOS.
+
+    :::c
+    #if defined(sun) || defined(__sun)
+    # if defined(__SVR4) || defined(__svr4__)
+    /* Solaris */
+    # else
+    /* SunOS */
+    # endif
+    #endif
+
+##### Example #####
+
+Solaris|Macro
+---|---
+2.7|`__SunOS_5_7`
+8 |`__SunOS_5_8`
+
