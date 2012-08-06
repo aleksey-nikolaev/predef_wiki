@@ -399,3 +399,5 @@ Type|Macro|Format|Description
 Identification|`__VOS__`| |
 Version|`__VOS__`|V|V = Version
 
+Please notice that the `__VOS__` macro is defined by the compiler, but as several compilers can co-exist in the same OS release, the version number is not reliable.
+
