@@ -358,3 +358,11 @@ Type|Macro
 ---|---
 Identification|`sinux`
 
+## [SCO OpenServer](http://en.wikipedia.org/wiki/SCO_OpenServer) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`M_I386`|Defined by GNU C
+Identification|`M_XENIX`|Defined by GNU C
+Identification|`_SCO_DS`|
+
