@@ -416,3 +416,10 @@ Type|Macro
 ---|---
 Identification|`__SYMBIAN32__`
 
+## [Tru64 (OSF/1)](http://en.wikipedia.org/wiki/Digital_UNIX) ##
+
+Type|Macro
+---|---
+Identification|`__osf__`
+Identification|`__osf`
+
