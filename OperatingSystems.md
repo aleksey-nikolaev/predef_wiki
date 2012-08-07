@@ -455,3 +455,9 @@ Type|Macro
 Identification|`sco`
 Identification|`_UNIXWARE7`
 
+## [U/Win Environment](http://en.wikipedia.org/wiki/UWIN) ##
+
+Type|Macro
+---|---
+Identification|`_UWIN`
+
