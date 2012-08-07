@@ -461,3 +461,19 @@ Type|Macro
 ---|---
 Identification|`_UWIN`
 
+## [VMS](http://en.wikipedia.org/wiki/Vms) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`VMS`| |
+Identification|`__VMS`| |
+Version|`__VMS_VER`|VVRREPPTT|VV = VersionRR = RevisionE = Edit numberPP = Patch (01 = A, ... 26 = Z)TT = Type (22 = official)
+
+##### Example #####
+
+VMS|`__VMS_VER`
+---|---
+6.1|60100022
+6.2|60200022
+6.2-1I|60210922
+
