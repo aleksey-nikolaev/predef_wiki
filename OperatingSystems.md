@@ -477,3 +477,13 @@ VMS|`__VMS_VER`
 6.2|60200022
 6.2-1I|60210922
 
+## [Windows](http://en.wikipedia.org/wiki/Category:Microsoft_Windows) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_WIN32`|Defined for both 32-bit and 64-bit environments
+Identification|`_WIN64`|Defined for 64-bit environments.
+Identification|`__WIN32__`|Defined by Borland C++
+Identification|`__TOS_WIN__`|Defined by xlC
+Identification|`__WINDOWS__`|Defined by Watcom C/C++
+
