@@ -487,3 +487,34 @@ Identification|`__WIN32__`|Defined by Borland C++
 Identification|`__TOS_WIN__`|Defined by xlC
 Identification|`__WINDOWS__`|Defined by Watcom C/C++
 
+## [Windows CE](http://en.wikipedia.org/wiki/Windows_CE) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`_WIN32_WCE`| |Defined by Embedded Visual Studio C++
+Version|`_WIN32_WCE`|VRR|V = VersionR = Revision
+Identification|`WIN32_PLATFORM_'P'`| |P = Platform
+Version|`WIN32_PLATFORM_'P'`|V|P = PlatformV = Version
+
+##### Example #####
+
+Version|`_WIN32_WCE`
+---|---
+2.01|201
+2.11|211
+3.0|300
+4.0|400
+4.1|410
+4.2|420
+5.0|501
+
+Platform|Macro|Value
+---|---|---
+H/PC 2000|`WIN32_PLATFORM_HPC2000`|
+H/PC Pro 2.11|`WIN32_PLATFORM_HPCPRO`|211
+H/PC Pro 3.0|`WIN32_PLATFORM_HPCPRO`|300
+Pocket PC|`WIN32_PLATFORM_PSPC`|1
+Pocket PC 2002|`WIN32_PLATFORM_PSPC`|310
+Windows Mobile 2003|`WIN32_PLATFORM_PSPC`|400
+Smartphone 2002|`WIN32_PLATFORM_WFSP`|100
+
