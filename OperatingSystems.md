@@ -423,3 +423,12 @@ Type|Macro
 Identification|`__osf__`
 Identification|`__osf`
 
+## [Ultrix](http://en.wikipedia.org/wiki/Ultrix) ##
+
+Type|Macro
+---|---
+Identification|`ultrix`
+Identification|`__ultrix`
+Identification|`__ultrix__`
+Identification|`unix` & `vax`
+
