@@ -448,3 +448,10 @@ Identification|`__unix`
 
 Please notice that not all compilers defines these macros, e.g. the xlC or the DEC C/C++ compiler, so it may be better to use the POSIX or X/Open standard macros instead.
 
+## [UnixWare](http://en.wikipedia.org/wiki/UnixWare) ##
+
+Type|Macro
+---|---
+Identification|`sco`
+Identification|`_UNIXWARE7`
+
