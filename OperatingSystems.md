@@ -531,3 +531,11 @@ Wind/U|`_WINDU_SOURCE`
 ---|---
 3.1.2|0x030102
 
+## [z/OS](http://en.wikipedia.org/wiki/Z/OS) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__MVS__`|Host
+Identification|`__HOS_MVS__`|Host
+Identification|`__TOS_MVS__`|Target
+
