@@ -518,3 +518,16 @@ Pocket PC 2002|`WIN32_PLATFORM_PSPC`|310
 Windows Mobile 2003|`WIN32_PLATFORM_PSPC`|400
 Smartphone 2002|`WIN32_PLATFORM_WFSP`|100
 
+## [Wind/U Environment](http://en.wikipedia.org/wiki/Bristol_Technology_Inc.) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`_WINDU_SOURCE`| |
+Version|`_WINDU_SOURCE`|0xVVRRPP|VV = VersionRR = RevisionPP = Patch
+
+##### Example #####
+
+Wind/U|`_WINDU_SOURCE`
+---|---
+3.1.2|0x030102
+
