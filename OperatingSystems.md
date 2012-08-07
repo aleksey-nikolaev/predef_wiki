@@ -439,3 +439,12 @@ Type|Macro|Format|Description
 Identification|`_UNICOS`| |
 Version|`_UNICOS`|V|V = Version
 
+## [UNIX Environment](http://en.wikipedia.org/wiki/Unix) ##
+
+Type|Macro
+---|---
+Identification|`__unix__`
+Identification|`__unix`
+
+Please notice that not all compilers defines these macros, e.g. the xlC or the DEC C/C++ compiler, so it may be better to use the POSIX or X/Open standard macros instead.
+
