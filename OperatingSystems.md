@@ -432,3 +432,10 @@ Identification|`__ultrix`
 Identification|`__ultrix__`
 Identification|`unix` & `vax`
 
+## [UNICOS](http://en.wikipedia.org/wiki/UNICOS) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`_UNICOS`| |
+Version|`_UNICOS`|V|V = Version
+
