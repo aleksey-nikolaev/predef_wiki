@@ -1,5 +1,7 @@
 
- ## [AIX](http://en.wikipedia.org/wiki/AIX_operating_system) ##
+ Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
+## [AIX](http://en.wikipedia.org/wiki/AIX_operating_system) ##
 
 Type|Macro|Description
 ---|---|---
