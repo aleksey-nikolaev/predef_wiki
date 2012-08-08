@@ -48,3 +48,20 @@ Version|`__CRTL_VER`|VVRREPPTT|VV = VersionRR = RevisionE = Edit numberPP = Patc
 
 Please notice that I am not sure about the format of `__CRTL_VER`, but it seems to follow that of `__VMS_VER`.
 
+### z/OS libc ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__LIBREL__`| |Host
+Identification|`__TARGET_LIB__`| |Target
+Version|`__LIBREL__`|0xNVRRPPPP|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)V = VersionRR = RevisionPPPP = PatchDefined for z/OS XL C/C++
+Version|`__TARGET_LIB__`|As above|
+
+##### Example #####
+
+Library|`__LIBREL__`
+---|---
+OS/390 2.10|0x220A0000
+z/OS 1.1|0x41010000
+z/OS 1.6|0x41060000
+
