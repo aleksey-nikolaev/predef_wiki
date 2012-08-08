@@ -32,7 +32,7 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
     # endif
     #endif
 
-Please notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
+Notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
 
 ##### Example: Pre-C89 #####
 
@@ -96,5 +96,5 @@ The following examples assumes the definition of these macros.
     # endif
     #endif
 
-Please note that not all compliant compilers provides the correct pre-defined macros. For example, IBM xlC supports Unix without setting any of the `__unix__` macros. Extra checks for such compilers must be added.
+Notice that not all compliant compilers provides the correct pre-defined macros. For example, IBM xlC supports Unix without setting any of the `__unix__` macros. Extra checks for such compilers must be added.
 
