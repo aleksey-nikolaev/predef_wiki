@@ -28,3 +28,14 @@ Version|`__KLIBC_MINOR__`| |Revision
 Version|`__KLIBC_PATCHLEVEL__`| |Patch
 Version|`__KLIBC_VERSION__`|0xVVRRPPPP|VV = VersionRR = RevisionPPPP = Patch
 
+### [uClibc](http://en.wikipedia.org/wiki/Uclibc) ###
+
+The following macros have to be included from the `` header file.
+
+Type|Macro|Description
+---|---|---
+Identification|`__UCLIBC__`|
+Version|`__UCLIBC_MAJOR__`|Version
+Version|`__UCLIBC_MINOR__`|Revision
+Version|`__UCLIBC_SUBLEVEL__`|Patch
+
