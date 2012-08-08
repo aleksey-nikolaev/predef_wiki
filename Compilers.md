@@ -202,3 +202,16 @@ Digital Mars|`__DMC__`
 7.2|0x720
 8.0|0x800
 
+## [Dignus Systems/C++](http://www.dignus.com/dcxx/) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__SYSC__`| |
+Version|`__SYSC_VER__`|VRRPP|V = VersionRR = RevisionPP = Patch
+
+##### Example #####
+
+Systems/C|`__SYSC_VER__`
+---|---
+1.80.32|18032
+
