@@ -352,3 +352,24 @@ IAR C/C++|`__VER__`
 ---|---
 3.34|334
 
+## [IBM XL C/C++](http://en.wikipedia.org/wiki/VisualAge) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__xlc__`| |Compiles C
+Identification|`__xlC__`| |Compiles C++
+Version|`__xlc__``__xlC__`|0xVVRR|VV = VersionRR = Revision
+Identification|`__IBMC__`| |From ?
+Identification|`__IBMCPP__`| |From ?
+Version|`__IBMC__``__IBMCPP__`|VRP|V = VersionR = RevisionP = Patch
+
+Notice that the z/OS C/C++ compiler also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. See the entry on the z/OS C/C++ compiler below for further information.
+
+##### Example #####
+
+IBM XL C/C++|`__xlC__`|`__IBMCPP__`
+---|---|---
+3.1|0x0301|
+4.5|0x0405|450
+5.0|0x0500|500
+
