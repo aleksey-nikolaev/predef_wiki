@@ -111,3 +111,14 @@ Version|`__CC65__`
 ---|---
 2.10.1|0x2A1
 
+## [Clang](http://en.wikipedia.org/wiki/Clang) ##
+
+Type|Macro|Format
+---|---|---
+Identification|`__clang__`|
+Version|`__clang_major__`|Version
+Version|`__clang_minor__`|Revision
+Version|`__clang_patchlevel__`|Patch
+
+Notice that clang also defines the GNU C version macros, but you should use the clang [feature checking macros](http://clang.llvm.org/docs/LanguageExtensions.html#feature_check) to detect the availability of various features.
+
