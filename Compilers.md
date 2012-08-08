@@ -230,3 +230,18 @@ DJGPP|`__DJGPP__`|`__DJGPP_MINOR__`
 ---|---|---
 2.01|2|1
 
+## [EKOPath](http://en.wikipedia.org/wiki/PathScale) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__PATHCC__`|
+Version|`__PATHCC__`|Version
+Version|`__PATHCC_MINOR__`|Revision
+Version|`__PATHCC_PATCHLEVEL__`|Patch
+
+##### Example #####
+
+EKOPath|`__PATHCC__`|`__PATHCC_MINOR__`|`__PATHCC_PATCHLEVEL__`
+---|---|---|---
+2.0|2|0|0
+
