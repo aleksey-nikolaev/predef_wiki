@@ -187,3 +187,18 @@ Type|Macro
 ---|---
 Identification|`_DICE`
 
+## [Digital Mars](http://en.wikipedia.org/wiki/Digital_Mars) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__DMC__`| |
+Version|`__DMC__`|0xVRP|V = VersionR = RevisionP = Patch
+
+##### Example #####
+
+Digital Mars|`__DMC__`
+---|---
+7.0|0x700
+7.2|0x720
+8.0|0x800
+
