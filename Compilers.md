@@ -258,3 +258,50 @@ EDG C++|`__EDG_VERSION__`
 ---|---
 2.30|230
 
+## [GCC C/C++](http://en.wikipedia.org/wiki/GNU_Compiler_Collection) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__GNUC__`|
+Version|`__GNUC__`|Version
+Version|`__GNUC_MINOR__`|Revision
+Version|`__GNUC_PATCHLEVEL__`|Patch (introduced in version 3.0)
+
+Notice that the meaning of the `__GNUC__` macro has changed subtly over the years, from identifying the GNU C/C++ compiler to identifying any compiler that implements the GNU compiler extensions (see the [Feature request - a macro defined for GCC](http://gcc.gnu.org/ml/gcc/2008-07/threads.html#00025) discussion for further information). For example, the Intel C++ on Linux also defines these macros from version 8.1 (see the [Intel C++ Compiler 8.1 for Linux Release Notes](ftp://download.intel.com/support/performancetools/c/linux/sb/clin81_relnotes.pdf) and [Intel Compilers for Linux: Compatibility with GNU Compilers](http://www.intel.com/cd/software/products/asmo-na/eng/284736.htm).)
+
+##### Example #####
+
+GNU C/C++|`__GNUC__`|`__GNUC_MINOR__`|`__GNUC_PATCHLEVEL__`
+---|---|---|---
+2.7.x|2|7|N/A
+3.0.2|3|0|2
+
+### Alternative Version ###
+
+If you prefer a single version macro, you can define the following yourself.
+
+    :::c
+    #if defined(__GNUC__)
+    # if defined(__GNUC_PATCHLEVEL__)
+    #  define __GNUC_VERSION__ (__GNUC__ * 10000 \
+                                + __GNUC_MINOR__ * 100 \
+                                + __GNUC_PATCHLEVEL__)
+    # else
+    #  define __GNUC_VERSION__ (__GNUC__ * 10000 \
+                                + __GNUC_MINOR__ * 100)
+    # endif
+    #endif
+
+The format of this new macro is:
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__GNUC_VERSION__`|VVRRPP|VV = VersionRR = RevisionPP = Patch
+
+##### Example of Alternative Version #####
+
+GNU C/C++|`__GNUC_VERSION__`
+---|---
+2.7.x|20700
+3.0.2|30002
+
