@@ -16,7 +16,7 @@ Type|Macro|Description
 Version|`__GNU_LIBRARY__``__GNU_LIBRARY_MINOR__`|Until version 5
 Version|`__GLIBC__``__GLIBC_MINOR__`|From version 6
 
-Please notice that the `` header file does not exist on all platforms, so it cannot be included without further ado. However, since it is included by other GNU glibc header files, a better way to obtain the above-mentioned macros is to include the `` header file (see e.g. paragraph 4/6 in ISO/IEC 9899:1999).
+Notice that the `` header file does not exist on all platforms, so it cannot be included without further ado. However, since it is included by other GNU glibc header files, a better way to obtain the above-mentioned macros is to include the `` header file (see e.g. paragraph 4/6 in ISO/IEC 9899:1999).
 
 ### [klibc](http://en.wikipedia.org/wiki/Klibc) ###
 
@@ -46,7 +46,7 @@ Type|Macro|Format|Description
 Identification|`__CRTL_VER`| |
 Version|`__CRTL_VER`|VVRREPPTT|VV = VersionRR = RevisionE = Edit numberPP = Patch (01 = A, ... 26 = Z)TT = Type (22 = official)
 
-Please notice that I am not sure about the format of `__CRTL_VER`, but it seems to follow that of `__VMS_VER`.
+Notice that I am not sure about the format of `__CRTL_VER`, but it seems to follow that of `__VMS_VER`.
 
 ### z/OS libc ###
 
