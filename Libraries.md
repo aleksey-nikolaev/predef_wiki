@@ -39,3 +39,12 @@ Version|`__UCLIBC_MAJOR__`|Version
 Version|`__UCLIBC_MINOR__`|Revision
 Version|`__UCLIBC_SUBLEVEL__`|Patch
 
+### VMS libc ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CRTL_VER`| |
+Version|`__CRTL_VER`|VVRREPPTT|VV = VersionRR = RevisionE = Edit numberPP = Patch (01 = A, ... 26 = Z)TT = Type (22 = official)
+
+Please notice that I am not sure about the format of `__CRTL_VER`, but it seems to follow that of `__VMS_VER`.
+
