@@ -181,3 +181,9 @@ Diab C/C++|`__VERSION_NUMBER__`
 ---|---
 4.4g|4426
 
+## [DICE C](http://en.wikipedia.org/wiki/DICE_%28compiler%29) ##
+
+Type|Macro
+---|---
+Identification|`_DICE`
+
