@@ -50,7 +50,7 @@ Type|Macro|Format|Description
 Identification|`__CC_ARM`| |
 Version|`__ARMCC_VERSION`|VRPBBB|V = VersionR = RevisionP = PatchBBB = Build
 
-Please note that the `__ARMCC_VERSION` macro is also used as version indicator for Norcroft C, but that the format is different.
+Notice that the `__ARMCC_VERSION` macro is also used as version indicator for Norcroft C, but that the format is different.
 
 ##### Example #####
 
