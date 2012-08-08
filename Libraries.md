@@ -65,3 +65,18 @@ OS/390 2.10|0x220A0000
 z/OS 1.1|0x41010000
 z/OS 1.6|0x41060000
 
+## Standard C++ Libraries ##
+
+### [Dinkumware](http://en.wikipedia.org/wiki/Dinkumware) ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CPPLIB_VER`| |
+Version|`__CPPLIB_VER`|VVRR|VV = VersionRR = Revision
+
+##### Example #####
+
+Dinkumware|`__CPPLIB_VER`
+---|---
+3.08|308
+
