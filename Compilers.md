@@ -373,3 +373,31 @@ IBM XL C/C++|`__xlC__`|`__IBMCPP__`
 4.5|0x0405|450
 5.0|0x0500|500
 
+## [IBM z/OS C/C++](http://en.wikipedia.org/wiki/VisualAge) ##
+
+This is the XL C/C++ compiler for mainframes (e.g. z/OS). The entry on XL C/C++ has been split into two for clarity.
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__IBMC__`| |
+Identification|`__IBMCPP__`| |
+Version|`__IBMC__``__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)V = VersionRR = RevisionP = PatchDefined for z/OS XL C/C++
+Version|`__COMPILER_VER__`|0xNVRRPPPP|N = Product (see above)V = VersionRR = RevisionPPPP = PatchDefined for z/OS XL C/C++
+
+Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. You can use `__xlC__` (only defined for XL C/C++) or `__COMPILER_VER__` (only defined for z/OS C/C++) to distinguish between the two.
+
+    :::c
+    #if defined(__IBMC__) || defined(__IBMCPP__)
+    # if defined(__COMPILER_VER__)
+    /* z/OS C/C++ so __IBMC__ is defined as NVRRM */
+    # else
+    /* XL C/C++ so __IBMC__ is defined as VRP */
+    # endif
+    #endif
+
+##### Example #####
+
+IBM z/OS XL C/C++|`__IBMC__`|`__COMPILER_VER__`
+---|---|---
+1.7|41070|0x41070000
+
