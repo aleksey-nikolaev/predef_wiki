@@ -99,3 +99,9 @@ GCC|`__GLIBCPP__`|`__GLIBCXX__`
 3.3.0|20030513|
 3.4.0| |20040419
 
+### Intel C++ Run-Time Libraries ###
+
+Type|Macro
+---|---
+Identification|`__INTEL_CXXLIB_ICC`
+
