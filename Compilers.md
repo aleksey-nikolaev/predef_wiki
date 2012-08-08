@@ -319,3 +319,23 @@ Green Hill C/C++|`__GHS_VERSION_NUMBER__`
 ---|---
 4.2.1|421
 
+## HP ANSI C ##
+
+Type|Macro
+---|---
+Identification|`__HP_cc`
+
+## [HP aC++](http://en.wikipedia.org/wiki/HP_aC%2B%2B) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__HP_aCC`| |
+Version|`__HP_aCC`|1|From version A.01.15 (and A.03.13)
+Version|`__HP_aCC`|VVRRPP|VV = VersionRR = RevisionPP = PatchFrom version A.01.21 (and A.03.25)
+
+##### Example #####
+
+HP aCC|`__HP_aCC`
+---|---
+A.01.21|012100
+
