@@ -9,7 +9,7 @@ Identification|`__TOS_AIX__`|Defined by xlC
 
 ##### Example #####
 
-If `_AIX` is defined, then the following macros can be used to determine the version. Please note that the macros indicates the mentioned version or higher. For example, if `_AIX43` is defined, then `_AIX41` will also be defined.
+If `_AIX` is defined, then the following macros can be used to determine the version. Notice that the macros indicates the mentioned version or higher. For example, if `_AIX43` is defined, then `_AIX41` will also be defined.
 
 AIX Version|Macro
 --|---
@@ -24,7 +24,7 @@ Type|Macro|Format|Description
 Identification|`__ANDROID__`| |
 Version|`__ANDROID_API__`|V|V = API VersionMust be included from ``
 
-Please notice that Android is based on Linux, and that the Linux macros also are defined for Android.
+Notice that Android is based on Linux, and that the Linux macros also are defined for Android.
 
 ##### Example #####
 
@@ -399,7 +399,7 @@ Type|Macro|Format|Description
 Identification|`__VOS__`| |
 Version|`__VOS__`|V|V = Version
 
-Please notice that the `__VOS__` macro is defined by the compiler, but as several compilers can co-exist in the same OS release, the version number is not reliable.
+Notice that the `__VOS__` macro is defined by the compiler, but as several compilers can co-exist in the same OS release, the version number is not reliable.
 
 ## [SVR4 Environment](http://en.wikipedia.org/wiki/UNIX_System_V) ##
 
@@ -446,7 +446,7 @@ Type|Macro
 Identification|`__unix__`
 Identification|`__unix`
 
-Please notice that not all compilers defines these macros, e.g. the xlC or the DEC C/C++ compiler, so it may be better to use the POSIX or X/Open standard macros instead.
+Notice that not all compilers defines these macros, e.g. the xlC or the DEC C/C++ compiler, so it may be better to use the POSIX or X/Open standard macros instead.
 
 ## [UnixWare](http://en.wikipedia.org/wiki/UnixWare) ##
 
