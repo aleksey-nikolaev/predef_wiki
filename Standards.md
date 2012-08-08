@@ -1,5 +1,7 @@
 
- ## Language Standards ##
+ Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
+## Language Standards ##
 
 Language standards requires the existence of pre-defined macros.
 
