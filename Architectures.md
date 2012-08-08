@@ -1,5 +1,7 @@
 
- ## [Alpha](http://en.wikipedia.org/wiki/DEC_Alpha) ##
+ Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
+## [Alpha](http://en.wikipedia.org/wiki/DEC_Alpha) ##
 
 Type|Macro|Description
 ---|---|---
