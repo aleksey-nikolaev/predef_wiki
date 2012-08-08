@@ -137,3 +137,20 @@ Comeau C++|`__COMO_VERSION__`
 ---|---
 2.3|230
 
+## [Compaq C/C++](http://www.openvms.compaq.com/openvms/brochures/deccplus/) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__DECC`| |C compiler
+Version|`__DECC_VER`|VVRRTPPPP|VV = VersionRR = RevisionT = Type (9 = official)PPPP = Patch
+Identification|`__DECCXX`| |C++ compiler
+Version|`__DECCXX_VER`|As __DECC_VER|
+Identification|`__VAXC`| |Obsolete
+Identification|`VAXC`| |Obsolete
+
+##### Example #####
+
+Compaq C/C++|`__DECC_VER`
+---|---
+6.0-001|60090001
+
