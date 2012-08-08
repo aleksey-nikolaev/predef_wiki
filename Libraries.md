@@ -114,3 +114,20 @@ Type|Macro|Format|Description
 Version|`_LIBCPP_VERSION`|VRRR|V = VersionRRR = Revision
 Version|`_LIBCPP_ABI_VERSION`|V|V = ABI Version
 
+## Other Libraries ##
+
+### [Microsoft Foundation Classes](http://en.wikipedia.org/wiki/Microsoft_Foundation_Classes) ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`_MFC_VER`| |
+Version|`_MFC_VER`|0xVVRR|VV = VersionRR = Revision
+
+##### Example #####
+
+MFC|`_MFC_VER`
+---|---
+4.21|0x0421
+6.0|0x0600
+7.0|0x0700
+
