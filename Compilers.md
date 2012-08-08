@@ -168,3 +168,16 @@ Identification|`_CRAYC`|
 Version|`_RELEASE`|Version
 Version|`_RELEASE_MINOR`|Revision
 
+## [Diab C/C++](http://www.windriver.com/products/development_suite/wind_river_compiler/) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__DCC__`|1|
+Version|`__VERSION_NUMBER__`|VRPP|V = VersionR = RevisionPP = Patch
+
+##### Example #####
+
+Diab C/C++|`__VERSION_NUMBER__`
+---|---
+4.4g|4426
+
