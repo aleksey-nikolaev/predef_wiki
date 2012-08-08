@@ -305,3 +305,17 @@ GNU C/C++|`__GNUC_VERSION__`
 2.7.x|20700
 3.0.2|30002
 
+## [Green Hill C/C++](http://en.wikipedia.org/wiki/Green_Hills_Software) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__ghs__`| |
+Version|`__GHS_VERSION_NUMBER__`|VRP|V = VersionR = RevisionP = Patch
+Version|`__GHS_REVISION_DATE__`|[Epoch time](http://en.wikipedia.org/wiki/Epoch_time)|
+
+##### Example #####
+
+Green Hill C/C++|`__GHS_VERSION_NUMBER__`
+---|---
+4.2.1|421
+
