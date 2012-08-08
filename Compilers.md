@@ -215,3 +215,18 @@ Systems/C|`__SYSC_VER__`
 ---|---
 1.80.32|18032
 
+## [DJGPP](http://en.wikipedia.org/wiki/Djgpp) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__DJGPP__`|
+Version|`__DJGPP__`|Version
+Version|`__DJGPP_MINOR__`|Revision
+Identification|`__GO32__`|Defined by DJGPP 1.x
+
+##### Example #####
+
+DJGPP|`__DJGPP__`|`__DJGPP_MINOR__`
+---|---|---
+2.01|2|1
+
