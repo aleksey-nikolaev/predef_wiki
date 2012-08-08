@@ -160,3 +160,11 @@ Type|Macro
 ---|---
 Identification|`__convexc__`
 
+## Cray C ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_CRAYC`|
+Version|`_RELEASE`|Version
+Version|`_RELEASE_MINOR`|Revision
+
