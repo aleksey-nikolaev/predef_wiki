@@ -80,3 +80,22 @@ Dinkumware|`__CPPLIB_VER`
 ---|---
 3.08|308
 
+### [GNU libstdc++](http://gcc.gnu.org/libstdc++/) ###
+
+One of the standard header files must be included before any of the following macros are defined.
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`__GLIBCPP__`|YYYYMMDD|YYYY = YearMM = MonthDD = DayFrom GCC 3.0.0 until GCC 3.4.0
+Version|`__GLIBCXX__`|YYYYMMDD|YYYY = YearMM = MonthDD = DayFrom GCC 3.4.0
+
+##### Example #####
+
+GCC|`__GLIBCPP__`|`__GLIBCXX__`
+---|---|---
+3.0.0|20010615|
+3.1.0|20020514|
+3.2.0|20020814|
+3.3.0|20030513|
+3.4.0| |20040419
+
