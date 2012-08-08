@@ -407,3 +407,23 @@ Type|Macro
 ---|---
 Identification|`__IMAGECRAFT__`
 
+## [Intel C/C++](http://en.wikipedia.org/wiki/Intel_C%2B%2B) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__INTEL_COMPILER`| |
+Identification|`__ICC`| |Obsolete
+Identification|`__ECC`| |Obsolete
+Identification|`__ICL`| |
+Version|`__INTEL_COMPILER`|VRP|V = VersionR = RevisionP = Patch
+Version|`__INTEL_COMPILER_BUILD_DATE`|YYYYMMDD|YYYY = YearMM = MonthDD = Day
+
+##### Example #####
+
+Intel C/C++|`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
+---|---|---
+5.0|500|
+6.0|600|
+8.0|800|
+9.0|900|20060222
+
