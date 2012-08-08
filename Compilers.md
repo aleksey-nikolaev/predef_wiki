@@ -401,3 +401,9 @@ IBM z/OS XL C/C++|`__IBMC__`|`__COMPILER_VER__`
 ---|---|---
 1.7|41070|0x41070000
 
+## [ImageCraft C](http://www.imagecraft.com/) ##
+
+Type|Macro
+---|---
+Identification|`__IMAGECRAFT__`
+
