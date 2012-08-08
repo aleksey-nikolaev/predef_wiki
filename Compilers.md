@@ -245,3 +245,16 @@ EKOPath|`__PATHCC__`|`__PATHCC_MINOR__`|`__PATHCC_PATCHLEVEL__`
 ---|---|---|---
 2.0|2|0|0
 
+## [EDG C++ Frontend](http://en.wikipedia.org/wiki/Edison_Design_Group) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__EDG__`| |
+Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+EDG C++|`__EDG_VERSION__`
+---|---
+2.30|230
+
