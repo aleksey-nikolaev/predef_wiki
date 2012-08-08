@@ -339,3 +339,16 @@ HP aCC|`__HP_aCC`
 ---|---
 A.01.21|012100
 
+### IAR C/C++ ###
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__IAR_SYSTEMS_ICC__`| |
+Version|`__VER__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+IAR C/C++|`__VER__`
+---|---
+3.34|334
+
