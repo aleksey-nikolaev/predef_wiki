@@ -1,5 +1,7 @@
 
- ## Standard C Libraries ##
+ Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
+## Standard C Libraries ##
 
 ### [Bionic libc](http://en.wikipedia.org/wiki/Bionic_%28software%29) ###
 
