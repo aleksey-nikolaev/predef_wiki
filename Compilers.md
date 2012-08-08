@@ -154,3 +154,9 @@ Compaq C/C++|`__DECC_VER`
 ---|---
 6.0-001|60090001
 
+## [Convex C](http://en.wikipedia.org/wiki/Convex_Computer) ##
+
+Type|Macro
+---|---
+Identification|`__convexc__`
+
