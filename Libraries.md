@@ -105,3 +105,12 @@ Type|Macro
 ---|---
 Identification|`__INTEL_CXXLIB_ICC`
 
+### [libc++](http://libcxx.llvm.org/) ###
+
+One of the standard header files must be included before any of the following macros are defined.
+
+Type|Macro|Format|Description
+---|---|---|---
+Version|`_LIBCPP_VERSION`|VRRR|V = VersionRRR = Revision
+Version|`_LIBCPP_ABI_VERSION`|V|V = ABI Version
+
