@@ -98,3 +98,16 @@ Borland C++|C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
  |2009|0x613|0x613
  |2010|0x621|0x621
 
+## [CC65](http://en.wikipedia.org/wiki/Cc65) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CC65__`| |
+Version|`__CC65__`|0xVRP|V = VersionR = RevisionP = Patch
+
+##### Example #####
+
+Version|`__CC65__`
+---|---
+2.10.1|0x2A1
+
