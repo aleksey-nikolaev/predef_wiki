@@ -1,5 +1,7 @@
 
- ## [ACC](http://en.wikipedia.org/wiki/ACC_%28programming_language%29) ##
+ Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+
+## [ACC](http://en.wikipedia.org/wiki/ACC_%28programming_language%29) ##
 
 Type|Macro
 ---|---
