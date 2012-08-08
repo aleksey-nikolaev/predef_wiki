@@ -122,3 +122,16 @@ Version|`__clang_patchlevel__`|Patch
 
 Notice that clang also defines the GNU C version macros, but you should use the clang [feature checking macros](http://clang.llvm.org/docs/LanguageExtensions.html#feature_check) to detect the availability of various features.
 
+## [Comeau C++](http://en.wikipedia.org/wiki/Comeau_C/C%2B%2B) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__COMO__`|
+Version|`__COMO_VERSION__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Comeau C++|`__COMO_VERSION__`
+---|---
+2.3|230
+
