@@ -487,3 +487,9 @@ Type|Macro
 ---|---
 Identification|`__LCC__`
 
+## [LLVM](http://en.wikipedia.org/wiki/LLVM) ##
+
+Type|Macro
+---|---
+Identification|`__llvm__`
+
