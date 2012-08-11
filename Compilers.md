@@ -427,3 +427,16 @@ Intel C/C++|`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
 8.0|800|
 9.0|900|20060222
 
+## KAI C++ ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__KCC`| |
+Version|`__KCC_VERSION`|0xVRPP|V = VersionR = RevisionPP = Patch (a = 01, b = 02, ...)
+
+##### Example #####
+
+KAI C++|`__KCC_VERSION`
+---|---
+4.0d|4004
+
