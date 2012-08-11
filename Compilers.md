@@ -481,3 +481,9 @@ Keil C51|`__C51__`
 ---|---
 7.01|701
 
+## [LCC](http://en.wikipedia.org/wiki/Local_C_compiler) ##
+
+Type|Macro
+---|---
+Identification|`__LCC__`
+
