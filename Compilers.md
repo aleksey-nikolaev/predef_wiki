@@ -440,3 +440,44 @@ KAI C++|`__KCC_VERSION`
 ---|---
 4.0d|4004
 
+## [KEIL CARM](http://www.keil.com/arm/carm.asp) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CA__`| |
+Identification|`__KEIL__`| |
+Version|`__CA__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Keil CARM|`__CA__`
+---|---
+1.01|101
+
+## [KEIL C166](http://www.keil.com/c166/c166.asp) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__C166__`| |
+Version|`__C166__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Keil C166|`__C166__`
+---|---
+5.01|501
+
+## [KEIL C51](http://www.keil.com/c51/c51.asp) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__C51__`| |
+Identification|`__CX51__`| |
+Version|`__C51__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Keil C51|`__C51__`
+---|---
+7.01|701
+
