@@ -635,3 +635,9 @@ Norcroft C|`__ARMCC_VERSION`
 4.69|4.69
 4.90|4.90
 
+## [NWCC](http://nwcc.sourceforge.net/) ##
+
+Type|Macro
+---|---
+Identification|`__NWCC__`
+
