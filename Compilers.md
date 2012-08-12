@@ -550,3 +550,9 @@ Type|Macro
 ---|---
 Identification|`_MRI`
 
+## [Microway NDP C](http://en.wikipedia.org/wiki/Microway) ##
+
+Type|Macro
+---|---
+Identification|`__NDPC__``__NDPX__`
+
