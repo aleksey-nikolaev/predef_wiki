@@ -641,3 +641,9 @@ Type|Macro
 ---|---
 Identification|`__NWCC__`
 
+## [Open64](http://en.wikipedia.org/wiki/Open64) ##
+
+Type|Macro
+---|---
+Identification|`__OPEN64__`
+
