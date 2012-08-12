@@ -499,3 +499,21 @@ Type|Macro
 ---|---
 Identification|`__HIGHC__`
 
+## [Metrowerks CodeWarrior](http://en.wikipedia.org/wiki/CodeWarrior) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__MWERKS__`| |
+Identification|`__CWCC__`| |From 4.2.0
+Version|`__MWERKS__`|1|Until CodeWarrior 7
+Version|`__MWERKS__`|0xVRPP|V = VersionR = RevisionPP = PatchFrom CodeWarrior 7
+Version|`__CWCC__`|0xVRPP|V = VersionR = RevisionPP = PatchFrom 4.2.0
+
+##### Example #####
+
+Metrowerks C/C++|`__MWERKS__`|`__CWCC__`
+---|---|---
+2.0|0x2000|
+2.2|0x2200|
+4.2.0|0x4200|0x4200
+
