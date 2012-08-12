@@ -619,3 +619,19 @@ MPW C++|`__MRC__`
 ---|---
 5.0|0x500
 
+## [Norcroft C](http://www.codemist.co.uk/ncc/index.html) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__CC_NORCROFT`| |
+Version|`__ARMCC_VERSION`|V.R|V = VersionR = Revision
+
+Please note that `__ARMCC_VERSION` is assigned a floating-point number, so it cannot be used by the preprocessor to compare versions.
+
+##### Example #####
+
+Norcroft C|`__ARMCC_VERSION`
+---|---
+4.69|4.69
+4.90|4.90
+
