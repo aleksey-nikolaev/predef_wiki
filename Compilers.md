@@ -493,3 +493,9 @@ Type|Macro
 ---|---
 Identification|`__llvm__`
 
+## MetaWare High C/C++ ##
+
+Type|Macro
+---|---
+Identification|`__HIGHC__`
+
