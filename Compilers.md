@@ -598,3 +598,9 @@ MIPSpro|`_COMPILER_VERSION`|`_SGI_COMPILER_VERSION`
 7.2.1|721|
 7.4.4| |744
 
+## [Miracle C](http://www.c-compiler.com/) ##
+
+Type|Macro
+---|---
+Identification|`MIRACLE`
+
