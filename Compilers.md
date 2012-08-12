@@ -517,3 +517,30 @@ Metrowerks C/C++|`__MWERKS__`|`__CWCC__`
 2.2|0x2200|
 4.2.0|0x4200|0x4200
 
+## [Microsoft Visual C++](http://en.wikipedia.org/wiki/Visual_studio) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`_MSC_VER`| |
+Version|`_MSC_VER`|VVRR|VV = VersionRR = Revision
+Version|`_MSC_FULL_VER`|VVRRPPPP|VV = VersionRR = RevisionPPPP = PatchFrom ?
+Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = VersionRR = RevisionPPPPP = PatchFrom Visual C++ 8.0
+Version|`_MSC_BUILD`|B|B = Build numberFrom Visual C++ 9.0
+
+##### Example #####
+
+Visual C++|`_MSC_VER`|`_MSC_FULL_VER`
+---|---|---
+1.0|800|
+3.0|900|
+4.0|1000|
+4.2|1020|
+5.0|1100|
+6.0|1200|
+6.0 SP6|1200|12008804
+7.0|1300|13009466
+7.1 (2003)|1310|13103077
+8.0 (2005)|1400|140050727
+9.0 (2008)|1500|150021022
+10.0 (2010)|1600|160040219
+
