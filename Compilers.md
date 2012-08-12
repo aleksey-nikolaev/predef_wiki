@@ -581,3 +581,20 @@ are only defined if appropriate headers are included. Appropriate headers are
 3|20| | | MinGW32 3.20
 3|11|2|0| MinGW-w64 2.0
 
+## [MIPSpro](http://en.wikipedia.org/wiki/MIPSpro) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__sgi`| |
+Identification|`sgi`| |
+Version|`_COMPILER_VERSION`|VRP|V = VersionR = RevisionP = PatchUntil ?
+Version|`_SGI_COMPILER_VERSION`|VRP|V = VersionR = RevisionP = PatchFrom ?
+
+##### Example #####
+
+MIPSpro|`_COMPILER_VERSION`|`_SGI_COMPILER_VERSION`
+---|---|---
+6.0.2|602|
+7.2.1|721|
+7.4.4| |744
+
