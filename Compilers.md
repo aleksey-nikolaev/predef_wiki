@@ -604,3 +604,18 @@ Type|Macro
 ---|---
 Identification|`MIRACLE`
 
+## [MPW C++](http://en.wikipedia.org/wiki/Macintosh_Programmer%27s_Workshop) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__MRC__`| |
+Identification|`MPW_C`| |
+Identification|`MPW_CPLUS`| |
+Version|`__MRC__`|0xVVRR|VV = VersionRR = Revision
+
+##### Example #####
+
+MPW C++|`__MRC__`
+---|---
+5.0|0x500
+
