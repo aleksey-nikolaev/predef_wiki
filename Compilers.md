@@ -544,3 +544,9 @@ Visual C++|`_MSC_VER`|`_MSC_FULL_VER`
 9.0 (2008)|1500|150021022
 10.0 (2010)|1600|160040219
 
+## [Microtec C/C++](http://www.mentor.com/microtec/) ##
+
+Type|Macro
+---|---
+Identification|`_MRI`
+
