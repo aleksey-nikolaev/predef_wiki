@@ -556,3 +556,28 @@ Type|Macro
 ---|---
 Identification|`__NDPC__``__NDPX__`
 
+## [MinGW](http://www.mingw.org/) and [MinGW-w64](http://mingw-w64.sourceforge.net/) ##
+
+MinGW (formerly known as MinGW32) is a toolchain for creating 32 Bit Windows executables. The MinGW-w64 projects offers toolchains for creating 32 Bit and 64 Bit Windows executables. The following table shows which macros are defined by each toolchain:
+
+Type|Macro|Description|MinGW32|MinGW-w64 32 Bit|MinGW-w64 64 Bit
+---|---|---|---|---|---
+Identification|`__MINGW32__`| | defined | defined | defined
+Version|`__MINGW32_MAJOR_VERSION`|Version| defined | defined | defined
+Version|`__MINGW32_MINOR_VERSION`|Revision| defined | defined | defined
+Identification|`__MINGW64__`| | - | - | defined
+Version|`__MINGW64_VERSION_MAJOR`|Version| - | defined | defined
+Version|`__MINGW64_VERSION_MINOR`|Revision| - | defined | defined
+
+Please note that `__MINGW32_MAJOR_VERSION`, `__MINGW32_MINOR_VERSION`, `__MINGW64_VERSION_MAJOR`, and `__MINGW64_VERSION_MINOR`
+are only defined if appropriate headers are included. Appropriate headers are 
+``, ``, ``, ``, and probably more.
+
+##### Examples #####
+
+`__MINGW32_MAJOR_VERSION`|`__MINGW32_MINOR_VERSION`|`__MINGW64_VERSION_MAJOR`|`__MINGW64_VERSION_MINOR`|Description
+---|---|---|---|---
+2|4| | | MinGW32 2.4
+3|20| | | MinGW32 3.20
+3|11|2|0| MinGW-w64 2.0
+
