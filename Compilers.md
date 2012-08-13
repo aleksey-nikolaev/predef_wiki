@@ -679,3 +679,19 @@ Pelles C|`__POCC__`
 ---|---
 3.00|300
 
+## [Portland Group C/C++](http://en.wikipedia.org/wiki/The_Portland_Group) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__PGI`|
+Version|`__PGIC__`|Version
+Version|`__PGIC_MINOR__`|Revision
+Version|`__PGIC_PATCHLEVEL__`|Patch
+
+##### Example #####
+
+PGI C/C++|`__PGIC__`|`__PGIC_MINOR__`|`__PGIC_PATCHLEVEL__`
+---|---|---|---
+7.0.1|7|0|1
+11.9|11|9|0
+
