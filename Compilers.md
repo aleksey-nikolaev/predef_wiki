@@ -647,3 +647,9 @@ Type|Macro
 ---|---
 Identification|`__OPEN64__`
 
+## Pacific C ##
+
+Type|Macro
+---|---
+Identification|`__PACIFIC__`
+
