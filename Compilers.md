@@ -666,3 +666,16 @@ Palm C/C++|`_PACC_VER`
 ---|---
 1.0.0.13|0x1000000D
 
+## [Pelles C](http://en.wikipedia.org/wiki/Pelles_C) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__POCC__`| |
+Version|`__POCC__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+Pelles C|`__POCC__`
+---|---
+3.00|300
+
