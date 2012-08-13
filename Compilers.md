@@ -653,3 +653,16 @@ Type|Macro
 ---|---
 Identification|`__PACIFIC__`
 
+## Palm C/C++ ##
+
+Type|Macro|Format|Description
+---|---|--|---
+Identification|`_PACC_VER`| |
+Version|`_PACC_VER`|0xVRRPPBBB|V = VersionRR = RevisionPP = PatchBBB = Build
+
+##### Example #####
+
+Palm C/C++|`_PACC_VER`
+---|---
+1.0.0.13|0x1000000D
+
