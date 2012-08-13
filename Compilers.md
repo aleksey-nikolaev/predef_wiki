@@ -695,3 +695,21 @@ PGI C/C++|`__PGIC__`|`__PGIC_MINOR__`|`__PGIC_PATCHLEVEL__`
 7.0.1|7|0|1
 11.9|11|9|0
 
+## Renesas C/C++ ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__RENESAS__`| |
+Identification|`__HITACHI__`| |
+Version|`__RENESAS_VERSION__`|0xVVRR|V = VersionR = RevisionP = Patch
+Version|`__RENESAS_VERSION__`|0xVVRRPP00|From ?
+Version|`__HITACHI_VERSION__`|0xVVRR|As above
+
+##### Example #####
+
+Renesas C/C++|`__HITACHI_VERSION__`|`__RENESAS_VERSION__`
+---|---|---
+5.1C|0x0501|
+8.0|0x8000|0x8000
+1.00.00| |0x01000000
+
