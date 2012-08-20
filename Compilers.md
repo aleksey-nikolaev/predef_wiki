@@ -713,3 +713,21 @@ Renesas C/C++|`__HITACHI_VERSION__`|`__RENESAS_VERSION__`
 8.0|0x8000|0x8000
 1.00.00| |0x01000000
 
+## [SAS/C](http://www.sas.com/products/sasc/) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`SASC`| |
+Identification|`__SASC`| |
+Identification|`__SASC__`| |
+Version|`__VERSION__`| |Until ?
+Version|`__REVISION__`| |Until ?
+Version|`__SASC__`|VRR|V = VersionRR = RevisionFrom ?
+
+##### Example #####
+
+SAS/C|`__SASC__`|`__VERSION__`|`__REVISION__`
+---|---|---|---
+5.10| |5|10
+6.50|650| |
+
