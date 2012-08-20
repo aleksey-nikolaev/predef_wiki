@@ -793,3 +793,10 @@ Compiler version|Sun Studio|`__SUNPRO_C`
 
 The name of Sun Studio has changed over the years (e.g. Sun Workshop, Forte Developer) but we do not make this distinction in the table above.
 
+## Symantec C++ ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__SC__`| |
+Version|`__SC__`|0xVVRR|VV = VersionRR = Revision
+
