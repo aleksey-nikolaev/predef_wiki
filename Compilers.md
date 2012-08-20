@@ -806,3 +806,17 @@ Type|Macro
 ---|---
 Identification|`__TenDRA__`
 
+## Texas Instruments C/C++ Compiler ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__TI_COMPILER_VERSION__`| |
+Version|`__TI_COMPILER_VERSION__`|VVVRRRPPP|VVV = VersionRRR = RevisionPPP = Patch
+
+##### Example #####
+
+TI C/C++|`__TI_COMPILER_VERSION__`
+---|---
+4.9.1|4009001
+7.3.1|7003001
+
