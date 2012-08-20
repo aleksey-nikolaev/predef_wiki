@@ -893,3 +893,10 @@ Watcom C++|Open Watcom C++|`__WATCOMC__`
  |1.0|1200
  |1.7|1270
 
+## [Zortech C++](http://en.wikipedia.org/wiki/Zortech) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__ZTC__`| |
+Version|`__ZTC__`|0xVRP|V = VersionR = RevisionP = Patch
+
