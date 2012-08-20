@@ -756,3 +756,10 @@ Type|Macro
 ---|---
 Identification|`__SNC__`
 
+## [Stratus VOS C](http://en.wikipedia.org/wiki/Stratus_VOS) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__VOSC__`|
+Version|`__VOSC__`|0 = K&R; compiler1 = ANSI C compiler
+
