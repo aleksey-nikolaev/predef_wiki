@@ -731,3 +731,9 @@ SAS/C|`__SASC__`|`__VERSION__`|`__REVISION__`
 5.10| |5|10
 6.50|650| |
 
+## [SCO OpenServer](http://en.wikipedia.org/wiki/SCO_OpenServer) ##
+
+Type|Macro
+---|---
+Identification|`_SCO_DS`
+
