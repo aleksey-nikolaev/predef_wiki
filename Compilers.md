@@ -875,3 +875,21 @@ USL C|`__SCO_VERSION`
 ---|---
 3.2|302199801
 
+## [Watcom C++](http://en.wikipedia.org/wiki/Watcom) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__WATCOMC__`| |
+Version|`__WATCOMC__`|VVRR|VV = VersionRR = Revision
+
+Notice that Watcom C++ became Open Watcom C++ after version 11.0, and the official version numbering (but not the version macro) was restated at version 1.0.
+
+##### Example #####
+
+Watcom C++|Open Watcom C++|`__WATCOMC__`
+---|---|---
+10.5| |1050
+11.0| |1100
+ |1.0|1200
+ |1.7|1270
+
