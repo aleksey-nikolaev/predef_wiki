@@ -569,7 +569,7 @@ Identification|`__MINGW64__`| | - | - | defined
 Version|`__MINGW64_VERSION_MAJOR`|Version| - | defined | defined
 Version|`__MINGW64_VERSION_MINOR`|Revision| - | defined | defined
 
-Please note that `__MINGW32_MAJOR_VERSION`, `__MINGW32_MINOR_VERSION`, `__MINGW64_VERSION_MAJOR`, and `__MINGW64_VERSION_MINOR`
+Notice that `__MINGW32_MAJOR_VERSION`, `__MINGW32_MINOR_VERSION`, `__MINGW64_VERSION_MAJOR`, and `__MINGW64_VERSION_MINOR`
 are only defined if appropriate headers are included. Appropriate headers are 
 ``, ``, ``, ``, and probably more.
 
@@ -626,7 +626,7 @@ Type|Macro|Format|Description
 Identification|`__CC_NORCROFT`| |
 Version|`__ARMCC_VERSION`|V.R|V = VersionR = Revision
 
-Please note that `__ARMCC_VERSION` is assigned a floating-point number, so it cannot be used by the preprocessor to compare versions.
+Notice that `__ARMCC_VERSION` is assigned a floating-point number, so it cannot be used by the preprocessor to compare versions.
 
 ##### Example #####
 
