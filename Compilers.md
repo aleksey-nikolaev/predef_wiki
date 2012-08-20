@@ -827,3 +827,9 @@ Type|Macro|Description
 Version|`THINKC3`|Version 3.x
 Version|`THINKC4`|Version 4.x
 
+## [Tiny C](http://en.wikipedia.org/wiki/Tiny_C_Compiler) ##
+
+Type|Macro
+---|---
+Identification|`__TINYC__`
+
