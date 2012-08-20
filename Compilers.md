@@ -737,3 +737,16 @@ Type|Macro
 ---|---
 Identification|`_SCO_DS`
 
+## [Small Device C Compiler](http://en.wikipedia.org/wiki/Small_Device_C_Compiler) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`SDCC`| |
+Version|`SDCC`|VRP|V = VersionR = RevisionP = Patch
+
+##### Example #####
+
+SDCC Version|`SDCC` Macro
+---|---
+2.5.6|256
+
