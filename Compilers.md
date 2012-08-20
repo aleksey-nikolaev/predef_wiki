@@ -750,3 +750,9 @@ SDCC Version|`SDCC` Macro
 ---|---
 2.5.6|256
 
+## [SN Compiler](http://en.wikipedia.org/wiki/SN_Systems) ##
+
+Type|Macro
+---|---
+Identification|`__SNC__`
+
