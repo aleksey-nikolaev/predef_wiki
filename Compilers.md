@@ -862,4 +862,16 @@ Ultimate C/C++|`_MAJOR_REV`|`_MINOR_REV`
 ---|---|---
 2.1|2|1
 
+## [USL C](http://en.wikipedia.org/wiki/Unix_System_Laboratories) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__USLC__`| |
+Version|`__SCO_VERSION`|0xVRRYYYYMM|V = VersionRR = RevisionYYYY = YearMM = Month
+
+##### Example #####
+
+USL C|`__SCO_VERSION`
+---|---
+3.2|302199801
 
