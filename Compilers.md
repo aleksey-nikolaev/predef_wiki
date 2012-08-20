@@ -849,3 +849,17 @@ Turbo C|Turbo C++|`__TURBOC__`
  |1.01|0x296
  |2.00|0x297
 
+## Ultimate C/C++ ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_UCC`|
+Version|`_MAJOR_REV` = V`_MINOR_REV` = R|V = VersionR = Revision
+
+##### Example #####
+
+Ultimate C/C++|`_MAJOR_REV`|`_MINOR_REV`
+---|---|---
+2.1|2|1
+
+
