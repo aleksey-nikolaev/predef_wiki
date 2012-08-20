@@ -820,3 +820,10 @@ TI C/C++|`__TI_COMPILER_VERSION__`
 4.9.1|4009001
 7.3.1|7003001
 
+## [THINK C](http://en.wikipedia.org/wiki/THINK_C) ##
+
+Type|Macro|Description
+---|---|---
+Version|`THINKC3`|Version 3.x
+Version|`THINKC4`|Version 4.x
+
