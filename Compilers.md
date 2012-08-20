@@ -800,3 +800,9 @@ Type|Macro|Format|Description
 Identification|`__SC__`| |
 Version|`__SC__`|0xVVRR|VV = VersionRR = Revision
 
+## [TenDRA C/C++](http://en.wikipedia.org/wiki/TenDRA_Compiler) ##
+
+Type|Macro
+---|---
+Identification|`__TenDRA__`
+
