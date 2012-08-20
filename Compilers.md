@@ -833,3 +833,19 @@ Type|Macro
 ---|---
 Identification|`__TINYC__`
 
+## [Turbo C/C++](http://en.wikipedia.org/wiki/Turbo_C) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__TURBOC__`| |
+Version|`__TURBOC__`|0xVVRR|VV = VersionRR = RevisionThis pattern does not apply to the values between 0x295 and 0x400.
+
+##### Example #####
+
+Turbo C|Turbo C++|`__TURBOC__`
+---|---|---
+2.01| |0x201
+ |1.00|0x295
+ |1.01|0x296
+ |2.00|0x297
+
