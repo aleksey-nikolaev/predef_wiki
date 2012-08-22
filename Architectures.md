@@ -35,12 +35,17 @@ Identification|`__TARGET_ARCH_ARM``__TARGET_ARCH_THUMB`|Defined by RealView
 Version|`__TARGET_ARCH_ARM` = V`__TARGET_ARCH_THUMB` = V|V = Version
 Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
 Identification|`_ARM`|Defined by ImageCraft C
+Identification|`_M_ARM`|Defined by Visual Studio
+Version|`_M_ARM` = V|V = Version
 
 ##### Example #####
 
-CPU|Macro
----|---
-ARM 4T|`__TARGET_ARM_4T`
+CPU|Macro|`_M_ARM`
+---|---|---
+ARM 4T|`__TARGET_ARM_4T`|
+ARM 5| |5
+ARM 6| |6
+ARM 7| |7
 
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
