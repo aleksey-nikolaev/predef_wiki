@@ -88,7 +88,7 @@ PA RISC 2.0|`_PA_RISC2_0``__RISC2_0__``__HPPA20__``__PA8000__`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`i386``__i386__`| |Defined by GNU C
+Identification|`i386``__i386``__i386__`| |Defined by GNU C
 Version|`__i386__``__i486__``__i586__``__i686__`| |Defined by GNU C
 Identification|`__i386`| |Defined by Sun Studio
 Identification|`__i386``__IA32__`| |Defined by Stratus VOS C
