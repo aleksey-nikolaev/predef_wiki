@@ -169,18 +169,27 @@ FreeBSD|`__FreeBSD__`|`__FreeBSD_version`
 
 For more information see the [FreeBSD porters handbook](http://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/freebsd-versions.html).
 
-## [GNU Hurd](http://en.wikipedia.org/wiki/GNU/Hurd) ##
+## GNU aka [GNU/Hurd](http://en.wikipedia.org/wiki/GNU/Hurd) ##
+
+The official name of this operating system is GNU.  Hurd is the kernel in the GNU operating system.  It is often listed as GNU/Hurd since there is also GNU/Linux and GNU/kFreeBSD, which are most of the GNU operating system with the Linux and FreeBSD kernels respectively.
 
 Type|Macro
 ---|---
 Identification|`__GNU__`
+
+## [GNU/kFreeBSD](http://en.wikipedia.org/wiki/GNU/kFreeBSD) ##
+
+GNU/kFreeBSD is one of the Debian distros that is based on the FreeBSD kernel rather than the Linux or Hurd kernels.
+
+Type|Macro
+---|---
+Identification|`__FreeBSD_kernel__`
 
 ## [GNU/Linux](http://en.wikipedia.org/wiki/GNU/Linux) ##
 
 Type|Macro
 ---|---
 Identification|`__gnu_linux__`
-
 ## [HI-UX MPP](http://en.wikipedia.org/wiki/HI-UX) ##
 
 Type|Macro
