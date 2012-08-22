@@ -214,7 +214,9 @@ Type|Macro
 Identification|`sgi`
 Identification|`__sgi`
 
-## [Linux](http://en.wikipedia.org/wiki/Linux) ##
+## [Linux kernel](http://en.wikipedia.org/wiki/Linux_kernel) ##
+
+Systems based on the Linux kernel define these macros.  There are two major Linux-based operating systems: [GNU/Linux](http://en.wikipedia.org/wiki/GNU/Linux) and [Android](http://en.wikipedia.org/wiki/Android).
 
 Type|Macro|Description
 ---|---|---
