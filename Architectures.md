@@ -36,6 +36,7 @@ Version|`__TARGET_ARCH_ARM` = V`__TARGET_ARCH_THUMB` = V|V = Version
 Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
 Identification|`_ARM`|Defined by ImageCraft C
 Identification|`_M_ARM`|Defined by Visual Studio
+Identification|`_M_ARMT`|Defined by Visual Studio in Thumb mode
 Version|`_M_ARM` = V|V = Version
 
 ##### Example #####
