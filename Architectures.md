@@ -92,8 +92,8 @@ Identification|`i386``__i386__`| |Defined by GNU C
 Version|`__i386__``__i486__``__i586__``__i686__`| |Defined by GNU C
 Identification|`__i386`| |Defined by Sun Studio
 Identification|`__i386``__IA32__`| |Defined by Stratus VOS C
-Identification|`_M_I86`| |Only defined for 16-bits architecturesDefined by Visual Studio
-Identification|`_M_IX86`| |Only defined for 32-bits architecturesDefined by Visual Studio, Intel C/C++, Digital Mars and Watcom C/C++
+Identification|`_M_I86`| |Only defined for 16-bits architecturesDefined by Visual Studio, Digital Mars, and Watcom C/C++ (see note below)
+Identification|`_M_IX86`| |Only defined for 32-bits architecturesDefined by Visual Studio, Intel C/C++, Digital Mars, and Watcom C/C++
 Version|`_M_IX86`|V00|V = Version
 Identification|`__X86__`| |Defined by Watcom C/C++
 Identification|`_X86_`| |Defined by MinGW32
@@ -101,6 +101,8 @@ Identification|`__THW_INTEL__`| |Defined by XL C/C++
 Identification|`__I86__`| |Defined by Digital Mars
 Version|`__I86__`|V|V = Version
 Identification|`__INTEL__`| |Defined by CodeWarrior
+
+Notice that Watcom C/C++ defines `_M_IX86` for both 16-bits and 32-bits architectures. Use `__386__` or `_M_I386` to detect 32-bits architectures in this case.
 
 Notice that the Stratus VOS is big-endian on IA32, so these macros cannot be used to detect endianness if `__VOS__` is set.
 
