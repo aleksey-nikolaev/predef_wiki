@@ -160,7 +160,7 @@ Type|Macro|Description
 Identification|`__mips__``mips`|Defined by GNU C
 Version|`_MIPS_ISA` = `_MIPS_ISA_MIPS'V'`|V = MIPS ISA level
 Version|`_R3000``_R4000``_R5900`|
-Identification|`__mips`|Defined by MIPSpro
+Identification|`__mips`|Defined by MIPSpro and GNU C
 Version|`__mips`|The value indicates the MIPS ISA (Instruction Set Architecture) level
 Version|`__MIPS_ISA'V'__`|V = MIPS ISA level
 Identification|`__MIPS__`|Defined by Metrowerks
