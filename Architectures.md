@@ -205,7 +205,7 @@ Type|Macro|Description
 Identification|`__THW_RS6000`|Defined by XL C/C++
 Identification|`_IBMR2`|
 Identification|`_POWER`|
-Identification|`_ARCH_PWR``_ARCH_PWR2`|
+Identification|`_ARCH_PWR``_ARCH_PWR2``_ARCH_PWR3``_ARCH_PWR4`|
 
 # [SPARC](http://en.wikipedia.org/wiki/SPARC) ##
 
