@@ -100,7 +100,6 @@ Identification|`__THW_INTEL__`| |Defined by XL C/C++
 Identification|`__I86__`| |Defined by Digital Mars
 Version|`__I86__`|V|V = Version
 Identification|`__INTEL__`| |Defined by CodeWarrior
-Identification|`__x86_64``__x86_64__`| |Defined by Intel C/C++
 
 Notice that the Stratus VOS is big-endian on IA32, so these macros cannot be used to detect endianness if `__VOS__` is set.
 
