@@ -356,9 +356,10 @@ IAR C/C++|`__VER__`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__xlc__`| |Compiles C
-Identification|`__xlC__`| |Compiles C++
-Version|`__xlc__``__xlC__`|0xVVRR|VV = VersionRR = Revision
+Identification|`__xlc__`| |
+Identification|`__xlC__`| |
+Version|`__xlC__`|0xVVRR|VV = VersionRR = Revision
+Version|`__xlC_ver__`|0x0000PPBB|PP = PatchBB = Build
 Identification|`__IBMC__`| |From ?
 Identification|`__IBMCPP__`| |From ?
 Version|`__IBMC__``__IBMCPP__`|VRP|V = VersionR = RevisionP = Patch
