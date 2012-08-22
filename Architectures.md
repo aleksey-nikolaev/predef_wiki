@@ -92,7 +92,8 @@ Identification|`i386``__i386__`| |Defined by GNU C
 Version|`__i386__``__i486__``__i586__``__i686__`| |Defined by GNU C
 Identification|`__i386`| |Defined by Sun Studio
 Identification|`__i386``__IA32__`| |Defined by Stratus VOS C
-Identification|`_M_IX86`| |Defined by Visual Studio, Intel C/C++, Digital Mars and Watcom C/C++
+Identification|`_M_I86`| |Only defined for 16-bits architecturesDefined by Visual Studio
+Identification|`_M_IX86`| |Only defined for 32-bits architecturesDefined by Visual Studio, Intel C/C++, Digital Mars and Watcom C/C++
 Version|`_M_IX86`|V00|V = Version
 Identification|`__X86__`| |Defined by Watcom C/C++
 Identification|`_X86_`| |Defined by MinGW32
