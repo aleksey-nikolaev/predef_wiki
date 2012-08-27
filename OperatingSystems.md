@@ -236,7 +236,7 @@ Systems based on the Linux kernel define these macros.  There are two major Linu
 
 Type|Macro|Description
 ---|---|---
-Identification|`__linux__`| [1]{http://www.faqs.org/docs/Linux-HOWTO/GCC-HOWTO.html#INDEX.25)
+Identification|`__linux__`| [1](http://www.faqs.org/docs/Linux-HOWTO/GCC-HOWTO.html#INDEX.25)
 Identification|`linux`|Obsolete (not POSIX compliant)
 Identification|`__linux`|Obsolete (not POSIX compliant)
 
