@@ -232,11 +232,11 @@ Identification|`__sgi`
 
 ## [Linux kernel](http://en.wikipedia.org/wiki/Linux_kernel) ##
 
-Systems based on the Linux kernel define these macros.  There are two major Linux-based operating systems: [GNU/Linux](http://en.wikipedia.org/wiki/GNU/Linux) and [Android](http://en.wikipedia.org/wiki/Android).
+Systems based on the Linux kernel define these macros.  There are two major Linux-based operating systems: [GNU/Linux](http://en.wikipedia.org/wiki/GNU/Linux) and [Android](http://en.wikipedia.org/wiki/Android), and numerous others like [Ångström](http://www.angstrom-distribution.org/) or [OpenEmbedded](http://www.openembedded.org)
 
 Type|Macro|Description
 ---|---|---
-Identification|`__linux__`| [1](http://www.faqs.org/docs/Linux-HOWTO/GCC-HOWTO.html#INDEX.25)
+Identification|`__linux__`| [ [1](http://www.faqs.org/docs/Linux-HOWTO/GCC-HOWTO.html#INDEX.25) ]
 Identification|`linux`|Obsolete (not POSIX compliant)
 Identification|`__linux`|Obsolete (not POSIX compliant)
 
