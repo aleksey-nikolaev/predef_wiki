@@ -530,7 +530,7 @@ Version|`_MSC_BUILD`|B|B = Build numberFrom Visual C++ 9.0
 
 ##### Example #####
 
-Visual C++|`_MSC_VER`|`_MSC_FULL_VER`
+Visual C++ [1](http://msdn.microsoft.com/en-us/library/b0084kay.aspx) [2](http://social.msdn.microsoft.com/Forums/en-US/vcgeneral/thread/c3f1ba1f-c59d-46a3-a028-bcfabe9fbe2c/)|`_MSC_VER`|`_MSC_FULL_VER`
 ---|---|---
 1.0|800|
 3.0|900|
