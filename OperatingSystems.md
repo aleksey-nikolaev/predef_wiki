@@ -501,8 +501,9 @@ VMS|`__VMS_VER`
 
 Type|Macro|Description
 ---|---|---
-Identification|`_WIN32`|Defined for both 32-bit and 64-bit environments
-Identification|`_WIN64`|Defined for 64-bit environments.
+Identification|`_WIN16`|Defined for 16-bit environments [1](http://msdn.microsoft.com/en-us/library/ff540443.aspx)
+Identification|`_WIN32`|Defined for both 32-bit and 64-bit environments [1](http://msdn.microsoft.com/en-us/library/ff540443.aspx)
+Identification|`_WIN64`|Defined for 64-bit environments [1](http://msdn.microsoft.com/en-us/library/ff540443.aspx)
 Identification|`__WIN32__`|Defined by Borland C++
 Identification|`__TOS_WIN__`|Defined by xlC
 Identification|`__WINDOWS__`|Defined by Watcom C/C++
