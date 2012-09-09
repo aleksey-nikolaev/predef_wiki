@@ -465,6 +465,12 @@ Type|Macro|Format|Description
 Identification|`_UNICOS`| |
 Version|`_UNICOS`|V|V = Version
 
+## [UNICOS/mp](http://en.wikipedia.org/wiki/Unicos) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`_CRAY``__crayx1`|
+
 ## [UNIX Environment](http://en.wikipedia.org/wiki/Unix) ##
 
 Type|Macro
