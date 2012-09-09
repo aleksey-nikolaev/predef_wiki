@@ -195,6 +195,8 @@ Version|`_XENON`|[Xenon](http://en.wikipedia.org/wiki/Xenon_%28processor%29)
 
 CPU|`_M_PPC`|Macro|XL Macro
 ---|---|---|---
+PowerPC 440| | |`_ARCH_440`
+PowerPC 450| | |`_ARCH_450`
 PowerPC 601|601|`__ppc601__`|`_ARCH_601`
 PowerPC 603|603|`__ppc603__`|`_ARCH_603`
 PowerPC 604|604|`__ppc604__`|`_ARCH_604`
