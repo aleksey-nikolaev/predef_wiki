@@ -79,6 +79,12 @@ Type|Macro
 ---|---
 Identification|`__BEOS__`
 
+## [Blue Gene](http://en.wikipedia.org/wiki/Bluegene) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__bg__`|Defined for XL C/C++
+
 ## [BSD Environment](http://en.wikipedia.org/wiki/Bsd) ##
 
 Type|Macro|Format|Description
