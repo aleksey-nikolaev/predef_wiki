@@ -99,6 +99,7 @@ Borland C++|C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
 5.6.4| |0x562|
  |2009|0x613|0x613
  |2010|0x621|0x621
+ |XE3|0x650|0x650
 
 ## [CC65](http://en.wikipedia.org/wiki/Cc65) ##
 
