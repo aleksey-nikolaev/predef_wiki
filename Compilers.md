@@ -259,6 +259,12 @@ EDG C++|`__EDG_VERSION__`
 ---|---
 2.30|230
 
+## Fujitsu C++ ##
+
+Type|Macro
+---|---
+Identification|`__FCC_VERSION`
+
 ## [GCC C/C++](http://en.wikipedia.org/wiki/GNU_Compiler_Collection) ##
 
 Type|Macro|Description
