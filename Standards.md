@@ -12,7 +12,7 @@ C90|`__STDC_VERSION__`|ISO/IEC 9899:1990
 C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 [C99](http://www.open-std.org/jtc1/sc22/wg14/)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
 [C11](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
-[C++98](http://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199707L|ISO/IEC 14882:1998
+[C++98](http://www.open-std.org/jtc1/sc22/wg21/)|`__cplusplus` = 199711L|ISO/IEC 14882:1998
 [C++11](http://en.wikipedia.org/wiki/C%2B%2B11)|`__cplusplus` = 201103L|Draft
 [C++/CLI](http://www.ecma-international.org/publications/standards/Ecma-372.htm)|`__cplusplus_cli` = 200406L|ECMA-372
 [DSP-C](http://www.dsp-c.org)| |ISO/IEC JTC1/SC22 WG14/N854
@@ -35,6 +35,8 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
     #endif
 
 Notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
+
+Notice that some compilers, such as the [HP aC++](http://h21007.www2.hp.com/portal/site/dspp/menuitem.863c3e4cbcdc3f3515b49c108973a801?ciid=4b080055abe021100055abe02110275d6e10RCRD), use the value 199707L to indicate the C++98 standard. This value was used in an earlier proposal of the C++98 standard.
 
 ##### Example: Pre-C89 #####
 
