@@ -65,6 +65,12 @@ Convex C32xx series|`__convex_c32__`
 Convex C34xx series|`__convex_c34__`
 Convex C38xx series|`__convex_c38__`
 
+## [Epiphany](http://en.wikipedia.org/wiki/Adapteva) ##
+
+Type|Macro
+---|---|---
+Identification|`__epiphany__`
+
 ## [HP/PA RISC](http://en.wikipedia.org/wiki/PA-RISC_family) ##
 
 Type|Macro|Description
