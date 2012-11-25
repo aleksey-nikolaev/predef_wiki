@@ -15,6 +15,7 @@ pointer | 32 |    32  |    64  |    64  |   64
 Macro | Description
 ---|---
 `_ILP32` | Defined by HP aCC and Sun Studio
+`__ILP32__` | Defined by GNU C
 
 ## LP64 ##
 
