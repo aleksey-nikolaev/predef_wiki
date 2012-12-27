@@ -48,6 +48,12 @@ ARM 5| |5
 ARM 6| |6
 ARM 7| |7
 
+## [ARM64](http://en.wikipedia.org/wiki/ARM64) ##
+
+Type|Macro|Description
+---|---|---
+Identification|`__aarch64__`|Defined by GNU C
+
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
 Type|Macro|Description
