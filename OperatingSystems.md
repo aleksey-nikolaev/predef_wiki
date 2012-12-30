@@ -158,6 +158,7 @@ Identification|`__EMX__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__FreeBSD__`| |
+Identification|`__FreeBSD_kernel`| |From FreeBSD 8.3, 9.1, and 10.0.
 Version|`BSD`| |
 Version|`__FreeBSD__`|V|V = Version
 Version|`__FreeBSD_version`|?|Must be included from ``
@@ -182,6 +183,7 @@ The official name of this operating system is GNU.  Hurd is the kernel in the GN
 Type|Macro
 ---|---
 Identification|`__GNU__`
+Identification|`__gnu_hurd__`
 
 ## [GNU/kFreeBSD](http://en.wikipedia.org/wiki/GNU/kFreeBSD) ##
 
@@ -189,7 +191,9 @@ GNU/kFreeBSD is one of the Debian distros that is based on the FreeBSD kernel ra
 
 Type|Macro
 ---|---
-Identification|`__FreeBSD_kernel__`
+Identification|`__FreeBSD_kernel__` `&&` `__GLIBC__`
+
+Notice that FreeBSD also defines `__FreeBSD_kernel__` so the `__GLIBC__` macro must be checked to distinguish it.
 
 ## [GNU/Linux](http://en.wikipedia.org/wiki/GNU/Linux) ##
 
@@ -258,7 +262,7 @@ Type|Macro|Description
 ---|---|---
 Identification|`macintosh`|Mac OS 9
 Identification|`Macintosh`|Mac OS 9
-Identification|`__APPLE__` & `__MACH__`|Mac OS XDefined by GNU C and Intel C++
+Identification|`__APPLE__` `&&` `__MACH__`|Mac OS XDefined by GNU C and Intel C++
 
 ## [Microware OS-9](http://en.wikipedia.org/wiki/OS-9) ##
 
