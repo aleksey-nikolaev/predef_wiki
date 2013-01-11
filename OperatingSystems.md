@@ -158,7 +158,7 @@ Identification|`__EMX__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__FreeBSD__`| |
-Identification|`__FreeBSD_kernel`| |From FreeBSD 8.3, 9.1, and 10.0.
+Identification|`__FreeBSD_kernel__`| |From FreeBSD 8.3, 9.1, and 10.0.
 Version|`BSD`| |
 Version|`__FreeBSD__`|V|V = Version
 Version|`__FreeBSD_version`|?|Must be included from ``
