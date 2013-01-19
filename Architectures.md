@@ -25,6 +25,8 @@ Type|Macro|Description
 Identification|`__amd64__``__amd64``__x86_64__``__x86_64`|Defined by GNU C and Sun Studio
 Identification|_M_X64`_M_AMD64`|Defined by Visual Studio
 
+Notice that [x32](http://en.wikipedia.org/wiki/X32_ABI) can be detected by checking if the CPU uses the [ILP32 data model](DataModels).
+
 ## [ARM](http://en.wikipedia.org/wiki/ARM_architecture) ##
 
 Type|Macro|Description
@@ -86,7 +88,7 @@ Identification|`__HPPA__`|Defined by Stratus VOS C
 Identification|`__hppa`|
 Version|`_PA_RISC'V'_'R'`|V = VersionR = Revision
 
-See also [http://www.openpa.net/ OpenPA.net].
+See also [OpenPA.net](http://www.openpa.net).
 
 ##### Example #####
 
