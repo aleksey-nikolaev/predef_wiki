@@ -54,7 +54,7 @@ ARM 7| |7
 
 Type|Macro|Description
 ---|---|---
-Identification|`__aarch64__`|Defined by GNU C
+Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/aarch64/aarch64.h?view=markup)
 
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
@@ -299,4 +299,3 @@ Identification|`__TMS470__`
 Type|Macro|Description
 ---|---
 Identification|`__SYSC_ZARCH__`|Defined by Systems/C
-
