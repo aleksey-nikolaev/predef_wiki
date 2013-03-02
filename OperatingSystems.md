@@ -158,7 +158,7 @@ Identification|`__EMX__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__FreeBSD__`| |
-Identification|`__FreeBSD_kernel__`| |From FreeBSD 8.3, 9.1, and 10.0.
+Identification|`__FreeBSD_kernel__`| |From FreeBSD 8.3, 9.1, and 10.0.[1](http://svnweb.freebsd.org/base/head/sys/sys/param.h?view=markup)
 Version|`BSD`| |
 Version|`__FreeBSD__`|V|V = Version
 Version|`__FreeBSD_version`|?|Must be included from ``
@@ -182,8 +182,8 @@ The official name of this operating system is GNU.  Hurd is the kernel in the GN
 
 Type|Macro
 ---|---
-Identification|`__GNU__`
-Identification|`__gnu_hurd__`
+Identification|`__GNU__` [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/gnu.h?view=markup)
+Identification|`__gnu_hurd__` [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/gnu.h?view=markup)
 
 ## [GNU/kFreeBSD](http://en.wikipedia.org/wiki/GNU/kFreeBSD) ##
 
@@ -575,4 +575,3 @@ Type|Macro|Description
 Identification|`__MVS__`|Host
 Identification|`__HOS_MVS__`|Host
 Identification|`__TOS_MVS__`|Target
-
