@@ -440,6 +440,12 @@ Identification|`__SVR4`|
 Identification|`__svr4__`|
 Identification|`_SYSTYPE_SVR4`|Defined on IRIX
 
+## [Syllable](http://en.wikipedia.org/wiki/Syllable_Desktop) ##
+
+Type|Macro
+---|---
+Identification|`__SYLLABLE__`
+
 ## [Symbian OS](http://en.wikipedia.org/wiki/Symbian_OS) ##
 
 Type|Macro
