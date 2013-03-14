@@ -5,6 +5,8 @@
 
 ### [Bionic libc](http://en.wikipedia.org/wiki/Bionic_%28software%29) ###
 
+The following macro is defined in the `` header file. It may be best to include it via the `` header file, which is required by [POSIX](http://pubs.opengroup.org/onlinepubs/009695299/basedefs/sys/types.h.html).
+
 Type|Macro
 ---|---
 Idenfication|`__BIONIC__`
