@@ -56,6 +56,12 @@ Type|Macro|Description
 ---|---|---
 Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/trunk/gcc/config/aarch64/aarch64.h?view=markup)
 
+## [Blackfin](http://en.wikipedia.org/wiki/Blackfin) ##
+
+Type | Macro | Description
+---|---|---
+Identification | `__bfin``__BFIN__` | Defined by GNU C
+
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
 Type|Macro|Description
