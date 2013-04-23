@@ -259,17 +259,14 @@ Type|Macro|Description
 Identification|`__sh__`|Defined by GNU C
 Version|`__sh1__``__sh2__``__sh3__``__SH3__``__SH4__``__SH5__`|
 
-## [System/370](http://en.wikipedia.org/wiki/System/370) ##
+## [System z](http://en.wikipedia.org/wiki/IBM_System_z) ##
 
 Type|Macro|Description
 ---|---|---
-Identification|`__370__``__THW_370__`|Defined by XL C/C++
-
-## [System/390](http://en.wikipedia.org/wiki/System/390) ##
-
-Type|Macro|Description
----|---|---
-Identification|`__s390__``__s390x__`|Defined by GNU C
+Identification|`__370__``__THW_370__`|Identifies [System/370](http://en.wikipedia.org/wiki/System/370)Defined by XL C/C++
+Identification|`__s390__`|Identifies [System/390](http://en.wikipedia.org/wiki/System/390)Defined by GNU C
+Identification|`__s390x__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by GNU C
+Identification|`__SYSC_ZARCH__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by Systems/C
 
 ## [TMS320](http://en.wikipedia.org/wiki/Texas_Instruments_TMS320) ##
 
@@ -300,8 +297,3 @@ Type|Macro
 ---|---
 Identification|`__TMS470__`
 
-## [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture) ##
-
-Type|Macro|Description
----|---|---
-Identification|`__SYSC_ZARCH__`|Defined by Systems/C
