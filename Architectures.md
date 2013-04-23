@@ -303,5 +303,5 @@ Identification|`__TMS470__`
 ## [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture) ##
 
 Type|Macro|Description
----|---
+---|---|---
 Identification|`__SYSC_ZARCH__`|Defined by Systems/C
