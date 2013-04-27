@@ -201,7 +201,7 @@ R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__powerpc``__powerpc__``__powerpc64__``__POWERPC__``__ppc__`|Defined by GNU C
+Identification|`__powerpc``__powerpc__``__powerpc64__``__POWERPC__``__ppc__``__ppc64__`|Defined by GNU C
 Version|`__ppc'V'__`|V = Version
 Identification|`_M_PPC`|Defined by Visual Studio
 Version|`_M_PPC`|?
