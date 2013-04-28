@@ -652,9 +652,15 @@ Identification|`__NWCC__`
 
 ## [Open64](http://en.wikipedia.org/wiki/Open64) ##
 
-Type|Macro
----|---
-Identification|`__OPEN64__`
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__OPEN64__`||Contains the full version as a string
+Identification|`__OPENCC__`||
+Version|`__OPENCC__`|V|V = Version
+Version|`__OPENCC_MINOR__`|R|R = Revision
+Version|`__OPENCC_PATCHLEVEL__`|P.B|P = PatchB = Build
+
+Notice that `__OPENCC_PATCHLEVEL__` can be a floating-point number (e.g. `5.2` for Open64 version 4.2.5.2) so it cannot be used by the preprocessor to compare patch-levels.
 
 ## Pacific C ##
 
