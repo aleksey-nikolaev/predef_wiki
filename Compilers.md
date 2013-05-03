@@ -274,7 +274,7 @@ Version|`__GNUC__`|Version
 Version|`__GNUC_MINOR__`|Revision
 Version|`__GNUC_PATCHLEVEL__`|Patch (introduced in version 3.0)
 
-Notice that the meaning of the `__GNUC__` macro has changed subtly over the years, from identifying the GNU C/C++ compiler to identifying any compiler that implements the GNU compiler extensions (see the [Feature request - a macro defined for GCC](http://gcc.gnu.org/ml/gcc/2008-07/threads.html#00025) discussion for further information). For example, the Intel C++ on Linux also defines these macros from version 8.1 (see the [Intel C++ Compiler 8.1 for Linux Release Notes](ftp://download.intel.com/support/performancetools/c/linux/sb/clin81_relnotes.pdf) and [Intel Compilers for Linux: Compatibility with GNU Compilers](http://www.intel.com/cd/software/products/asmo-na/eng/284736.htm).)
+Notice that the meaning of the `__GNUC__` macro has changed subtly over the years, from identifying the GNU C/C++ compiler to identifying any compiler that implements the GNU compiler extensions (see the [Feature request - a macro defined for GCC](http://gcc.gnu.org/ml/gcc/2008-07/threads.html#00025) discussion for further information). For example, the Intel C++ on Linux also defines these macros from version 8.1 (see the [Intel C++ Compiler 8.1 for Linux Release Notes](ftp://download.intel.com/support/performancetools/c/linux/sb/clin81_relnotes.pdf) and [Intel Compilers for Linux: Compatibility with GNU Compilers](http://software.intel.com/en-us/articles/intel-compilers-for-linux-compatibility-with-gnu-compilers).)
 
 ##### Example #####
 
