@@ -75,12 +75,12 @@ z/OS 1.6|0x41060000
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__CPPLIB_VER`| |
-Version|`__CPPLIB_VER`|VVRR|VV = VersionRR = Revision
+Identification|`_CPPLIB_VER`| |
+Version|`_CPPLIB_VER`|VVRR|VV = VersionRR = Revision
 
 ##### Example #####
 
-Dinkumware|`__CPPLIB_VER`
+Dinkumware|`_CPPLIB_VER`
 ---|---
 3.08|308
 
