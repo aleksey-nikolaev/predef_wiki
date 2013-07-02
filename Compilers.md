@@ -552,6 +552,7 @@ Visual C++ [1](http://msdn.microsoft.com/en-us/library/b0084kay.aspx) [2](http:/
 9.0 (2008)|1500|150021022
 10.0 (2010)|1600|160040219
 11.0 (2012)|1700|170050727
+12.0 (2013)|1800|
 
 ## [Microtec C/C++](http://www.mentor.com/microtec/) ##
 
