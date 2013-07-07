@@ -663,6 +663,36 @@ Version|`__OPENCC_PATCHLEVEL__`|P.B|P = PatchB = Build
 
 Notice that `__OPENCC_PATCHLEVEL__` can be a floating-point number (e.g. `5.2` for Open64 version 4.2.5.2) so it cannot be used by the preprocessor to compare patch-levels.
 
+## [Oracle Solaris Studio](http://en.wikipedia.org/wiki/Oracle_Solaris_Studio) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__SUNPRO_C`| |C compiler
+Version|`__SUNPRO_C`|0xVRP|V = VersionR = RevisionP = PatchUntil version 5.9
+Version|`__SUNPRO_C`|0xVRRP|V = VersionRR = RevisionP = PatchFrom later releases
+Identification|`__SUNPRO_CC`| |C++ compiler
+Version|`__SUNPRO_CC`|As `__SUNPRO_C`|
+
+##### Example #####
+
+Compiler version|Solaris Studio|`__SUNPRO_C`
+---|---|---
+4.2|4.2|0x420
+5.0|5.0|0x500
+5.2|6.1|0x520
+5.3|6.2|0x530
+5.4|7|0x540
+5.5|8|0x550
+5.6|9|0x560
+5.7|10|0x570
+5.8|11|0x580
+5.9|12|0x590
+5.10|12.1|0x5100
+5.11|12.2|0x5110
+5.12|12.3|0x5120
+
+The name of Oracle Solaris Studio has changed over the years (e.g. Sun Studio, Sun Workshop, Forte Developer) but we do not make this distinction in the table above.
+
 ## Pacific C ##
 
 Type|Macro
@@ -778,36 +808,6 @@ Type|Macro|Description
 ---|---|---
 Identification|`__VOSC__`|
 Version|`__VOSC__`|0 = K&R; compiler1 = ANSI C compiler
-
-## [Sun Studio](http://en.wikipedia.org/wiki/Sun_Studio_%28software%29) ##
-
-Type|Macro|Format|Description
----|---|---|---
-Identification|`__SUNPRO_C`| |C compiler
-Version|`__SUNPRO_C`|0xVRP|V = VersionR = RevisionP = PatchUntil version 5.9
-Version|`__SUNPRO_C`|0xVRRP|V = VersionRR = RevisionP = PatchFrom later releases
-Identification|`__SUNPRO_CC`| |C++ compiler
-Version|`__SUNPRO_CC`|As `__SUNPRO_C`|
-
-##### Example #####
-
-Compiler version|Sun Studio|`__SUNPRO_C`
----|---|---
-4.2|4.2|0x420
-5.0|5.0|0x500
-5.2|6.1|0x520
-5.3|6.2|0x530
-5.4|7|0x540
-5.5|8|0x550
-5.6|9|0x560
-5.7|10|0x570
-5.8|11|0x580
-5.9|12|0x590
-5.10|12.1|0x5100
-5.11|12.2|0x5110
-5.12|12.3|0x5120
-
-The name of Sun Studio has changed over the years (e.g. Sun Workshop, Forte Developer) but we do not make this distinction in the table above.
 
 ## Symantec C++ ##
 
