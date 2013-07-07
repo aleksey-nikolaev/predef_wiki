@@ -663,6 +663,12 @@ Version|`__OPENCC_PATCHLEVEL__`|P.B|P = PatchB = Build
 
 Notice that `__OPENCC_PATCHLEVEL__` can be a floating-point number (e.g. `5.2` for Open64 version 4.2.5.2) so it cannot be used by the preprocessor to compare patch-levels.
 
+## [Oracle Pro*C Precompiler](http://en.wikipedia.org/wiki/Pro*C) ##
+
+Type|Macro
+---|---
+Identification|`ORA_PROC`
+
 ## [Oracle Solaris Studio](http://en.wikipedia.org/wiki/Oracle_Solaris_Studio) ##
 
 Type|Macro|Format|Description
