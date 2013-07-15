@@ -231,6 +231,19 @@ DJGPP|`__DJGPP__`|`__DJGPP_MINOR__`
 ---|---|---
 2.01|2|1
 
+## [EDG C++ Frontend](http://en.wikipedia.org/wiki/Edison_Design_Group) ##
+
+Type|Macro|Format|Description
+---|---|---|---
+Identification|`__EDG__`| |
+Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
+
+##### Example #####
+
+EDG C++|`__EDG_VERSION__`
+---|---
+2.30|230
+
 ## [EKOPath](http://en.wikipedia.org/wiki/PathScale) ##
 
 Type|Macro|Description
@@ -245,19 +258,6 @@ Version|`__PATHCC_PATCHLEVEL__`|Patch
 EKOPath|`__PATHCC__`|`__PATHCC_MINOR__`|`__PATHCC_PATCHLEVEL__`
 ---|---|---|---
 2.0|2|0|0
-
-## [EDG C++ Frontend](http://en.wikipedia.org/wiki/Edison_Design_Group) ##
-
-Type|Macro|Format|Description
----|---|---|---
-Identification|`__EDG__`| |
-Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
-
-##### Example #####
-
-EDG C++|`__EDG_VERSION__`
----|---
-2.30|230
 
 ## Fujitsu C++ ##
 
