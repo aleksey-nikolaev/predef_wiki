@@ -889,13 +889,15 @@ Ultimate C/C++|`_MAJOR_REV`|`_MINOR_REV`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__USLC__`| |
-Version|`__SCO_VERSION`|0xVRRYYYYMM|V = VersionRR = RevisionYYYY = YearMM = Month
+Version|`__SCO_VERSION__`|VRRYYYYMM|V = VersionRR = RevisionYYYY = YearMM = Month
 
 ##### Example #####
 
-USL C|`__SCO_VERSION`
----|---
-3.2|302199801
+USL C|`__SCO_VERSION__`|Description
+---|---|---
+3.2|302199801|
+3.4|304200805|UnixWare 7.1.4 UDK C++ (CC)
+4.2|402200805|UnixWare 7.1.4 UDK C (cc)
 
 ## [Watcom C++](http://en.wikipedia.org/wiki/Watcom) ##
 
