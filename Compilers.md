@@ -243,6 +243,7 @@ Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
 EDG C++|`__EDG_VERSION__`
 ---|---
 2.30|230
+2.45|245
 
 ## [EKOPath](http://en.wikipedia.org/wiki/PathScale) ##
 
