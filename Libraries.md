@@ -75,14 +75,20 @@ z/OS 1.6|0x41060000
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`_CPPLIB_VER`| |
+Identification|`_CPPLIB_VER`| |Defined for Dinkumware 2.0 and later
 Version|`_CPPLIB_VER`|VVRR|VV = VersionRR = Revision
 
 ##### Example #####
 
-Dinkumware|`_CPPLIB_VER`
----|---
-3.08|308
+Dinkumware|Visual C++|`_CPPLIB_VER`
+---|---|---
+3.06||306
+3.08||308
+4.05|2005|405
+5.03|2008|503
+5.05|2008 SP1|505
+5.20|2010|520
+5.40|2012|540
 
 ### [GNU libstdc++](http://gcc.gnu.org/libstdc++/) ###
 
