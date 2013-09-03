@@ -58,6 +58,8 @@ When endianness is needed for (de)marshalling binary data, you can write endian-
 ## Detect endianness at run-time ##
 
     :::c
+    #include
+
     enum {
       ENDIAN_UNKNOWN,
       ENDIAN_BIG,
@@ -68,21 +70,25 @@ When endianness is needed for (de)marshalling binary data, you can write endian-
 
     int endianness(void)
     {
-      uint8_t buffer[4];
+      uint32_t value;
+      uint8_t *buffer = (uint8_t *)&value;
 
       buffer[0] = 0x00;
       buffer[1] = 0x01;
       buffer[2] = 0x02;
       buffer[3] = 0x03;
 
-      switch (*((uint32_t *)buffer)) {
-      case 0x00010203: return ENDIAN_BIG;
-      case 0x03020100: return ENDIAN_LITTLE;
-      case 0x02030001: return ENDIAN_BIG_WORD;
-      case 0x01000302: return ENDIAN_LITTLE_WORD;
-      default:         return ENDIAN_UNKNOWN;
+      switch (value)
+      {
+      case UINT32_C(0x00010203): return ENDIAN_BIG;
+      case UINT32_C(0x03020100): return ENDIAN_LITTLE;
+      case UINT32_C(0x02030001): return ENDIAN_BIG_WORD;
+      case UINT32_C(0x01000302): return ENDIAN_LITTLE_WORD;
+      default:                   return ENDIAN_UNKNOWN;
+      }
     }
 
+The example above uses exact-width integer types. These types are optional if the underlying hardware does not support them. In that case the example will fail to compile. If you want the example to work in this case too, we suggest that you use the corresponding minimum-width integer types, e.g. `uint_least8_t` and `uint_least32_t`, and return ENDIAN_UNKNOWN if `sizeof(uint_least8_t) != 1` and `sizeof(uint_least32_t) != 4`.
 
 ## Detect endianness at compile-time ##
 
