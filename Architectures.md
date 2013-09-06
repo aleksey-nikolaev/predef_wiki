@@ -33,6 +33,7 @@ Type|Macro|Description
 ---|---|---
 Identification|`__arm__`|Defined by GNU C and RealView
 Identification|`__thumb__`|Defined by GNU C and RealView in Thumb mode
+Version|`__ARM_ARCH_'V'__`|V = VersionDefined by GNU C [1](http://wiki.ubuntu.com/ARM/Thumb2PortingHowto)
 Identification|`__TARGET_ARCH_ARM``__TARGET_ARCH_THUMB`|Defined by RealView
 Version|`__TARGET_ARCH_ARM` = V`__TARGET_ARCH_THUMB` = V|V = Version
 Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
@@ -45,10 +46,15 @@ Version|`_M_ARM` = V|V = Version
 
 CPU|Macro|`_M_ARM`
 ---|---|---
-ARM 4T|`__TARGET_ARM_4T`|
-ARM 5| |5
-ARM 6| |6
-ARM 7| |7
+ARM 2|`__ARM_ARCH_2__`|
+ARM 3|`__ARM_ARCH_3__``__ARM_ARCH_3M__`|
+ARM 4T|`__ARM_ARCH_4T__``__TARGET_ARM_4T`|
+ARM 5|`__ARM_ARCH_5__``__ARM_ARCH_5E__`|5
+ARM 5T|`__ARM_ARCH_5T__``__ARM_ARCH_5TE__``__ARM_ARCH_5TEJ__`|
+ARM 6|`__ARM_ARCH_6__``__ARM_ARCH_6J__``__ARM_ARCH_6K__``__ARM_ARCH_6Z__``__ARM_ARCH_6ZK__`|6
+ARM 6T2|`__ARM_ARCH_6T2__`|
+ARM 7|`__ARM_ARCH_7__``__ARM_ARCH_7A__``__ARM_ARCH_7R__``__ARM_ARCH_7M__``__ARM_ARCH_7S__`|7
+
 
 ## [ARM64](http://en.wikipedia.org/wiki/ARM64) ##
 
