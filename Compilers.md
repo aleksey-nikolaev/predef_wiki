@@ -532,7 +532,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`_MSC_VER`| |
 Version|`_MSC_VER`|VVRR|VV = VersionRR = Revision
-Version|`_MSC_FULL_VER`|VVRRPPPP|VV = VersionRR = RevisionPPPP = PatchFrom ?
+Version|`_MSC_FULL_VER`|VVRRPPPP|VV = VersionRR = RevisionPPPP = PatchFrom Visual C++ 6.0 Processor Pack
 Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = VersionRR = RevisionPPPPP = PatchFrom Visual C++ 8.0
 Version|`_MSC_BUILD`|B|B = Build numberFrom Visual C++ 9.0
 
