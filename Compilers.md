@@ -80,7 +80,7 @@ Type|Macro|Format
 Identification|`__BORLANDC__`|
 Version|`__BORLANDC__`|?
 Identification|`__CODEGEARC__`|
-Version|`__CODEGEARC__`|?
+Version|`__CODEGEARC__`|From C++ Builder 2006
 
 ##### Example #####
 
@@ -97,9 +97,14 @@ Borland C++|C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
 5.5|5.0|0x550|
 5.51| |0x551|
 5.6.4| |0x562|
+ |2006|0x570|0x570
+ |2007|0x590|0x590
  |2009|0x613|0x613
  |2010|0x621|0x621
+ |XE|0x630|0x630
+ |XE2|0x640|0x640
  |XE3|0x650|0x650
+ |XE4|0x660|0x660
 
 ## [CC65](http://en.wikipedia.org/wiki/Cc65) ##
 
