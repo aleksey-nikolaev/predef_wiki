@@ -130,6 +130,8 @@ Version|`__clang_patchlevel__`|Patch
 
 Notice that clang also defines the GNU C version macros, but you should use the clang [feature checking macros](http://clang.llvm.org/docs/LanguageExtensions.html#feature_check) to detect the availability of various features.
 
+The values of the `__clang_major__`, `__clang_minor__`, and `__clang_patchlevel__` macros are not consistent across distributions of the Clang compiler.  For example, the Clang 3.1 distribution available at http://clang.llvm.org defines `__clang_major__` and `__clang_minor__` as `3` and `1` respectively.  The version of Clang distributed with Apple XCode 4.0 is branded as "Apple Clang 4.0" and derives from the open source Clang 3.1 distribution, but defines these macros with the values `4` and `0` respectively.  Apple's Clang distribution can be identified by the presence of the `__apple_build_version__` macro.
+
 ## [Comeau C++](http://en.wikipedia.org/wiki/Comeau_C/C%2B%2B) ##
 
 Type|Macro|Format|Description
