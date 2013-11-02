@@ -519,6 +519,24 @@ VMS|`__VMS_VER`
 6.2|60200022
 6.2-1I|60210922
 
+## [VxWorks](http://en.wikipedia.org/wiki/VxWorks) ##
+
+Type|Macro|Description
+---|---|---|--
+Identification|`__VXWORKS__`|Defined by GNU C
+Identification|`__vxworks`|Defined by GNU C
+Version|`_WRS_VXWORKS_MAJOR`|VersionMust be included from ``
+Version|`_WRS_VXWORKS_MINOR`|RevisionMust be included from ``
+Version|`_WRS_VXWORKS_MAINT`|Patch/maintenanceMust be included from ``
+Mode|`__RTP__`|For real-time mode
+Mode|`_WRS_KERNEL`|For kernel mode
+
+##### Example #####
+
+VxWorks|`_WRS_VXWORKS_MAJOR`|`_WRS_VXWORKS_MINOR`|`_WRS_VXWORKS_MAINT`
+---|---|---|---
+6.2|6|2|0
+
 ## [Windows](http://en.wikipedia.org/wiki/Category:Microsoft_Windows) ##
 
 Type|Macro|Description
