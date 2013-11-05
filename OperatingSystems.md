@@ -523,8 +523,8 @@ VMS|`__VMS_VER`
 
 Type|Macro|Description
 ---|---|---|--
-Identification|`__VXWORKS__`|Defined by GNU C
-Identification|`__vxworks`|Defined by GNU C
+Identification|`__VXWORKS__`|Defined by GNU C and Diab (from ?)
+Identification|`__vxworks`|Defined by GNU C and Diab (from ?)
 Version|`_WRS_VXWORKS_MAJOR`|VersionMust be included from ``
 Version|`_WRS_VXWORKS_MINOR`|RevisionMust be included from ``
 Version|`_WRS_VXWORKS_MAINT`|Patch/maintenanceMust be included from ``
