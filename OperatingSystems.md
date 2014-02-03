@@ -375,6 +375,7 @@ Type|Macro|Format|Description
 Identification|`__QNX__`| |QNX 4.x
 Identification|`__QNXNTO__`| |QNX 6.x
 Version|`_NTO_VERSION`|VRR|V = VersionRR = RevisionOnly available when `__QNXNTO__` is defined.Must be included from ``
+Version|`BBNDK_VERSION_CURRENT`|VVRRRRPPPP|V = VersionRRRR = RevisionPPPP = PatchOnly available on [Blackberry 10](http://en.wikipedia.org/wiki/Blackberry_10)From Blackberry 10.1.0Must be included from `` 
 
 ##### Example #####
 
