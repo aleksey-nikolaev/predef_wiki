@@ -910,6 +910,12 @@ USL C|`__SCO_VERSION__`|Description
 3.4|304200805|UnixWare 7.1.4 UDK C++ (CC)
 4.2|402200805|UnixWare 7.1.4 UDK C (cc)
 
+## [VBCC](http://en.wikipedia.org/wiki/Vbcc) ##
+
+Type|Macro
+---|---
+Identification|`__VBCC__`
+
 ## [Watcom C++](http://en.wikipedia.org/wiki/Watcom) ##
 
 Type|Macro|Format|Description
