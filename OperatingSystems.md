@@ -362,6 +362,12 @@ Type|Macro|Description
 ---|---|---
 Identification|`__palmos__`|Defined by GNU C in [PRC-Tools](http://prc-tools.sourceforge.net/)
 
+## [Plan 9](http://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) ##
+
+Type|Macro
+---|---
+Identification|`EPLAN9`
+
 ## [Pyramid DC/OSx](http://en.wikipedia.org/wiki/DC/OSx) ##
 
 Type|Macro
