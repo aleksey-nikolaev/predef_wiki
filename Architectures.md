@@ -211,7 +211,7 @@ Identification|`__powerpc``__powerpc__``__powerpc64__``__POWERPC__``__ppc__``__p
 Version|`__ppc'V'__`|V = Version
 Identification|`_M_PPC`|Defined by Visual Studio
 Version|`_M_PPC`|?
-Identification|`_ARCH_PPC`|Defined by XL C/C++
+Identification|`_ARCH_PPC``_ARCH_PPC64`|Defined by XL C/C++
 Version|`_ARCH_'V'`|V = Version
 Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29)Defined by CodeWarrior
 Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29)Defined by CodeWarrior
