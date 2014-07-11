@@ -85,6 +85,8 @@ Type|Macro|Description
 ---|---|---
 Identification|`__bg__`|All Blue Gene systemsDefined by XL C/C++ and GNU C
 Version|`__bgq__`|Blue Gene/QDefined for XL C/C++ and GNU C
+Identification|`__THW_BLUEGENE__`|All Blue Gene systemsDefined by XL C/C++
+Version|`__TOS_BGQ__`|Blue Gene/QDefined by XL C/C++
 
 ## [BSD Environment](http://en.wikipedia.org/wiki/Bsd) ##
 
