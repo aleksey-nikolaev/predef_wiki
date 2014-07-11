@@ -83,7 +83,8 @@ Identification|`__BEOS__`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__bg__`|Defined for XL C/C++
+Identification|`__bg__`|All Blue Gene systemsDefined by XL C/C++ and GNU C
+Version|`__bgq__`|Blue Gene/QDefined for XL C/C++ and GNU C
 
 ## [BSD Environment](http://en.wikipedia.org/wiki/Bsd) ##
 
