@@ -8,7 +8,7 @@ Language standards requires the existence of pre-defined macros.
 Name | Macro | Standard
 ---|---|---
 C89|`__STDC__`|ANSI X3.159-1989
-C90|`__STDC_VERSION__`|ISO/IEC 9899:1990
+C90|`__STDC__`|ISO/IEC 9899:1990
 C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 [C99](http://www.open-std.org/jtc1/sc22/wg14/)|`__STDC_VERSION__` = 199901L|ISO/IEC 9899:1999
 [C11](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)|`__STDC_VERSION__` = 201112L|ISO/IEC 9899:2011
@@ -25,7 +25,6 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
     #if defined(__STDC__)
     # define PREDEF_STANDARD_C_1989
     # if defined(__STDC_VERSION__)
-    #  define PREDEF_STANDARD_C_1990
     #  if (__STDC_VERSION__ >= 199409L)
     #   define PREDEF_STANDARD_C_1994
     #  endif
