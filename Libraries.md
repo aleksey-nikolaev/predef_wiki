@@ -89,6 +89,7 @@ Dinkumware|Visual C++|`_CPPLIB_VER`
 5.05|2008 SP1|505
 5.20|2010|520
 5.40|2012|540
+6.10|2013|610
 
 ### [GNU libstdc++](http://gcc.gnu.org/libstdc++/) ###
 
