@@ -41,6 +41,7 @@ Identification|`_ARM`|Defined by ImageCraft C
 Identification|`_M_ARM`|Defined by Visual Studio
 Identification|`_M_ARMT`|Defined by Visual Studio in Thumb mode
 Version|`_M_ARM` = V|V = Version
+Identification|`__arm`|Defined by Diab
 
 ##### Example #####
 
@@ -127,6 +128,7 @@ Identification|`__THW_INTEL__`| |Defined by XL C/C++
 Identification|`__I86__`| |Defined by Digital Mars
 Version|`__I86__`|V|V = Version
 Identification|`__INTEL__`| |Defined by CodeWarrior
+Identification|`__386`||Defined by Diab
 
 Notice that Watcom C/C++ defines `_M_IX86` for both 16-bits and 32-bits architectures. Use `__386__` or `_M_I386` to detect 32-bits architectures in this case.
 
@@ -216,6 +218,7 @@ Version|`_ARCH_'V'`|V = Version
 Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29)Defined by CodeWarrior
 Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29)Defined by CodeWarrior
 Version|`_XENON`|[Xenon](http://en.wikipedia.org/wiki/Xenon_%28processor%29)
+Identification|`__ppc`|Defined by Diab
 
 ##### Example #####
 
