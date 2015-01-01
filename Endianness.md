@@ -70,15 +70,18 @@ When endianness is needed for (de)marshalling binary data, you can write endian-
 
     int endianness(void)
     {
-      uint32_t value;
-      uint8_t *buffer = (uint8_t *)&value;
+      union
+      {
+        uint32_t value;
+        uint8_t data[sizeof(uint32_t)];
+      } number;
 
-      buffer[0] = 0x00;
-      buffer[1] = 0x01;
-      buffer[2] = 0x02;
-      buffer[3] = 0x03;
+      number.data[0] = 0x00;
+      number.data[1] = 0x01;
+      number.data[2] = 0x02;
+      number.data[3] = 0x03;
 
-      switch (value)
+      switch (number.value)
       {
       case UINT32_C(0x00010203): return ENDIAN_BIG;
       case UINT32_C(0x03020100): return ENDIAN_LITTLE;
