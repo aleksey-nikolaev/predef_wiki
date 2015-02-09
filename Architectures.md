@@ -252,14 +252,15 @@ Type|Macro|Description
 ---|---|---
 Identification|`__sparc__`|Defined by GNU C
 Identification|`__sparc`|Defined by Sun Studio
+Version|`__sparc_v8__``__sparc_v9__`|Defined by GNU C
 Version|`__sparcv8``__sparcv9`|Defined by Sun Studio
 
 ##### Example #####
 
-CPU|Macro
----|---
-SPARC v8 (SuperSPARC)|`__sparcv8`
-SPARC v9 (UltraSPARC)|`__sparcv9`
+CPU|Sun Studio Macro|GNU C Macro
+---|---|---
+SPARC v8 (SuperSPARC)|`__sparcv8`|`__sparc_v8__`
+SPARC v9 (UltraSPARC)|`__sparcv9`|`__sparc_v9__`
 
 ## [SuperH](http://en.wikipedia.org/wiki/SuperH) ##
 
