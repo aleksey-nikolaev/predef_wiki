@@ -845,6 +845,7 @@ Identification|`__TenDRA__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__TI_COMPILER_VERSION__`| |
+Identification|`_TMS320C6X`| |All C6000 compilers
 Version|`__TI_COMPILER_VERSION__`|VVVRRRPPP|VVV = VersionRRR = RevisionPPP = Patch
 
 ##### Example #####
