@@ -168,6 +168,12 @@ Type|Macro
 ---|---
 Identification|`__convexc__`
 
+## [CompCert](http://en.wikipedia.org/wiki/CompCert) ##
+
+Type|Macro
+---|---
+Identification|`__COMPCERT__`
+
 ## Cray C ##
 
 Type|Macro|Description
