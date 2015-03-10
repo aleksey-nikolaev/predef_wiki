@@ -174,6 +174,12 @@ Type|Macro
 ---|---
 Identification|`__COMPCERT__`
 
+## [Coverity C/C++ Static Analyzer](http://www.coverity.com/) ##
+
+Type|Macro
+---|---
+Identification|`__COVERITY__`
+
 ## Cray C ##
 
 Type|Macro|Description
