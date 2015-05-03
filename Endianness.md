@@ -109,8 +109,12 @@ Little endian (word-swapped)|`__BYTE_ORDER`|`__PDP_ENDIAN`
 
 ##### Pre-defined endian macros #####
 
-Type|Macro
----|---
-Big endian|`__BIG_ENDIAN__``__ARMEB__``__THUMBEB__``__AARCH64EB__``_MIPSEB``__MIPSEB``__MIPSEB__`
-Little endian|`__LITTLE_ENDIAN__``__ARMEL__``__THUMBEL__``__AARCH64EL__``_MIPSEL``__MIPSEL``__MIPSEL__`
+Type|Macro|Value
+---|---|---
+Big endian|`__BIG_ENDIAN__``__ARMEB__``__THUMBEB__``__AARCH64EB__``_MIPSEB``__MIPSEB``__MIPSEB__`|
+Big endian|`__BYTE_ORDER__`|`__ORDER_BIG_ENDIAN__`
+Big endian|`__FLOAT_WORD_ORDER__`|`__ORDER_BIG_ENDIAN__`
+Little endian|`__LITTLE_ENDIAN__``__ARMEL__``__THUMBEL__``__AARCH64EL__``_MIPSEL``__MIPSEL``__MIPSEL__`|
+Little endian|`__BYTE_ORDER__`|`__ORDER_LITTLE_ENDIAN__`
+Little endian|`__FLOAT_WORD_ORDER__`|`__ORDER_LITTLE_ENDIAN__`
 
