@@ -364,7 +364,7 @@ Version|`__HP_aCC`|VVRRPP|VV = VersionRR = RevisionPP = PatchFrom version A.01.2
 
 HP aCC|`__HP_aCC`
 ---|---
-A.01.21|012100
+A.01.21|12100
 
 ### IAR C/C++ ###
 
