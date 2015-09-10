@@ -35,6 +35,7 @@ typedef void * t_pointer;
 #else
 typedef char * t_pointer;
 #endif
+```
 
 Another example, Microsoft Visual C++ version 4.2 added a pragma to reduce compilation times by only including a file once (if_MSC_VERis not defined then it will evaluate to 0 (zero) — however, some compilers may complain about an undefined macro)
 
