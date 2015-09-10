@@ -733,7 +733,7 @@ Identification|`__PACIFIC__`
 ## Palm C/C++ ##
 
 Type|Macro|Format|Description
----|---|--|---
+---|---|---|---
 Identification|`_PACC_VER`| |
 Version|`_PACC_VER`|0xVRRPPBBB|V = VersionRR = RevisionPP = PatchBBB = Build
 
