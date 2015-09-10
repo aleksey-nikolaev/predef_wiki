@@ -1,5 +1,4 @@
-
- ## Introduction ##
+## Introduction ##
 
 [Endianness](http://en.wikipedia.org/wiki/Endianness) is the order of the bytes in multi-byte data types, such as `int` or `float`. It may vary from processor to processor, and even from operating system to operating system. Detecting the correct endianness is difficult for several reasons:
 
@@ -26,70 +25,72 @@ Some compilers or system headers provide macros to determine endianness, but the
 
 When endianness is needed for (de)marshalling binary data, you can write endian-neutral conversion as follows. Please notice that the code assume that the exchange format is big-endian (network byte-order). These functions can easily be adapted to other integer types, simply by changing the type at the `/* Type */` comments.
 
-    :::c
-    #include
+```c
+#include
 
-    /* Type */ unsigned int
-    endian_native_unsigned_int(/* Type */ unsigned int net_number)
-    {
-      /* Type */ unsigned int result = 0;
-      int i;
+/* Type */ unsigned int
+endian_native_unsigned_int(/* Type */ unsigned int net_number)
+{
+  /* Type */ unsigned int result = 0;
+  int i;
 
-      for (i = 0; i < (int)sizeof(result); i++) {
-        result <<= CHAR_BIT;
-        result += (((unsigned char *)&net;_number)[i] & UCHAR_MAX);
-      }
-      return result;
-    }
+  for (i = 0; i < (int)sizeof(result); i++) {
+    result <<= CHAR_BIT;
+    result += (((unsigned char *)&net;_number)[i] & UCHAR_MAX);
+  }
+  return result;
+}
 
-    /* Type */ unsigned int
-    endian_net_unsigned_int(/* Type */ unsigned int native_number)
-    {
-      /* Type */ unsigned int result = 0;
-      int i;
+/* Type */ unsigned int
+endian_net_unsigned_int(/* Type */ unsigned int native_number)
+{
+  /* Type */ unsigned int result = 0;
+  int i;
 
-      for (i = (int)sizeof(result) - 1; i >= 0; i--) {
-        ((unsigned char *)&result;)[i] = native_number & UCHAR_MAX;
-        native_number >>= CHAR_BIT;
-      }
-      return result;
-    }
+  for (i = (int)sizeof(result) - 1; i >= 0; i--) {
+    ((unsigned char *)&result;)[i] = native_number & UCHAR_MAX;
+    native_number >>= CHAR_BIT;
+  }
+  return result;
+}
+```
 
 ## Detect endianness at run-time ##
 
-    :::c
-    #include
+```c
+#include
 
-    enum {
-      ENDIAN_UNKNOWN,
-      ENDIAN_BIG,
-      ENDIAN_LITTLE,
-      ENDIAN_BIG_WORD,   /* Middle-endian, Honeywell 316 style */
-      ENDIAN_LITTLE_WORD /* Middle-endian, PDP-11 style */
-    };
+enum {
+  ENDIAN_UNKNOWN,
+  ENDIAN_BIG,
+  ENDIAN_LITTLE,
+  ENDIAN_BIG_WORD,   /* Middle-endian, Honeywell 316 style */
+  ENDIAN_LITTLE_WORD /* Middle-endian, PDP-11 style */
+};
 
-    int endianness(void)
-    {
-      union
-      {
-        uint32_t value;
-        uint8_t data[sizeof(uint32_t)];
-      } number;
+int endianness(void)
+{
+  union
+  {
+    uint32_t value;
+    uint8_t data[sizeof(uint32_t)];
+  } number;
 
-      number.data[0] = 0x00;
-      number.data[1] = 0x01;
-      number.data[2] = 0x02;
-      number.data[3] = 0x03;
+  number.data[0] = 0x00;
+  number.data[1] = 0x01;
+  number.data[2] = 0x02;
+  number.data[3] = 0x03;
 
-      switch (number.value)
-      {
-      case UINT32_C(0x00010203): return ENDIAN_BIG;
-      case UINT32_C(0x03020100): return ENDIAN_LITTLE;
-      case UINT32_C(0x02030001): return ENDIAN_BIG_WORD;
-      case UINT32_C(0x01000302): return ENDIAN_LITTLE_WORD;
-      default:                   return ENDIAN_UNKNOWN;
-      }
-    }
+  switch (number.value)
+  {
+  case UINT32_C(0x00010203): return ENDIAN_BIG;
+  case UINT32_C(0x03020100): return ENDIAN_LITTLE;
+  case UINT32_C(0x02030001): return ENDIAN_BIG_WORD;
+  case UINT32_C(0x01000302): return ENDIAN_LITTLE_WORD;
+  default:                   return ENDIAN_UNKNOWN;
+  }
+}
+```
 
 The example above uses exact-width integer types. These types are optional if the underlying hardware does not support them. In that case the example will fail to compile. If you want the example to work in this case too, we suggest that you use the corresponding minimum-width integer types, e.g. `uint_least8_t` and `uint_least32_t`, and return ENDIAN_UNKNOWN if `sizeof(uint_least8_t) != 1` and `sizeof(uint_least32_t) != 4`.
 

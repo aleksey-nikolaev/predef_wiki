@@ -1,5 +1,4 @@
-
- Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please submit updates/corrections via the process described on the [[wiki home page|Home]].
 
 ## Language Standards ##
 
@@ -21,18 +20,19 @@ C94|`__STDC_VERSION__` = 199409L|ISO/IEC 9899-1:1994
 
 ##### Example: C Standards #####
 
-    :::c
-    #if defined(__STDC__)
-    # define PREDEF_STANDARD_C_1989
-    # if defined(__STDC_VERSION__)
-    #  if (__STDC_VERSION__ >= 199409L)
-    #   define PREDEF_STANDARD_C_1994
-    #  endif
-    #  if (__STDC_VERSION__ >= 199901L)
-    #   define PREDEF_STANDARD_C_1999
-    #  endif
-    # endif
-    #endif
+```c
+#if defined(__STDC__)
+# define PREDEF_STANDARD_C_1989
+# if defined(__STDC_VERSION__)
+#  if (__STDC_VERSION__ >= 199409L)
+#   define PREDEF_STANDARD_C_1994
+#  endif
+#  if (__STDC_VERSION__ >= 199901L)
+#   define PREDEF_STANDARD_C_1999
+#  endif
+# endif
+#endif
+```
 
 Notice that not all compliant compilers provides the correct pre-defined macros. For example, Microsoft Visual C++ does not define `__STDC__`, or Sun Workshop 4.2 supports C94 without setting `__STDC_VERSION__` to the proper value. Extra checks for such compilers must be added.
 
@@ -42,11 +42,12 @@ Notice that some compilers, such as the [HP aC++](http://h21007.www2.hp.com/port
 
 In continuation of the above example, pre-C89 compilers do not recognize certain keywords. Let the preprocessor remove those keywords for those compilers.
 
-    :::c
-    #if !defined(PREDEF_STANDARD_C_1989) && !defined(__cplusplus)
-    # define const
-    # define volatile
-    #endif
+```c
+#if !defined(PREDEF_STANDARD_C_1989) && !defined(__cplusplus)
+# define const
+# define volatile
+#endif
+```
 
 ## Unix Standards ##
 
@@ -75,33 +76,34 @@ LSB|`__LSB_VERSION__` = VR|Linux Standards BaseV = VersionR = Revision
 
 The following examples assumes the definition of these macros.
 
-    :::c
-    #if defined(unix) || defined(__unix__) || defined(__unix)
-    # define PREDEF_PLATFORM_UNIX
-    #endif
-    #if defined(PREDEF_PLATFORM_UNIX)
-    # include
-    # if defined(_XOPEN_VERSION)
-    #  if (_XOPEN_VERSION >= 3)
-    #   define PREDEF_STANDARD_XOPEN_1989
-    #  endif
-    #  if (_XOPEN_VERSION >= 4)
-    #   define PREDEF_STANDARD_XOPEN_1992
-    #  endif
-    #  if (_XOPEN_VERSION >= 4) && defined(_XOPEN_UNIX)
-    #   define PREDEF_STANDARD_XOPEN_1995
-    #  endif
-    #  if (_XOPEN_VERSION >= 500)
-    #   define PREDEF_STANDARD_XOPEN_1998
-    #  endif
-    #  if (_XOPEN_VERSION >= 600)
-    #   define PREDEF_STANDARD_XOPEN_2003
-    #  endif
-    #  if (_XOPEN_VERSION >= 700)
-    #   define PREDEF_STANDARD_XOPEN_2008
-    #  endif
-    # endif
-    #endif
+```c
+#if defined(unix) || defined(__unix__) || defined(__unix)
+# define PREDEF_PLATFORM_UNIX
+#endif
+#if defined(PREDEF_PLATFORM_UNIX)
+# include
+# if defined(_XOPEN_VERSION)
+#  if (_XOPEN_VERSION >= 3)
+#   define PREDEF_STANDARD_XOPEN_1989
+#  endif
+#  if (_XOPEN_VERSION >= 4)
+#   define PREDEF_STANDARD_XOPEN_1992
+#  endif
+#  if (_XOPEN_VERSION >= 4) && defined(_XOPEN_UNIX)
+#   define PREDEF_STANDARD_XOPEN_1995
+#  endif
+#  if (_XOPEN_VERSION >= 500)
+#   define PREDEF_STANDARD_XOPEN_1998
+#  endif
+#  if (_XOPEN_VERSION >= 600)
+#   define PREDEF_STANDARD_XOPEN_2003
+#  endif
+#  if (_XOPEN_VERSION >= 700)
+#   define PREDEF_STANDARD_XOPEN_2008
+#  endif
+# endif
+#endif
+```
 
 Notice that not all compliant compilers provides the correct pre-defined macros. For example, IBM xlC supports Unix without setting any of the `__unix__` macros. Extra checks for such compilers must be added.
 

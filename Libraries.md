@@ -1,5 +1,4 @@
-
- Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please submit updates/corrections via the process described on the [[wiki home page|Home]].
 
 ## Standard C Libraries ##
 

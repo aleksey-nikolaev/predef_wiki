@@ -1,4 +1,4 @@
-# Pre-defined C/C++ Compiler Macros
+# Pre-defined C/C++ Compiler Macros #
 
 The macros are found here:
 
@@ -21,7 +21,7 @@ To submit updates/corrections:
 * Push your changes to a fork of the wiki on Github
 * [Create an issue](https://github.com/natefoo/predef/issues) linking to the changes in your fork
 
-## Introduction
+## Introduction ##
 
 C and C++ compilers automatically define certain macros that can be used to check for compiler or operating system features. This is useful when writing portable software.
 
@@ -49,7 +49,7 @@ The macros contained in these pages have been obtained through vendor documentat
 
 An often-used alternative is [Autoconf](http://www.gnu.org/software/autoconf/), which is a more powerful tool to examine various types of features, including compilation options. However, Autoconf is fairly Unix-centric, and requires a Unix layer on other platforms (e.g. Cygwin on Windows). Other alternatives are [Buildtool](http://buildtool.sourceforge.net/), [CMake](http://www.cmake.org/), [SCons](http://www.scons.org/), [PMK](http://pmk.sourceforge.net/), [Jam](http://www.perforce.com/jam/jam.html), [Ant](http://ant.apache.org/), and [Bakefile](http://bakefile.sourceforge.net/).
 
-## Contributors
+## Contributors ##
 
 Bjorn Reese, Daniel Stenberg, Greg Roelofs, Steven G. Johnson, Wlodzimierz ABX Skiba, Marc Finet, Philip Newton, Mitchell Charity, Christian Klutz, Seo Sanghyeon, Chris Adami, Geoff Clare, Dan Fandrich, Mike Gorchak, Yuri D'Elia, Gynvael Coldwind, Alain Tauch, Vadim Zeitlin, Steve White, Thomas David Rivers, Tom Honermann, Martin Mitas, Dinesh Chhadwa, Erik Faye-Lund, Leo Davis, Paul Hsieh, Roland Schwarz, Darko Kolakovic, Andy Buonviri, Ming Kin Lai, Kent Johnson, Helmut Bauer, Oliver Schneider, Ron Pimblett, Jose Luis Rodriguez Garcia, Jeroen Ruigrok van der Werven, Uffe Jakobsen, Bryan Ashby, Bruno Haible, Artur Bac, Terry Schwarz, Leo Davis, Markus Duft, William Dang, Paul Green, Ruben Van Boxem, Pau Garcia i Quiles, Mikulas Patocka, Leo Davis, Mark Ferry, Holger Machens, Simon Watts, Paul Hargrove, Hans-Christoph Steiner, Gerald Combs, Denys Bulant, Massimo Morara, Jeremy Bennett, Guillem Jover, Riku Voipio, Jacques Pelletier, Mark Jarvin, Georg Sauthoff, Scot Jenkins, Grzegorz Brzęczyszczykiewicz, John Dallman, Gianmichele Toglia, Robbie Groenewoudt, Andreas Mohr, Алексей Пюрецкий, Sverre Hvammen Johansen, Stefan Tauner, Daniel Garcia, Ozkan Sezer, Dean Saridakis.
 

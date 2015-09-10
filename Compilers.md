@@ -1,5 +1,4 @@
-
- Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please submit updates/corrections via the process described on the [[wiki home page|Home]].
 
 ## [ACC](http://en.wikipedia.org/wiki/ACC_%28programming_language%29) ##
 
@@ -307,17 +306,18 @@ GNU C/C++|`__GNUC__`|`__GNUC_MINOR__`|`__GNUC_PATCHLEVEL__`
 
 If you prefer a single version macro, you can define the following yourself.
 
-    :::c
-    #if defined(__GNUC__)
-    # if defined(__GNUC_PATCHLEVEL__)
-    #  define __GNUC_VERSION__ (__GNUC__ * 10000 \
-                                + __GNUC_MINOR__ * 100 \
-                                + __GNUC_PATCHLEVEL__)
-    # else
-    #  define __GNUC_VERSION__ (__GNUC__ * 10000 \
-                                + __GNUC_MINOR__ * 100)
-    # endif
-    #endif
+```c
+#if defined(__GNUC__)
+# if defined(__GNUC_PATCHLEVEL__)
+#  define __GNUC_VERSION__ (__GNUC__ * 10000 \
+                            + __GNUC_MINOR__ * 100 \
+                            + __GNUC_PATCHLEVEL__)
+# else
+#  define __GNUC_VERSION__ (__GNUC__ * 10000 \
+                            + __GNUC_MINOR__ * 100)
+# endif
+#endif
+```
 
 The format of this new macro is:
 
@@ -415,14 +415,15 @@ Version|`__COMPILER_VER__`|0xNVRRPPPP|N = Product (see above)V = VersionRR = Rev
 
 Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. You can use `__xlC__` (only defined for XL C/C++) or `__COMPILER_VER__` (only defined for z/OS C/C++) to distinguish between the two. Alternatively, the macro identifying z/OS (`__MVS__`) can be used to distinguish between them.
 
-    :::c
-    #if defined(__IBMC__) || defined(__IBMCPP__)
-    # if defined(__COMPILER_VER__)
-    /* z/OS C/C++ so __IBMC__ is defined as NVRRM */
-    # else
-    /* XL C/C++ so __IBMC__ is defined as VRP */
-    # endif
-    #endif
+```c
+#if defined(__IBMC__) || defined(__IBMCPP__)
+# if defined(__COMPILER_VER__)
+/* z/OS C/C++ so __IBMC__ is defined as NVRRM */
+# else
+/* XL C/C++ so __IBMC__ is defined as VRP */
+# endif
+#endif
+```
 
 ##### Example #####
 

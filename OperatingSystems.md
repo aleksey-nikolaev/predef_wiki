@@ -1,5 +1,4 @@
-
- Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+Please submit updates/corrections via the process described on the [[wiki home page|Home]].
 
 ## [AIX](http://en.wikipedia.org/wiki/AIX_operating_system) ##
 
@@ -416,14 +415,15 @@ Version|`__'System'_'Version'`|System = `uname -s`Version = `uname -r`Any illega
 
 Use the SVR4 macros to distinguish between Solaris and SunOS.
 
-    :::c
-    #if defined(sun) || defined(__sun)
-    # if defined(__SVR4) || defined(__svr4__)
-    /* Solaris */
-    # else
-    /* SunOS */
-    # endif
-    #endif
+```c
+#if defined(sun) || defined(__sun)
+# if defined(__SVR4) || defined(__svr4__)
+/* Solaris */
+# else
+/* SunOS */
+# endif
+#endif
+```
 
 ##### Example #####
 
