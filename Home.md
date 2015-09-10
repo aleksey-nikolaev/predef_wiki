@@ -14,7 +14,12 @@ General guidelines are found here:
 * [Feature macros](FeatureMacros)
 * [Endianness](Endianness)
 
-Please send updates/corrections to [predef-contribute](mailto:predef-contribute@lists.sourceforge.net).
+To submit updates/corrections:
+
+* [Clone this wiki](https://github.com/natefoo/predef.wiki.git)
+* Make changes and commit them
+* Push your changes to a fork of the wiki on Github
+* [Create an issue](https://github.com/natefoo/predef/issues) linking to the changes in your fork
 
 ## Introduction
 
