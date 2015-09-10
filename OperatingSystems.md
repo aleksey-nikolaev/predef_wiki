@@ -13,7 +13,7 @@ Identification|`__TOS_AIX__`|Defined by xlC
 If `_AIX` is defined, then the following macros can be used to determine the version. Notice that the macros indicates the mentioned version or higher. For example, if `_AIX43` is defined, then `_AIX41` will also be defined.
 
 AIX Version|Macro
---|---
+---|---
 3.2.x|`_AIX3``_AIX32`
 4.1|`_AIX41`
 4.3|`_AIX43`
@@ -21,7 +21,7 @@ AIX Version|Macro
 ## [Android](http://en.wikipedia.org/wiki/Android_%28operating_system%29) ##
 
 Type|Macro|Format|Description
----|---|---|--
+---|---|---|---
 Identification|`__ANDROID__`| |
 Version|`__ANDROID_API__`|V|V = API VersionMust be included from ``
 
@@ -59,7 +59,7 @@ Identification|`__amigaos__`|Defined by GNU C
 ## [Apollo AEGIS](http://en.wikipedia.org/wiki/Domain/OS) ##
 
 Type|Macro
---|---
+---|---
 Identification|`aegis`
 
 ## [Apollo Domain/OS](http://en.wikipedia.org/wiki/Domain/OS) ##
@@ -99,7 +99,7 @@ Identification|`_SYSTYPE_BSD`| |Defined by DEC C
 ##### Example #####
 
 Version|`BSD`|Macro
----|---|--
+---|---|---
 4.3 Net2|199103|
 4.4|199306|`BSD4_4`
 4.4BSD-Lite2|199506|
@@ -314,7 +314,7 @@ Version|`__NetBSD_Version__`|VVRR00PP00|VV = VersionRR = RevisionPP = PatchFrom 
 ##### Example #####
 
 NetBSD|`__NetBSD_Version__`|Macro
----|---|--
+---|---|---
 0.8| |`NetBSD0_8`
 0.9| |`NetBSD0_9`
 1.0| |`NetBSD1_0` = 1
