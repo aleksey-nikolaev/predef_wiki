@@ -53,7 +53,7 @@ In continuation of the above example, pre-C89 compilers do not recognize certain
 
 There are several related Unix standards, such as [POSIX](http://en.wikipedia.org/wiki/POSIX), [X/Open](http://en.wikipedia.org/wiki/X/Open), and [LSB](http://en.wikipedia.org/wiki/Linux_Standard_Base).
 
-Unix standards require the existence macros in the `` header file.
+Unix standards require the existence macros in the `<unistd.h>` header file.
 
 Name | Macro | Standard
 ---|---|---
@@ -70,7 +70,7 @@ SUS|`_XOPEN_VERSION` = 4 `&&` `_XOPEN_UNIX`|X/Open Single UNIX Specification (UN
 [SUSv2](http://www.opengroup.org/onlinepubs/7908799/toc.htm)|`_XOPEN_VERSION` = 500|X/Open Single UNIX Specification, Version 2 (UNIX98)
 [SUSv3](http://www.opengroup.org/onlinepubs/007904975/nfindex.html)|`_XOPEN_VERSION` = 600|Open Group Single UNIX Specification, Version 3 (UNIX03)
 [SUSv4](http://pubs.opengroup.org/onlinepubs/9699919799/)|`_XOPEN_VERSION` = 700|Open Group Single UNIX Specification, Version 4
-LSB|`__LSB_VERSION__` = VR|Linux Standards BaseV = VersionR = Revision
+LSB|`__LSB_VERSION__` = VR|Linux Standards Base<br>V = Version<br>R = Revision
 
 ##### Example: Unix Standards #####
 

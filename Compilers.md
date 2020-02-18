@@ -11,7 +11,7 @@ Identification|`_ACC_`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CMB__`| |
-Version|`__VERSION__`|VRRR|V=VersionRRR=Revision
+Version|`__VERSION__`|VRRR|V=Version<br>RRR=Revision
 Version|`__REVISION__`|P|P=Patch
 Version|`__BUILD__`|VRRRPPP|Build number
 
@@ -27,8 +27,8 @@ Altium MicroBlaze C|`__VERSION__`|`__REVISION__`|`__BUILD__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CHC__`| |
-Version|`__VERSION__`|VRRR|V=VersionRRR=Revision
-Version|`__REVISION__`|P|P=PatchBeta releases set this to -1
+Version|`__VERSION__`|VRRR|V=Version<br>RRR=Revision
+Version|`__REVISION__`|P|P=Patch<br>Beta releases set this to -1
 Version|`__BUILD__`|VRRRPPP|Build number
 
 ##### Example #####
@@ -49,7 +49,7 @@ Identification|`__ACK__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CC_ARM`| |
-Version|`__ARMCC_VERSION`|VRPBBB|V = VersionR = RevisionP = PatchBBB = Build
+Version|`__ARMCC_VERSION`|VRPBBB|V = Version<br>R = Revision<br>P = Patch<br>BBB = Build
 
 Notice that the `__ARMCC_VERSION` macro is also used as version indicator for Norcroft C, but that the format is different.
 
@@ -64,7 +64,7 @@ Realview C|`__ARMCC_VERSION`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`AZTEC_C`<br>`__AZTEC_C__`| |
-Version|`__VERSION`|VRR|V = VersionRR = Revision
+Version|`__VERSION`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -110,7 +110,7 @@ Version|`__CODEGEARC__`|From C++ Builder 2006
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CC65__`| |
-Version|`__CC65__`|0xVRP|V = VersionR = RevisionP = Patch
+Version|`__CC65__`|0xVRP|V = Version<br>R = Revision<br>P = Patch
 
 ##### Example #####
 
@@ -136,7 +136,7 @@ The values of the `__clang_major__`, `__clang_minor__`, and `__clang_patchlevel_
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__COMO__`|
-Version|`__COMO_VERSION__`|VRR|V = VersionRR = Revision
+Version|`__COMO_VERSION__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -149,7 +149,7 @@ Comeau C++ |`__COMO_VERSION__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__DECC`| |C compiler
-Version|`__DECC_VER`|VVRRTPPPP|VV = VersionRR = RevisionT = Type (9 = official)PPPP = Patch
+Version|`__DECC_VER`|VVRRTPPPP|VV = Version<br>RR = Revision<br>T = Type (9 = official)<br>PPPP = Patch
 Identification|`__DECCXX`| |C++ compiler
 Version|`__DECCXX_VER`|As __DECC_VER|
 Identification|`__VAXC`| |Obsolete
@@ -192,7 +192,7 @@ Version|`_RELEASE_MINOR`|Revision
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__DCC__`|1|
-Version|`__VERSION_NUMBER__`|VRPP|V = VersionR = RevisionPP = Patch
+Version|`__VERSION_NUMBER__`|VRPP|V = Version<br>R = Revision<br>PP = Patch
 
 ##### Example #####
 
@@ -211,7 +211,7 @@ Identification|`_DICE`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__DMC__`| |
-Version|`__DMC__`|0xVRP|V = VersionR = RevisionP = Patch
+Version|`__DMC__`|0xVRP|V = Version<br>R = Revision<br>P = Patch
 
 ##### Example #####
 
@@ -226,7 +226,7 @@ Digital Mars|`__DMC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__SYSC__`| |
-Version|`__SYSC_VER__`|VRRPP|V = VersionRR = RevisionPP = Patch
+Version|`__SYSC_VER__`|VRRPP|V = Version<br>RR = Revision<br>PP = Patch
 
 ##### Example #####
 
@@ -254,7 +254,7 @@ DJGPP|`__DJGPP__`|`__DJGPP_MINOR__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__EDG__`| |
-Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
+Version|`__EDG_VERSION__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -323,7 +323,7 @@ The format of this new macro is:
 
 Type|Macro|Format|Description
 ---|---|---|---
-Version|`__GNUC_VERSION__`|VVRRPP|VV = VersionRR = RevisionPP = Patch
+Version|`__GNUC_VERSION__`|VVRRPP|VV = Version<br>RR = Revision<br>PP = Patch
 
 ##### Example of Alternative Version #####
 
@@ -337,7 +337,7 @@ GNU C/C++ |`__GNUC_VERSION__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__ghs__`| |
-Version|`__GHS_VERSION_NUMBER__`|VRP|V = VersionR = RevisionP = Patch
+Version|`__GHS_VERSION_NUMBER__`|VRP|V = Version<br>R = Revision<br>P = Patch
 Version|`__GHS_REVISION_DATE__`|[Epoch time](http://en.wikipedia.org/wiki/Epoch_time)|
 
 ##### Example #####
@@ -358,7 +358,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__HP_aCC`| |
 Version|`__HP_aCC`|1|From version A.01.15 (and A.03.13)
-Version|`__HP_aCC`|VVRRPP|VV = VersionRR = RevisionPP = PatchFrom version A.01.21 (and A.03.25)
+Version|`__HP_aCC`|VVRRPP|VV = Version<br>RR = Revision<br>PP = PatchFrom version A.01.21 (and A.03.25)
 
 ##### Example #####
 
@@ -371,7 +371,7 @@ A.01.21|12100
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__IAR_SYSTEMS_ICC__`| |
-Version|`__VER__`|VRR|V = VersionRR = Revision
+Version|`__VER__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -385,11 +385,11 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__xlc__`| |
 Identification|`__xlC__`| |
-Version|`__xlC__`|0xVVRR|VV = VersionRR = Revision
-Version|`__xlC_ver__`|0x0000PPBB|PP = PatchBB = Build
+Version|`__xlC__`|0xVVRR|VV = Version<br>RR = Revision
+Version|`__xlC_ver__`|0x0000PPBB|PP = Patch<br>BB = Build
 Identification|`__IBMC__`| |From ?
 Identification|`__IBMCPP__`| |From ?
-Version|`__IBMC__`<br>`__IBMCPP__`|VRP|V = VersionR = RevisionP = Patch
+Version|`__IBMC__`<br>`__IBMCPP__`|VRP|V = Version<br>R = Revision<br>P = Patch
 
 Notice that the z/OS C/C++ compiler also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. See the entry on the z/OS C/C++ compiler below for further information.
 
@@ -410,8 +410,8 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__IBMC__`| |
 Identification|`__IBMCPP__`| |
-Version|`__IBMC__`<br>`__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)V = VersionRR = RevisionP = PatchDefined for z/OS XL C/C++
-Version|`__COMPILER_VER__`|0xNVRRPPPP|N = Product (see above)V = VersionRR = RevisionPPPP = PatchDefined for z/OS XL C/C++
+Version|`__IBMC__`<br>`__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)<br>V = Version<br>RR = Revision<br>P = Patch<br>Defined for z/OS XL C/C++
+Version|`__COMPILER_VER__`|0xNVRRPPPP|N = Product (see above)<br>V = Version<br>RR = Revision<br>PPPP = Patch<br>Defined for z/OS XL C/C++
 
 Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. You can use `__xlC__` (only defined for XL C/C++) or `__COMPILER_VER__` (only defined for z/OS C/C++) to distinguish between the two. Alternatively, the macro identifying z/OS (`__MVS__`) can be used to distinguish between them.
 
@@ -446,8 +446,8 @@ Identification|`__INTEL_COMPILER`| |
 Identification|`__ICC`| |Obsolete
 Identification|`__ECC`| |Obsolete
 Identification|`__ICL`| |
-Version|`__INTEL_COMPILER`|VRP|V = VersionR = RevisionP = Patch
-Version|`__INTEL_COMPILER_BUILD_DATE`|YYYYMMDD|YYYY = YearMM = MonthDD = Day
+Version|`__INTEL_COMPILER`|VRP|V = Version<br>R = Revision<br>P = Patch
+Version|`__INTEL_COMPILER_BUILD_DATE`|YYYYMMDD|YYYY = Year<br>MM = Month<br>DD = Day
 
 ##### Example #####
 
@@ -463,7 +463,7 @@ Intel C/C++ |`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__KCC`| |
-Version|`__KCC_VERSION`|0xVRPP|V = VersionR = RevisionPP = Patch (a = 01, b = 02, ...)
+Version|`__KCC_VERSION`|0xVRPP|V = Version<br>R = Revision<br>PP = Patch (a = 01, b = 02, ...)
 
 ##### Example #####
 
@@ -477,7 +477,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CA__`| |
 Identification|`__KEIL__`| |
-Version|`__CA__`|VRR|V = VersionRR = Revision
+Version|`__CA__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -490,7 +490,7 @@ Keil CARM|`__CA__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__C166__`| |
-Version|`__C166__`|VRR|V = VersionRR = Revision
+Version|`__C166__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -504,7 +504,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__C51__`| |
 Identification|`__CX51__`| |
-Version|`__C51__`|VRR|V = VersionRR = Revision
+Version|`__C51__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -537,8 +537,8 @@ Type|Macro|Format|Description
 Identification|`__MWERKS__`| |
 Identification|`__CWCC__`| |From 4.2.0
 Version|`__MWERKS__`|1|Until CodeWarrior 7
-Version|`__MWERKS__`|0xVRPP|V = VersionR = RevisionPP = PatchFrom CodeWarrior 7
-Version|`__CWCC__`|0xVRPP|V = VersionR = RevisionPP = PatchFrom 4.2.0
+Version|`__MWERKS__`|0xVRPP|V = Version<br>R = Revision<br>PP = Patch<br>From CodeWarrior 7
+Version|`__CWCC__`|0xVRPP|V = Version<br>R = Revision<br>PP = Patch<br>From 4.2.0
 
 ##### Example #####
 
@@ -553,10 +553,10 @@ Metrowerks C/C++ |`__MWERKS__`|`__CWCC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`_MSC_VER`| |
-Version|`_MSC_VER`|VVRR|VV = VersionRR = Revision
-Version|`_MSC_FULL_VER`|VVRRPPPP|VV = VersionRR = RevisionPPPP = PatchFrom Visual C++ 6.0 Processor Pack
-Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = VersionRR = RevisionPPPPP = PatchFrom Visual C++ 8.0
-Version|`_MSC_BUILD`|B|B = Build numberFrom Visual C++ 9.0
+Version|`_MSC_VER`|VVRR|VV = Version<br>RR = Revision
+Version|`_MSC_FULL_VER`|VVRRPPPP|VV = Version<br>RR = Revision<br>PPPP = Patch<br>From Visual C++ 6.0 Processor Pack
+Version|`_MSC_FULL_VER`|VVRRPPPPP|VV = Version<br>RR = Revision<br>PPPPP = Patch<br>From Visual C++ 8.0
+Version|`_MSC_BUILD`|B|B = Build number<br>From Visual C++ 9.0
 
 ##### Example #####
 
@@ -622,8 +622,8 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__sgi`| |
 Identification|`sgi`| |
-Version|`_COMPILER_VERSION`|VRP|V = VersionR = RevisionP = PatchUntil ?
-Version|`_SGI_COMPILER_VERSION`|VRP|V = VersionR = RevisionP = PatchFrom ?
+Version|`_COMPILER_VERSION`|VRP|V = Version<br>R = Revision<br>P = Patch<br>Until ?
+Version|`_SGI_COMPILER_VERSION`|VRP|V = Version<br>R = Revision<br>P = Patch<br>From ?
 
 ##### Example #####
 
@@ -646,7 +646,7 @@ Type|Macro|Format|Description
 Identification|`__MRC__`| |
 Identification|`MPW_C`| |
 Identification|`MPW_CPLUS`| |
-Version|`__MRC__`|0xVVRR|VV = VersionRR = Revision
+Version|`__MRC__`|0xVVRR|VV = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -659,7 +659,7 @@ MPW C++ |`__MRC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__CC_NORCROFT`| |
-Version|`__ARMCC_VERSION`|V.R|V = VersionR = Revision
+Version|`__ARMCC_VERSION`|V.R|V = Version<br>R = Revision
 
 Notice that `__ARMCC_VERSION` is assigned a floating-point number, so it cannot be used by the preprocessor to compare versions.
 
@@ -684,7 +684,7 @@ Identification|`__OPEN64__`||Contains the full version as a string
 Identification|`__OPENCC__`||
 Version|`__OPENCC__`|V|V = Version
 Version|`__OPENCC_MINOR__`|R|R = Revision
-Version|`__OPENCC_PATCHLEVEL__`|P.B|P = PatchB = Build
+Version|`__OPENCC_PATCHLEVEL__`|P.B|P = Patch<br>B = Build
 
 Notice that `__OPENCC_PATCHLEVEL__` can be a floating-point number (e.g. `5.2` for Open64 version 4.2.5.2) so it cannot be used by the preprocessor to compare patch-levels.
 
@@ -699,8 +699,8 @@ Identification|`ORA_PROC`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__SUNPRO_C`| |C compiler
-Version|`__SUNPRO_C`|0xVRP|V = VersionR = RevisionP = PatchUntil version 5.9
-Version|`__SUNPRO_C`|0xVRRP|V = VersionRR = RevisionP = PatchFrom later releases
+Version|`__SUNPRO_C`|0xVRP|V = Version<br>R = Revision<br>P = Patch<br>Until version 5.9
+Version|`__SUNPRO_C`|0xVRRP|V = Version<br>RR = Revision<br>P = Patch<br>From later releases
 Identification|`__SUNPRO_CC`| |C++ compiler
 Version|`__SUNPRO_CC`|As `__SUNPRO_C`|
 
@@ -735,7 +735,7 @@ Identification|`__PACIFIC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`_PACC_VER`| |
-Version|`_PACC_VER`|0xVRRPPBBB|V = VersionRR = RevisionPP = PatchBBB = Build
+Version|`_PACC_VER`|0xVRRPPBBB|V = Version<br>RR = Revision<br>PP = Patch<br>BBB = Build
 
 ##### Example #####
 
@@ -748,7 +748,7 @@ Palm C/C++ |`_PACC_VER`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__POCC__`| |
-Version|`__POCC__`|VRR|V = VersionRR = Revision
+Version|`__POCC__`|VRR|V = Version<br>RR = Revision
 
 ##### Example #####
 
@@ -778,7 +778,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__RENESAS__`| |
 Identification|`__HITACHI__`| |
-Version|`__RENESAS_VERSION__`|0xVVRR|V = VersionR = RevisionP = Patch
+Version|`__RENESAS_VERSION__`|0xVVRR|V = Version<br>R = Revision<br>P = Patch
 Version|`__RENESAS_VERSION__`|0xVVRRPP00|From ?
 Version|`__HITACHI_VERSION__`|0xVVRR|As above
 
@@ -799,7 +799,7 @@ Identification|`__SASC`| |
 Identification|`__SASC__`| |
 Version|`__VERSION__`| |Until ?
 Version|`__REVISION__`| |Until ?
-Version|`__SASC__`|VRR|V = VersionRR = RevisionFrom ?
+Version|`__SASC__`|VRR|V = Version<br>RR = Revision<br>From ?
 
 ##### Example #####
 
@@ -819,7 +819,7 @@ Identification|`_SCO_DS`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`SDCC`| |
-Version|`SDCC`|VRP|V = VersionR = RevisionP = Patch
+Version|`SDCC`|VRP|V = Version<br>R = Revision<br>P = Patch
 
 ##### Example #####
 
@@ -838,14 +838,14 @@ Identification|`__SNC__`
 Type|Macro|Description
 ---|---|---
 Identification|`__VOSC__`|
-Version|`__VOSC__`|0 = K&R; compiler1 = ANSI C compiler
+Version|`__VOSC__`|0 = K&R; compiler<br>1 = ANSI C compiler
 
 ## Symantec C++ ##
 
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__SC__`| |
-Version|`__SC__`|0xVVRR|VV = VersionRR = Revision
+Version|`__SC__`|0xVVRR|VV = Version<br>RR = Revision
 
 ## [TenDRA C/C++](http://en.wikipedia.org/wiki/TenDRA_Compiler) ##
 
@@ -859,7 +859,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__TI_COMPILER_VERSION__`| |
 Identification|`_TMS320C6X`| |All C6000 compilers
-Version|`__TI_COMPILER_VERSION__`|VVVRRRPPP|VVV = VersionRRR = RevisionPPP = Patch
+Version|`__TI_COMPILER_VERSION__`|VVVRRRPPP|VVV = Version<br>RRR = Revision<br>PPP = Patch
 
 ##### Example #####
 
@@ -886,7 +886,7 @@ Identification|`__TINYC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__TURBOC__`| |
-Version|`__TURBOC__`|0xVVRR|VV = VersionRR = RevisionThis pattern does not apply to the values between 0x295 and 0x400.
+Version|`__TURBOC__`|0xVVRR|VV = Version<br>RR = Revision<br><br>This pattern does not apply to the values between 0x295 and 0x400.
 
 ##### Example #####
 
@@ -902,7 +902,7 @@ Version|`__TURBOC__`|0xVVRR|VV = VersionRR = RevisionThis pattern does not apply
 Type|Macro|Description
 ---|---|---
 Identification|`_UCC`|
-Version|`_MAJOR_REV` = V`_MINOR_REV` = R|V = VersionR = Revision
+Version|`_MAJOR_REV` = V<br>`_MINOR_REV` = R|V = Version<br>R = Revision
 
 ##### Example #####
 
@@ -915,7 +915,7 @@ Ultimate C/C++ |`_MAJOR_REV`|`_MINOR_REV`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__USLC__`| |
-Version|`__SCO_VERSION__`|VRRYYYYMM|V = VersionRR = RevisionYYYY = YearMM = Month
+Version|`__SCO_VERSION__`|VRRYYYYMM|V = Version<br>RR = Revision<br>YYYY = Year<br>MM = Month
 
 ##### Example #####
 
@@ -936,7 +936,7 @@ Identification|`__VBCC__`
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__WATCOMC__`| |
-Version|`__WATCOMC__`|VVRR|VV = VersionRR = Revision
+Version|`__WATCOMC__`|VVRR|VV = Version<br>RR = Revision
 
 Notice that Watcom C++ became Open Watcom C++ after version 11.0, and the official version numbering (but not the version macro) was restated at version 1.0.
 
@@ -954,5 +954,5 @@ Notice that Watcom C++ became Open Watcom C++ after version 11.0, and the offici
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__ZTC__`| |
-Version|`__ZTC__`|0xVRP|V = VersionR = RevisionP = Patch
+Version|`__ZTC__`|0xVRP|V = Version<br>R = Revision<br>P = Patch
 

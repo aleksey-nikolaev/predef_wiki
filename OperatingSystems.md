@@ -5,7 +5,7 @@ Please submit updates/corrections via the process described on the [[wiki home p
 Type|Macro|Description
 ---|---|---
 Identification|`_AIX`|
-Version|`_AIX'VR'`|V = VersionR = Revision
+Version|`_AIX'VR'`|V = Version<br>R = Revision
 Identification|`__TOS_AIX__`|Defined by xlC
 
 ##### Example #####
@@ -14,7 +14,7 @@ If `_AIX` is defined, then the following macros can be used to determine the ver
 
 AIX Version|Macro
 ---|---
-3.2.x|`_AIX3``_AIX32`
+3.2.x|`_AIX3`<br>`_AIX32`
 4.1|`_AIX41`
 4.3|`_AIX43`
 
@@ -23,7 +23,7 @@ AIX Version|Macro
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__ANDROID__`| |
-Version|`__ANDROID_API__`|V|V = API VersionMust be included from ``
+Version|`__ANDROID_API__`|V|V = API Version<br><br>Must be included from `<android/api-level.h>`
 
 Notice that Android is based on Linux, and that the Linux macros also are defined for Android.
 
@@ -82,18 +82,18 @@ Identification|`__BEOS__`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__bg__`|All Blue Gene systemsDefined by XL C/C++ and GNU C
-Version|`__bgq__`|Blue Gene/QDefined for XL C/C++ and GNU C
-Identification|`__THW_BLUEGENE__`|All Blue Gene systemsDefined by XL C/C++
-Version|`__TOS_BGQ__`|Blue Gene/QDefined by XL C/C++
+Identification|`__bg__`|All Blue Gene systems<br>Defined by XL C/C++ and GNU C
+Version|`__bgq__`|Blue Gene/Q<br>Defined for XL C/C++ and GNU C
+Identification|`__THW_BLUEGENE__`|All Blue Gene systems<br>Defined by XL C/C++
+Version|`__TOS_BGQ__`|Blue Gene/Q<br>Defined by XL C/C++
 
 ## [BSD Environment](http://en.wikipedia.org/wiki/Bsd) ##
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__FreeBSD__``__NetBSD__``__OpenBSD__``__bsdi__``__DragonFly__`| |
-Version|`BSD`|YYYYMM|YYYY = YearMM = MonthMust be included from ``
-Version|`BSD4_2``BSD4_3``BSD4_4`| |Must be included from ``
+Identification|`__FreeBSD__`<br>`__NetBSD__`<br>`__OpenBSD__`<br>`__bsdi__`<br>`__DragonFly__`| |
+Version|`BSD`|YYYYMM|YYYY = Year<br>MM = Month<br><br>Must be included from `<sys/param.h>`
+Version|`BSD4_2`<br>`BSD4_3`<br>`BSD4_4`| |Must be included from `<sys/param.h>`
 Identification|`_SYSTYPE_BSD`| |Defined by DEC C
 
 ##### Example #####
@@ -163,7 +163,7 @@ Identification|`__FreeBSD__`| |
 Identification|`__FreeBSD_kernel__`| |From FreeBSD 8.3, 9.1, and 10.0.[1](http://svnweb.freebsd.org/base/head/sys/sys/param.h?view=markup)
 Version|`BSD`| |
 Version|`__FreeBSD__`|V|V = Version
-Version|`__FreeBSD_version`|?|Must be included from ``
+Version|`__FreeBSD_version`|?|Must be included from `<osreldate.h>`
 
 ##### Example #####
 
@@ -264,7 +264,7 @@ Type|Macro|Description
 ---|---|---
 Identification|`macintosh`|Mac OS 9
 Identification|`Macintosh`|Mac OS 9
-Identification|`__APPLE__` `&&` `__MACH__`|Mac OS XDefined by GNU C and Intel C++
+Identification|`__APPLE__` `&&` `__MACH__`|Mac OS X<br>Defined by GNU C and Intel C++
 
 ## [Microware OS-9](http://en.wikipedia.org/wiki/OS-9) ##
 
@@ -303,13 +303,13 @@ Identification|`__DOS__`
 
 ## [NetBSD](http://en.wikipedia.org/wiki/Netbsd) ##
 
-Type|Macro|Format|Description
----|---|---|---
-Identification|`__NetBSD__`| |
-Version|`BSD`| |
-Version|`NetBSD'V'_'R'`| |V = VersionR = RevisionMust be included from ``
-Version|`__NetBSD_Version__`|VVRRAAPP00|VV = VersionRR = RevisionAA = ReleasePP = PatchFrom NetBSD 1.2D (?) until NetBSD 2.0HMust be included from ``
-Version|`__NetBSD_Version__`|VVRR00PP00|VV = VersionRR = RevisionPP = PatchFrom NetBSD 2.99.9Must be included from ``
+|Type|Macro|Format|Description
+|---|---|---|---
+|Identification|`__NetBSD__`| |
+|Version|`BSD`| |
+|Version|`NetBSD'V'_'R'`| |V = Version<br>R = Revision<br><br>Must be included from `<sys/param.h>`
+|Version|`__NetBSD_Version__`|VVRRAAPP00|VV = Version<br>RR = Revision<br>AA = Release<br>PP = Patch<br><br>From NetBSD 1.2D (?) until NetBSD 2.0H<br><br>Must be included from `<sys/param.h>`
+|Version|`__NetBSD_Version__`|VVRR00PP00|VV = Version<br>RR = Revision<br>PP = PatchFrom<br><br> NetBSD 2.99.9<br><br>Must be included from `<sys/param.h>`
 
 ##### Example #####
 
@@ -340,7 +340,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__OpenBSD__`| |
 Version|`BSD`| |
-Version|`OpenBSD'V'_'R'`| |V = VersionR = RevisionMust be included from ``
+Version|`OpenBSD'V'_'R'`| |V = Version<br>R = Revision<br><br>Must be included from `<sys/param.h>`
 
 ##### Example #####
 
@@ -382,8 +382,8 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__QNX__`| |QNX 4.x
 Identification|`__QNXNTO__`| |QNX 6.x
-Version|`_NTO_VERSION`|VRR|V = VersionRR = RevisionOnly available when `__QNXNTO__` is defined.Must be included from ``
-Version|`BBNDK_VERSION_CURRENT`|VVRRRRPPPP|V = VersionRRRR = RevisionPPPP = PatchOnly available on [Blackberry 10](http://en.wikipedia.org/wiki/Blackberry_10)From Blackberry 10.1.0Must be included from `` 
+Version|`_NTO_VERSION`|VRR|V = Version<br>RR = Revision<br><br>Only available when `__QNXNTO__` is defined.<br><br>Must be included from `<sys/neutrino.h>`
+Version|`BBNDK_VERSION_CURRENT`|VVRRRRPPPP|V = Version<br>RRRR = Revision<br>PPPP = Patch<br><br>Only available on [Blackberry 10](http://en.wikipedia.org/wiki/Blackberry_10)<br><br>From Blackberry 10.1.0<br><br>Must be included from `<bbndk.h>` 
 
 ##### Example #####
 
@@ -411,7 +411,7 @@ Type|Macro|Description
 ---|---|---
 Identification|`sun`|
 Identification|`__sun`|
-Version|`__'System'_'Version'`|System = `uname -s`Version = `uname -r`Any illegal character is replaced by an underscore.Defined by Sun Studio
+Version|`__'System'_'Version'`|System = `uname -s`<br>Version = `uname -r`<br>Any illegal character is replaced by an underscore.<br>Defined by Sun Studio
 
 Use the SVR4 macros to distinguish between Solaris and SunOS.
 
@@ -489,7 +489,7 @@ Version|`_UNICOS`|V|V = Version
 
 Type|Macro|Description
 ---|---|---
-Identification|`_CRAY``__crayx1`|
+Identification|`_CRAY`<br>`__crayx1`|
 
 ## [UNIX Environment](http://en.wikipedia.org/wiki/Unix) ##
 
@@ -519,7 +519,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`VMS`| |
 Identification|`__VMS`| |
-Version|`__VMS_VER`|VVRREPPTT|VV = VersionRR = RevisionE = Edit numberPP = Patch (01 = A, ... 26 = Z)TT = Type (22 = official)
+Version|`__VMS_VER`|VVRREPPTT|VV = Version<br>RR = Revision<br>E = Edit number<br>PP = Patch (01 = A, ... 26 = Z)<br>TT = Type (22 = official)
 
 ##### Example #####
 
@@ -531,15 +531,15 @@ VMS|`__VMS_VER`
 
 ## [VxWorks](http://en.wikipedia.org/wiki/VxWorks) ##
 
-Type|Macro|Description
----|---|---|--
-Identification|`__VXWORKS__`|Defined by GNU C and Diab (from ?)
-Identification|`__vxworks`|Defined by GNU C and Diab (from ?)
-Version|`_WRS_VXWORKS_MAJOR`|VersionMust be included from ``
-Version|`_WRS_VXWORKS_MINOR`|RevisionMust be included from ``
-Version|`_WRS_VXWORKS_MAINT`|Patch/maintenanceMust be included from ``
-Mode|`__RTP__`|For real-time mode
-Mode|`_WRS_KERNEL`|For kernel mode
+|Type|Macro|Description
+|---|---|---
+|Identification| `__VXWORKS__` |Defined by GNU C and Diab (from ?)
+|Identification| `__vxworks` |Defined by GNU C and Diab (from ?)
+|Version| `_WRS_VXWORKS_MAJOR` |Version<br>Must be included from `<version.h>`
+|Version| `_WRS_VXWORKS_MINOR` |Revision<br>Must be included from `<version.h>`
+|Version| `_WRS_VXWORKS_MAINT` |Patch/maintenance<br>Must be included from `<version.h>`
+|Mode| `__RTP__` |For real-time mode
+|Mode| `_WRS_KERNEL` |For kernel mode
 
 ##### Example #####
 
@@ -563,9 +563,9 @@ Identification|`__WINDOWS__`|Defined by Watcom C/C++
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`_WIN32_WCE`| |Defined by Embedded Visual Studio C++
-Version|`_WIN32_WCE`|VRR|V = VersionR = Revision
+Version|`_WIN32_WCE`|VRR|V = Version<br>R = Revision
 Identification|`WIN32_PLATFORM_'P'`| |P = Platform
-Version|`WIN32_PLATFORM_'P'`|V|P = PlatformV = Version
+Version|`WIN32_PLATFORM_'P'`|V|P = Platform<br>V = Version
 
 ##### Example #####
 
@@ -594,7 +594,7 @@ Smartphone 2002|`WIN32_PLATFORM_WFSP`|100
 Type|Macro|Format|Description
 ---|---|---|---
 Identification|`_WINDU_SOURCE`| |
-Version|`_WINDU_SOURCE`|0xVVRRPP|VV = VersionRR = RevisionPP = Patch
+Version|`_WINDU_SOURCE`|0xVVRRPP|VV = Version<br>RR = Revision<br>PP = Patch
 
 ##### Example #####
 

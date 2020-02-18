@@ -100,7 +100,7 @@ Please notice that the follow list of macros is not exhaustive.
 
 ##### System headers #####
 
-Some compilers or system headers provide macros to specify endianness. Unfortunately, there is no standard for the names of the macros or even of the header files. Many operating systems contains the following macros in ``. Operating systems that use the GNU C library generally provide a header named `` containing these macros.
+Some compilers or system headers provide macros to specify endianness. Unfortunately, there is no standard for the names of the macros or even of the header files. Many operating systems contains the following macros in `<sys/param.h>`. Operating systems that use the GNU C library generally provide a header named `<endian.h>` containing these macros.
 
 Type|Macro|Value
 ---|---|---

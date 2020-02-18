@@ -214,8 +214,8 @@ Identification|`_M_PPC`|Defined by Visual Studio
 Version|`_M_PPC`|?
 Identification|`_ARCH_PPC`<br>`_ARCH_PPC64`|Defined by XL C/C++
 Version|`_ARCH_'V'`|V = Version
-Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29)Defined by CodeWarrior
-Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29)Defined by CodeWarrior
+Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29) Defined by CodeWarrior
+Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29) Defined by CodeWarrior
 Version|`_XENON`|[Xenon](http://en.wikipedia.org/wiki/Xenon_%28processor%29)
 Identification|`__ppc`|Defined by Diab
 
@@ -272,11 +272,11 @@ Version|`__sh1__`<br>`__sh2__`<br>`__sh3__`<br>`__SH3__`<br>`__SH4__`<br>`__SH5_
 
 Type|Macro|Description
 ---|---|---
-Identification|`__370__`<br>`__THW_370__`|Identifies [System/370](http://en.wikipedia.org/wiki/System/370)Defined by XL C/C++
-Identification|`__s390__`|Identifies [System/390](http://en.wikipedia.org/wiki/System/390)Defined by GNU C
-Identification|`__s390x__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by GNU C
-Identification|`__zarch__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by clang
-Identification|`__SYSC_ZARCH__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by Systems/C
+Identification|`__370__`<br>`__THW_370__`|Identifies [System/370](http://en.wikipedia.org/wiki/System/370) Defined by XL C/C++
+Identification|`__s390__`|Identifies [System/390](http://en.wikipedia.org/wiki/System/390) Defined by GNU C
+Identification|`__s390x__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture) Defined by GNU C
+Identification|`__zarch__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture) Defined by clang
+Identification|`__SYSC_ZARCH__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture) Defined by Systems/C
 
 ## [TMS320](http://en.wikipedia.org/wiki/Texas_Instruments_TMS320) ##
 
