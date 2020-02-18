@@ -63,7 +63,7 @@ Realview C|`__ARMCC_VERSION`
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`AZTEC_C``__AZTEC_C__`| |
+Identification|`AZTEC_C`<br>`__AZTEC_C__`| |
 Version|`__VERSION`|VRR|V = VersionRR = Revision
 
 ##### Example #####
@@ -83,27 +83,27 @@ Version|`__CODEGEARC__`|From C++ Builder 2006
 
 ##### Example #####
 
-Borland C++|C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
----|---|---|---
-2.0| |0x200|
-3.0| |0x400|
-3.1| |0x410|
-4.0| |0x452|
-5.0| |0x500|
-5.02|1.0|0x520|
- |3.0|0x530|
- |4.0|0x540|
-5.5|5.0|0x550|
-5.51| |0x551|
-5.6.4| |0x562|
- |2006|0x570|0x570
- |2007|0x590|0x590
- |2009|0x613|0x613
- |2010|0x621|0x621
- |XE|0x630|0x630
- |XE2|0x640|0x640
- |XE3|0x650|0x650
- |XE4|0x660|0x660
+|Borland C++ |C++ Builder|`__BORLANDC__`|`__CODEGEARC__`
+|---|---|---|---
+|2.0| |0x200|
+|3.0| |0x400|
+|3.1| |0x410|
+|4.0| |0x452|
+|5.0| |0x500|
+|5.02|1.0|0x520|
+| |3.0|0x530|
+| |4.0|0x540|
+|5.5|5.0|0x550|
+|5.51| |0x551|
+|5.6.4| |0x562|
+| |2006|0x570|0x570
+| |2007|0x590|0x590
+| |2009|0x613|0x613
+| |2010|0x621|0x621
+| |XE|0x630|0x630
+| |XE2|0x640|0x640
+| |XE3|0x650|0x650
+| |XE4|0x660|0x660
 
 ## [CC65](http://en.wikipedia.org/wiki/Cc65) ##
 
@@ -140,7 +140,7 @@ Version|`__COMO_VERSION__`|VRR|V = VersionRR = Revision
 
 ##### Example #####
 
-Comeau C++|`__COMO_VERSION__`
+Comeau C++ |`__COMO_VERSION__`
 ---|---
 2.3|230
 
@@ -157,7 +157,7 @@ Identification|`VAXC`| |Obsolete
 
 ##### Example #####
 
-Compaq C/C++|`__DECC_VER`
+Compaq C/C++ |`__DECC_VER`
 ---|---
 6.0-001|60090001
 
@@ -196,7 +196,7 @@ Version|`__VERSION_NUMBER__`|VRPP|V = VersionR = RevisionPP = Patch
 
 ##### Example #####
 
-Diab C/C++|`__VERSION_NUMBER__`
+Diab C/C++ |`__VERSION_NUMBER__`
 ---|---
 4.4g|4426
 
@@ -258,7 +258,7 @@ Version|`__EDG_VERSION__`|VRR|V = VersionRR = Revision
 
 ##### Example #####
 
-EDG C++|`__EDG_VERSION__`
+EDG C++ |`__EDG_VERSION__`
 ---|---
 2.30|230
 2.45|245
@@ -297,7 +297,7 @@ Notice that the meaning of the `__GNUC__` macro has changed subtly over the year
 
 ##### Example #####
 
-GNU C/C++|`__GNUC__`|`__GNUC_MINOR__`|`__GNUC_PATCHLEVEL__`
+GNU C/C++ |`__GNUC__`|`__GNUC_MINOR__`|`__GNUC_PATCHLEVEL__`
 ---|---|---|---
 2.7.x|2|7|N/A
 3.0.2|3|0|2
@@ -327,7 +327,7 @@ Version|`__GNUC_VERSION__`|VVRRPP|VV = VersionRR = RevisionPP = Patch
 
 ##### Example of Alternative Version #####
 
-GNU C/C++|`__GNUC_VERSION__`
+GNU C/C++ |`__GNUC_VERSION__`
 ---|---
 2.7.x|20700
 3.0.2|30002
@@ -342,7 +342,7 @@ Version|`__GHS_REVISION_DATE__`|[Epoch time](http://en.wikipedia.org/wiki/Epoch_
 
 ##### Example #####
 
-Green Hill C/C++|`__GHS_VERSION_NUMBER__`
+Green Hill C/C++ |`__GHS_VERSION_NUMBER__`
 ---|---
 4.2.1|421
 
@@ -375,7 +375,7 @@ Version|`__VER__`|VRR|V = VersionRR = Revision
 
 ##### Example #####
 
-IAR C/C++|`__VER__`
+IAR C/C++ | `__VER__`
 ---|---
 3.34|334
 
@@ -389,18 +389,18 @@ Version|`__xlC__`|0xVVRR|VV = VersionRR = Revision
 Version|`__xlC_ver__`|0x0000PPBB|PP = PatchBB = Build
 Identification|`__IBMC__`| |From ?
 Identification|`__IBMCPP__`| |From ?
-Version|`__IBMC__``__IBMCPP__`|VRP|V = VersionR = RevisionP = Patch
+Version|`__IBMC__`<br>`__IBMCPP__`|VRP|V = VersionR = RevisionP = Patch
 
 Notice that the z/OS C/C++ compiler also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. See the entry on the z/OS C/C++ compiler below for further information.
 
 ##### Example #####
 
-IBM XL C/C++|`__xlC__`|`__xlC_ver__`|`__IBMCPP__`
----|---|---
-3.1|0x0301||
-4.5|0x0405||450
-5.0|0x0500||500
-12.01.0000.0004|0x0C01|0x00000004|1210
+|IBM XL C/C++ |`__xlC__`|`__xlC_ver__`|`__IBMCPP__`
+|---|---|---|---
+|3.1|0x0301||
+|4.5|0x0405||450
+|5.0|0x0500||500
+|12.01.0000.0004|0x0C01|0x00000004|1210
 
 ## [IBM z/OS C/C++](http://en.wikipedia.org/wiki/VisualAge) ##
 
@@ -410,7 +410,7 @@ Type|Macro|Format|Description
 ---|---|---|---
 Identification|`__IBMC__`| |
 Identification|`__IBMCPP__`| |
-Version|`__IBMC__``__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)V = VersionRR = RevisionP = PatchDefined for z/OS XL C/C++
+Version|`__IBMC__`<br>`__IBMCPP__`|NVRRM|N = Product (0 = C/370, 1 = MVS, 2 = OS/390, 4 = z/OS)V = VersionRR = RevisionP = PatchDefined for z/OS XL C/C++
 Version|`__COMPILER_VER__`|0xNVRRPPPP|N = Product (see above)V = VersionRR = RevisionPPPP = PatchDefined for z/OS XL C/C++
 
 Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a different syntax. You can use `__xlC__` (only defined for XL C/C++) or `__COMPILER_VER__` (only defined for z/OS C/C++) to distinguish between the two. Alternatively, the macro identifying z/OS (`__MVS__`) can be used to distinguish between them.
@@ -427,7 +427,7 @@ Notice that XL C/C++ also defines `__IBMC__` and `__IBMCPP__` macros, but with a
 
 ##### Example #####
 
-IBM z/OS XL C/C++|`__IBMC__`|`__COMPILER_VER__`
+IBM z/OS XL C/C++ |`__IBMC__`|`__COMPILER_VER__`
 ---|---|---
 1.7|41070|0x41070000
 1.13|41130|0x410D0000
@@ -451,7 +451,7 @@ Version|`__INTEL_COMPILER_BUILD_DATE`|YYYYMMDD|YYYY = YearMM = MonthDD = Day
 
 ##### Example #####
 
-Intel C/C++|`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
+Intel C/C++ |`__INTEL_COMPILER`|`__INTEL_COMPILER_BUILD_DATE`
 ---|---|---
 5.0|500|
 6.0|600|
@@ -467,7 +467,7 @@ Version|`__KCC_VERSION`|0xVRPP|V = VersionR = RevisionPP = Patch (a = 01, b = 02
 
 ##### Example #####
 
-KAI C++|`__KCC_VERSION`
+KAI C++ |`__KCC_VERSION`
 ---|---
 4.0d|4004
 
@@ -542,7 +542,7 @@ Version|`__CWCC__`|0xVRPP|V = VersionR = RevisionPP = PatchFrom 4.2.0
 
 ##### Example #####
 
-Metrowerks C/C++|`__MWERKS__`|`__CWCC__`
+Metrowerks C/C++ |`__MWERKS__`|`__CWCC__`
 ---|---|---
 2.0|0x2000|
 2.2|0x2200|
@@ -589,7 +589,7 @@ Identification|`_MRI`
 
 Type|Macro
 ---|---
-Identification|`__NDPC__``__NDPX__`
+Identification|`__NDPC__`<br>`__NDPX__`
 
 ## [MinGW](http://www.mingw.org/) and [MinGW-w64](http://mingw-w64.sourceforge.net/) ##
 
@@ -606,7 +606,7 @@ Version|`__MINGW64_VERSION_MINOR`|Revision| - | defined | defined
 
 Notice that `__MINGW32_MAJOR_VERSION`, `__MINGW32_MINOR_VERSION`, `__MINGW64_VERSION_MAJOR`, and `__MINGW64_VERSION_MINOR`
 are only defined if appropriate headers are included. Appropriate headers are 
-``, ``, ``, ``, and probably more.
+`<stdlib.h>`, `<stdio.h>`, `<windows.h>`, `<windef.h>`, and probably more.
 
 ##### Examples #####
 
@@ -650,7 +650,7 @@ Version|`__MRC__`|0xVVRR|VV = VersionRR = Revision
 
 ##### Example #####
 
-MPW C++|`__MRC__`
+MPW C++ |`__MRC__`
 ---|---
 5.0|0x500
 
@@ -739,7 +739,7 @@ Version|`_PACC_VER`|0xVRRPPBBB|V = VersionRR = RevisionPP = PatchBBB = Build
 
 ##### Example #####
 
-Palm C/C++|`_PACC_VER`
+Palm C/C++ |`_PACC_VER`
 ---|---
 1.0.0.13|0x1000000D
 
@@ -767,7 +767,7 @@ Version|`__PGIC_PATCHLEVEL__`|Patch
 
 ##### Example #####
 
-PGI C/C++|`__PGIC__`|`__PGIC_MINOR__`|`__PGIC_PATCHLEVEL__`
+PGI C/C++ |`__PGIC__`|`__PGIC_MINOR__`|`__PGIC_PATCHLEVEL__`
 ---|---|---|---
 7.0.1|7|0|1
 11.9|11|9|0
@@ -784,7 +784,7 @@ Version|`__HITACHI_VERSION__`|0xVVRR|As above
 
 ##### Example #####
 
-Renesas C/C++|`__HITACHI_VERSION__`|`__RENESAS_VERSION__`
+Renesas C/C++ |`__HITACHI_VERSION__`|`__RENESAS_VERSION__`
 ---|---|---
 5.1C|0x0501|
 8.0|0x8000|0x8000
@@ -863,7 +863,7 @@ Version|`__TI_COMPILER_VERSION__`|VVVRRRPPP|VVV = VersionRRR = RevisionPPP = Pat
 
 ##### Example #####
 
-TI C/C++|`__TI_COMPILER_VERSION__`
+TI C/C++ |`__TI_COMPILER_VERSION__`
 ---|---
 4.9.1|4009001
 7.3.1|7003001
@@ -890,12 +890,12 @@ Version|`__TURBOC__`|0xVVRR|VV = VersionRR = RevisionThis pattern does not apply
 
 ##### Example #####
 
-Turbo C|Turbo C++|`__TURBOC__`
----|---|---
-2.01| |0x201
- |1.00|0x295
- |1.01|0x296
- |2.00|0x297
+|Turbo C|Turbo C++ |`__TURBOC__`
+|---|---|---
+|2.01| |0x201
+| |1.00|0x295
+| |1.01|0x296
+| |2.00|0x297
 
 ## Ultimate C/C++ ##
 
@@ -906,7 +906,7 @@ Version|`_MAJOR_REV` = V`_MINOR_REV` = R|V = VersionR = Revision
 
 ##### Example #####
 
-Ultimate C/C++|`_MAJOR_REV`|`_MINOR_REV`
+Ultimate C/C++ |`_MAJOR_REV`|`_MINOR_REV`
 ---|---|---
 2.1|2|1
 
@@ -942,12 +942,12 @@ Notice that Watcom C++ became Open Watcom C++ after version 11.0, and the offici
 
 ##### Example #####
 
-Watcom C++|Open Watcom C++|`__WATCOMC__`
----|---|---
-10.5| |1050
-11.0| |1100
- |1.0|1200
- |1.7|1270
+|Watcom C++ |Open Watcom C++ |`__WATCOMC__`
+|---|---|---
+|10.5| |1050
+|11.0| |1100
+| |1.0|1200
+| |1.7|1270
 
 ## [Zortech C++](http://en.wikipedia.org/wiki/Zortech) ##
 
