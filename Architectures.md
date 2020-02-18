@@ -21,8 +21,8 @@ Alpha EV6|`__alpha_ev6__`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__amd64__``__amd64``__x86_64__``__x86_64`|Defined by GNU C and Sun Studio
-Identification|_M_X64`_M_AMD64`|Defined by Visual Studio
+Identification|`__amd64__`<br>`__amd64`<br>`__x86_64__`<br>`__x86_64`|Defined by GNU C and Sun Studio
+Identification|`_M_X64`<br>`_M_AMD64`|Defined by Visual Studio
 
 Notice that [x32](http://en.wikipedia.org/wiki/X32_ABI) can be detected by checking if the CPU uses the [ILP32 data model](DataModels).
 
@@ -33,8 +33,8 @@ Type|Macro|Description
 Identification|`__arm__`|Defined by GNU C and RealView
 Identification|`__thumb__`|Defined by GNU C and RealView in Thumb mode
 Version|`__ARM_ARCH_'V'__`|V = VersionDefined by GNU C [1](http://wiki.ubuntu.com/ARM/Thumb2PortingHowto)
-Identification|`__TARGET_ARCH_ARM``__TARGET_ARCH_THUMB`|Defined by RealView
-Version|`__TARGET_ARCH_ARM` = V`__TARGET_ARCH_THUMB` = V|V = Version
+Identification|`__TARGET_ARCH_ARM`<br>`__TARGET_ARCH_THUMB`|Defined by RealView
+Version|`__TARGET_ARCH_ARM` = V<br>`__TARGET_ARCH_THUMB` = V|V = Version
 Version|`__TARGET_ARCH_'VR'`|VR = Version and Revision
 Identification|`_ARM`|Defined by ImageCraft C
 Identification|`_M_ARM`|Defined by Visual Studio
@@ -47,13 +47,13 @@ Identification|`__arm`|Defined by Diab
 CPU|Macro|`_M_ARM`
 ---|---|---
 ARM 2|`__ARM_ARCH_2__`|
-ARM 3|`__ARM_ARCH_3__``__ARM_ARCH_3M__`|
-ARM 4T|`__ARM_ARCH_4T__``__TARGET_ARM_4T`|
-ARM 5|`__ARM_ARCH_5__``__ARM_ARCH_5E__`|5
-ARM 5T|`__ARM_ARCH_5T__``__ARM_ARCH_5TE__``__ARM_ARCH_5TEJ__`|
-ARM 6|`__ARM_ARCH_6__``__ARM_ARCH_6J__``__ARM_ARCH_6K__``__ARM_ARCH_6Z__``__ARM_ARCH_6ZK__`|6
+ARM 3|`__ARM_ARCH_3__`<br>`__ARM_ARCH_3M__`|
+ARM 4T|`__ARM_ARCH_4T__`<br>`__TARGET_ARM_4T`|
+ARM 5|`__ARM_ARCH_5__`<br>`__ARM_ARCH_5E__`|5
+ARM 5T|`__ARM_ARCH_5T__`<br>`__ARM_ARCH_5TE__`<br>`__ARM_ARCH_5TEJ__`|
+ARM 6|`__ARM_ARCH_6__`<br>`__ARM_ARCH_6J__`<br>`__ARM_ARCH_6K__`<br>`__ARM_ARCH_6Z__`<br>`__ARM_ARCH_6ZK__`|6
 ARM 6T2|`__ARM_ARCH_6T2__`|
-ARM 7|`__ARM_ARCH_7__``__ARM_ARCH_7A__``__ARM_ARCH_7R__``__ARM_ARCH_7M__``__ARM_ARCH_7S__`|7
+ARM 7|`__ARM_ARCH_7__`<br>`__ARM_ARCH_7A__`<br>`__ARM_ARCH_7R__`<br>`__ARM_ARCH_7M__`<br>`__ARM_ARCH_7S__`|7
 
 
 ## [ARM64](http://en.wikipedia.org/wiki/ARM64) ##
@@ -66,7 +66,7 @@ Identification|`__aarch64__`|Defined by GNU C [1](http://gcc.gnu.org/viewcvs/tru
 
 Type | Macro | Description
 ---|---|---
-Identification | `__bfin``__BFIN__` | Defined by GNU C
+Identification | `__bfin`<br>`__BFIN__` | Defined by GNU C
 
 ## [Convex](http://en.wikipedia.org/wiki/Convex_Computer) ##
 
@@ -88,7 +88,7 @@ Convex C38xx series|`__convex_c38__`
 ## [Epiphany](http://en.wikipedia.org/wiki/Adapteva) ##
 
 Type|Macro
----|---|---
+---|---
 Identification|`__epiphany__`
 
 ## [HP/PA RISC](http://en.wikipedia.org/wiki/PA-RISC_family) ##
@@ -107,17 +107,17 @@ See also [OpenPA.net](http://www.openpa.net).
 CPU|Macro
 ---|---
 PA RISC 1.0|`_PA_RISC1_0`
-PA RISC 1.1|`_PA_RISC1_1``__HPPA11__``__PA7100__`
-PA RISC 2.0|`_PA_RISC2_0``__RISC2_0__``__HPPA20__``__PA8000__`
+PA RISC 1.1|`_PA_RISC1_1`<br>`__HPPA11__`<br>`__PA7100__`
+PA RISC 2.0|`_PA_RISC2_0`<br>`__RISC2_0__`<br>`__HPPA20__`<br>`__PA8000__`
 
 ## [Intel x86](http://en.wikipedia.org/wiki/X86) ##
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`i386``__i386``__i386__`| |Defined by GNU C
-Version|`__i386__``__i486__``__i586__``__i686__`| |Defined by GNU C
+Identification|`i386`<br>`__i386`<br>`__i386__`| |Defined by GNU C
+Version|`__i386__`<br>`__i486__`<br>`__i586__`<br>`__i686__`| |Defined by GNU C
 Identification|`__i386`| |Defined by Sun Studio
-Identification|`__i386``__IA32__`| |Defined by Stratus VOS C
+Identification|`__i386`<br>`__IA32__`| |Defined by Stratus VOS C
 Identification|`_M_I86`| |Only defined for 16-bits architecturesDefined by Visual Studio, Digital Mars, and Watcom C/C++ (see note below)
 Identification|`_M_IX86`| |Only defined for 32-bits architecturesDefined by Visual Studio, Intel C/C++, Digital Mars, and Watcom C/C++
 Version|`_M_IX86`|V00|V = Version
@@ -146,7 +146,7 @@ Pentium Pro/II|600|6
 
 Type|Macro|Format|Description
 ---|---|---|---
-Identification|`__ia64__``_IA64``__IA64__`| |Defined by GNU C
+Identification|`__ia64__`<br>`_IA64`<br>`__IA64__`| |Defined by GNU C
 Identification|`__ia64`| |Defined by HP aCC
 Identification|`_M_IA64`| |Defined by Visual Studio
 Identification|`_M_IA64`| |Defined by Intel C/C++
@@ -155,16 +155,16 @@ Identification|`__itanium__`| |Defined by Intel C/C++
 
 ##### Example #####
 
-CPU|`_M_IA64` (Intel C/C++)
----|---
- |64100
+|CPU|`_M_IA64` (Intel C/C++)
+|---|---
+|   |64100
 
 ## [Motorola 68k](http://en.wikipedia.org/wiki/M68k) ##
 
 Type|Macro|Description
 ---|---|---
 Identification|`__m68k__`|Defined by GNU C
-Version|`__mc'V'__``__mc'V'``mc'V'`|V = Version
+Version|`__mc'V'__`<br>`__mc'V'`<br>`mc'V'`|V = Version
 Identification|`M68000`|Defined by SAS/C
 Identification|`__MC68K__`|Defined by Stratus VOS C
 Version|`__MC'V'__`|V = Version
@@ -173,10 +173,10 @@ Version|`__MC'V'__`|V = Version
 
 CPU|Macro
 ---|---
-68000|`__mc68000__``__MC68000__`
+68000|`__mc68000__`<br>`__MC68000__`
 68010|`__mc68010__`
-68020|`__mc68020__``__MC68020__`
-68030|`__mc68030__``__MC68030__`
+68020|`__mc68020__`<br>`__MC68020__`
+68030|`__mc68030__`<br>`__MC68030__`
 68040|`__mc68040__`
 68060|`__mc68060__`
 
@@ -184,9 +184,9 @@ CPU|Macro
 
 Type|Macro|Description
 ---|---|---
-Identification|`__mips__``mips`|Defined by GNU C
+Identification|`__mips__`<br>`mips`|Defined by GNU C
 Version|`_MIPS_ISA` = `_MIPS_ISA_MIPS'V'`|V = MIPS ISA level
-Version|`_R3000``_R4000``_R5900`|
+Version|`_R3000`<br>`_R4000`<br>`_R5900`|
 Identification|`__mips`|Defined by MIPSpro and GNU C
 Version|`__mips`|The value indicates the MIPS ISA (Instruction Set Architecture) level
 Version|`__MIPS_ISA'V'__`|V = MIPS ISA level
@@ -208,11 +208,11 @@ R10000|`_MIPS_ISA_MIPS4`| |4|`__MIPS_ISA4__`
 
 Type|Macro|Description
 ---|---|---
-Identification|`__powerpc``__powerpc__``__powerpc64__``__POWERPC__``__ppc__``__ppc64__``__PPC__``__PPC64__``_ARCH_PPC``_ARCH_PPC64`|Defined by GNU C
+Identification|`__powerpc`<br>`__powerpc__`<br>`__powerpc64__`<br>`__POWERPC__`<br>`__ppc__`<br>`__ppc64__`<br>`__PPC__`<br>`__PPC64__`<br>`_ARCH_PPC`<br>`_ARCH_PPC64`|Defined by GNU C
 Version|`__ppc'V'__`|V = Version
 Identification|`_M_PPC`|Defined by Visual Studio
 Version|`_M_PPC`|?
-Identification|`_ARCH_PPC``_ARCH_PPC64`|Defined by XL C/C++
+Identification|`_ARCH_PPC`<br>`_ARCH_PPC64`|Defined by XL C/C++
 Version|`_ARCH_'V'`|V = Version
 Version|`__PPCGECKO__`|[Gekko](http://en.wikipedia.org/wiki/Gekko_%28microprocessor%29)Defined by CodeWarrior
 Version|`__PPCBROADWAY__`|[Broadway](http://en.wikipedia.org/wiki/Broadway_%28microprocessor%29)Defined by CodeWarrior
@@ -243,7 +243,7 @@ Type|Macro|Description
 Identification|`__THW_RS6000`|Defined by XL C/C++
 Identification|`_IBMR2`|
 Identification|`_POWER`|
-Identification|`_ARCH_PWR``_ARCH_PWR2``_ARCH_PWR3``_ARCH_PWR4`|
+Identification|`_ARCH_PWR`<br>`_ARCH_PWR2`<br>`_ARCH_PWR3`<br>`_ARCH_PWR4`|
 
 # [SPARC](http://en.wikipedia.org/wiki/SPARC) ##
 
@@ -251,8 +251,8 @@ Type|Macro|Description
 ---|---|---
 Identification|`__sparc__`|Defined by GNU C
 Identification|`__sparc`|Defined by Sun Studio
-Version|`__sparc_v8__``__sparc_v9__`|Defined by GNU C
-Version|`__sparcv8``__sparcv9`|Defined by Sun Studio
+Version|`__sparc_v8__`<br>`__sparc_v9__`|Defined by GNU C
+Version|`__sparcv8`<br>`__sparcv9`|Defined by Sun Studio
 
 ##### Example #####
 
@@ -266,13 +266,13 @@ SPARC v9 (UltraSPARC)|`__sparcv9`|`__sparc_v9__`
 Type|Macro|Description
 ---|---|---
 Identification|`__sh__`|Defined by GNU C
-Version|`__sh1__``__sh2__``__sh3__``__SH3__``__SH4__``__SH5__`|
+Version|`__sh1__`<br>`__sh2__`<br>`__sh3__`<br>`__SH3__`<br>`__SH4__`<br>`__SH5__`|
 
 ## [SystemZ](http://en.wikipedia.org/wiki/IBM_System_z) ##
 
 Type|Macro|Description
 ---|---|---
-Identification|`__370__``__THW_370__`|Identifies [System/370](http://en.wikipedia.org/wiki/System/370)Defined by XL C/C++
+Identification|`__370__`<br>`__THW_370__`|Identifies [System/370](http://en.wikipedia.org/wiki/System/370)Defined by XL C/C++
 Identification|`__s390__`|Identifies [System/390](http://en.wikipedia.org/wiki/System/390)Defined by GNU C
 Identification|`__s390x__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by GNU C
 Identification|`__zarch__`|Identifies [z/Architecture](http://en.wikipedia.org/wiki/Z/Architecture)Defined by clang
@@ -282,9 +282,9 @@ Identification|`__SYSC_ZARCH__`|Identifies [z/Architecture](http://en.wikipedia.
 
 Type|Macro|Description
 ---|---|---
-Identification|`_TMS320C2XX``__TMS320C2000__`|C2000 series
-Identification|`_TMS320C5X``__TMS320C55X__`|C5000 series
-Identification|`_TMS320C6X``__TMS320C6X__`|C6000 series
+Identification|`_TMS320C2XX`<br>`__TMS320C2000__`|C2000 series
+Identification|`_TMS320C5X`<br>`__TMS320C55X__`|C5000 series
+Identification|`_TMS320C6X`<br>`__TMS320C6X__`|C6000 series
 
 ##### Example #####
 
