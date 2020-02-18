@@ -112,10 +112,10 @@ Little endian (word-swapped)|`__BYTE_ORDER`|`__PDP_ENDIAN`
 
 Type|Macro|Value
 ---|---|---
-Big endian|`__BIG_ENDIAN__``__ARMEB__``__THUMBEB__``__AARCH64EB__``_MIPSEB``__MIPSEB``__MIPSEB__`|
+Big endian|`__BIG_ENDIAN__`<br>`__ARMEB__`<br>`__THUMBEB__`<br>`__AARCH64EB__`<br>`_MIPSEB`<br>`__MIPSEB`<br>`__MIPSEB__`|
 Big endian|`__BYTE_ORDER__`|`__ORDER_BIG_ENDIAN__`
 Big endian|`__FLOAT_WORD_ORDER__`|`__ORDER_BIG_ENDIAN__`
-Little endian|`__LITTLE_ENDIAN__``__ARMEL__``__THUMBEL__``__AARCH64EL__``_MIPSEL``__MIPSEL``__MIPSEL__`|
+Little endian|`__LITTLE_ENDIAN__`<br>`__ARMEL__`<br>`__THUMBEL__`<br>`__AARCH64EL__`<br>`_MIPSEL`<br>`__MIPSEL`<br>`__MIPSEL__`|
 Little endian|`__BYTE_ORDER__`|`__ORDER_LITTLE_ENDIAN__`
 Little endian|`__FLOAT_WORD_ORDER__`|`__ORDER_LITTLE_ENDIAN__`
 
